@@ -11,6 +11,7 @@
       <img src= "letsnet.png" alt = "logo">
       <h1>Az oldal fejlesztés alatt áll!</h1>
         <!-- Ákos comment -->
+        <!---GÁBOR KOMMENTJE--->
       <br>
       <h2>Az utolsó frissítés : 2017.03.29</h2>
     </div>
