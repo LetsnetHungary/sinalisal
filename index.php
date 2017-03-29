@@ -13,6 +13,7 @@
         <!-- Ákos comment -->
         <!---GÁBOR KOMMENTJE--->
         <!--Bálint kommentje-->
+        <!-- Minh kommentje-->
       <br>
       <h2>Az utolsó frissítés : 2017.03.29</h2>
     </div>
