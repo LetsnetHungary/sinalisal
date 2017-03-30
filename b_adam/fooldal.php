@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      HEADER
+      <h1 style="font-size: 70px">HEADER</h1>
     </header>
     <main>
       <div class="front-pic">
@@ -56,10 +56,12 @@
       <div class="big-container">
         <div class="container">
           <div class="title">
-              <h2 style="text-align: center">Hogyan döntsem el melyik implantátumrendszert válasszam?</h2>
+              <h2>Hogyan döntsem el, melyik implantátumrendszert válasszam?</h2>
           </div>
           <div class="content">
+            <img src="prof_pic.jpg" class="profpic" alt="">
             <span>
+
               Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
             </span>
           </div>
@@ -80,7 +82,7 @@
       </div>
     </main>
     <footer>
-
+      <h1 style="color: white; font-size: 100px;">FOOTER</h1>
     </footer>
   </body>
 </html>
