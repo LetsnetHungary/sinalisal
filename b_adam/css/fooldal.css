@@ -1,0 +1,95 @@
+@import "n.css";
+body{
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px blue;
+}
+main div{
+  display: flex;
+  flex: 1 0 auto;
+  /*border: 1px solid red;*/
+  box-sizing: border-box;
+}
+main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(250,245,255);
+}
+main h2{
+  color: #FF9900;
+  font-size: 50px;
+  font-weight: lighter;
+  line-height: 50px;
+  margin: 0 0 0 0;
+}
+main span{
+  color: #999999;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.front-pic{
+  background: url("../dent.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+.right-side{
+  flex: 3 1 auto;
+}
+.left-side{
+  flex: 2 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.layer-container{
+  height: 80%;
+  width: 80%;
+  flex: 0 1 80%;
+  justify-content: center;
+  align-items: center;
+}
+.layer{
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.15);
+  border-radius: 5px;
+}
+.layer span{
+  display: flex;
+  max-width: 100%;
+}
+.big-container{
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  flex: 0 0 auto;
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+}
+.container div{
+  margin: 10px 0 10px 0;
+}
+.title{
+  justify-content: center;
+  align-items: flex-end;
+}
+.content{
+  justify-content: center;
+  align-items: flex-start;
+}
+.gray-container{
+  background-color: rgb(220,220,220);
+}
