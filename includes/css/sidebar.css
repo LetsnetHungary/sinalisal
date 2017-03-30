@@ -1,5 +1,36 @@
 @import "n.css";
 
+.big-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  border: 1px solid white;
+}
+
 li {
-  font-size: 400px;
+  list-style-type: none;
+  padding-right: 40px;
+  font-size: 25px;
+  margin: 15px auto;
+}
+/*padding van a list itemek elott és nem lehet kiszedni*/
+
+h1 li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-size: 35px;
+  color: 	#FF9900;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

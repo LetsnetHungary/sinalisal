@@ -20,7 +20,7 @@ header{
 
 .sidebar-place{
   flex: 2;
-  background: red;
+  background: rgb(220,220,220);
 }
 
 .main-flex{
