@@ -1,94 +1,85 @@
+<!-- FŐOLDAL -->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sinalisal Test Server</title>
-    <meta name="description" content="Test Server">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" type ="text/css" href ="includes/css/fooldal.css">
+    <title>Főoldal</title>
   </head>
   <body>
-    <div class="middle">
-      <img src= "letsnet.png" alt = "logo">
-      <h1>Az oldal fejlesztés alatt áll!</h1>
-        
-      <br>
-      <h2>Az utolsó frissítés : 2017.03.29</h2>
-    </div>
-    <style media="screen">
+  <?php require("includes/views/header.php");?>
+    <main>
+      <div class="front-pic">
+        <div class="left-side">
+          <div class="layer-container">
+            <div class="layer">
+                <span>hatrya szövege</span>
+            </div>
+          </div>
+        </div>
+        <div class="right-side">
+        </div>
+      </div>
+      <div class="big-container">
+        <div class="container">
+          <div class="title">
+              <h2>Nyitvatartás</h2>
+          </div>
+          <div class="content">
+            <span>
+                Fogászati implantátum szaküzletünk Budapest II.
+                kerületében (Rózsadomb) a Berkenye utca 8/b szám
+                alatt található. Hétköznapokon 9-16 óráig (pénteken
+                15 óráig). Amennyiben ettől eltérő időpontban szeretne
+                fogászati implantátumot, felépítményt vagy csontpótló
+                anyagot vásárolni, úgy azt előzetes telefonon
+                történő egyeztetést követően szinte bármikor
+                megteheti.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="big-container gray-container">
+        <div class="container">
+          <div class="title">
+              <h2>Megközelítés gyalogosan</h2>
+          </div>
+          <div class="content">
+            <span>
+                Nyugati pályaudvartól induló (Margit-híd pesti és budai hídfőjénél is megálló) 91, 191, 291-es buszjáratok bármelyikével a Vérhalom (Mandula) utcánál leszállva 3 perces sétával érheti el üzletünket, vagy a Batthyány térről induló 11, 111 járatokról az Eszter utcánál leszállva szintén 3 perc alatt juthat el üzletünkhöz.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="big-container">
+        <div class="container">
+          <div class="title">
+              <h2>Hogyan döntsem el, melyik implantátumrendszert válasszam?</h2>
+          </div>
+          <div class="content">
+            <img src="includes/img/prof_pic.jpg" class="profpic" alt="">
+            <span>
 
-      /* http://meyerweb.com/eric/tools/css/reset/
-         v2.0 | 20110126
-         License: none (public domain)
-      */
-
-      html, body, div, span, applet, object, iframe,
-      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-      a, abbr, acronym, address, big, cite, code,
-      del, dfn, em, img, ins, kbd, q, s, samp,
-      small, strike, strong, sub, sup, tt, var,
-      b, u, i, center,
-      dl, dt, dd, ol, ul, li,
-      fieldset, form, label, legend,
-      table, caption, tbody, tfoot, thead, tr, th, td,
-      article, aside, canvas, details, embed,
-      figure, figcaption, footer, header, hgroup,
-      menu, nav, output, ruby, section, summary,
-      time, mark, audio, video {
-      	margin: 0;
-      	padding: 0;
-      	border: 0;
-      	font-size: 100%;
-      	font: inherit;
-      	vertical-align: baseline;
-      }
-      /* HTML5 display-role reset for older browsers */
-      article, aside, details, figcaption, figure,
-      footer, header, hgroup, menu, nav, section {
-      	display: block;
-      }
-      body {
-      	line-height: 1;
-      }
-      ol, ul {
-      	list-style: none;
-      }
-      blockquote, q {
-      	quotes: none;
-      }
-      blockquote:before, blockquote:after,
-      q:before, q:after {
-      	content: '';
-      	content: none;
-      }
-      table {
-      	border-collapse: collapse;
-      	border-spacing: 0;
-      }
-      html {
-        padding: 0;
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-      }
-      .middle {
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .middle img {
-        max-width: 600px;
-      }
-
-      .middle h1 {
-        font-size: 30px;
-      }
-
-      .middle h2 {
-        font-size: 20px;
-      }
-    </style>
+              Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="big-container gray-container">
+        <div class="container">
+          <div class="title">
+              <h2>De tényleg az ár a legfontosabb?</h2>
+          </div>
+          <div class="content">
+            <span>
+              Sokan elsősorban ezt tartják elsődlegesen szem előtt, és kevésbé foglalkoznak azzal, hogy mit is vesznek valójában..
+              Mi úgy gondoljuk, hogy a megbízható minőség, precizitás, bizonyítottan egészségre ártalmatlan anyag összetétel, pontos és kedves kiszolgálás, valamint a több, mint 20 éves piaci jelenlét az, amely garantálja, hogy az általunk forgalmazott implantátumokkal nemcsak a fogorvosok, de a páciensek is elégedettek lesznek hosszútávon is.
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <?php require("includes/views/footer.php");?>
   </body>
 </html>

@@ -1,4 +1,18 @@
-@import "compass/css3";
+@import "n.css";
+body{
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-container{
   display: flex;
   height: 1300px;
