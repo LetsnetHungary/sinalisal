@@ -12,7 +12,7 @@
 
       <div class="Space">
 
-        <a href="">
+        <a class="Atag" href="">
           <div class="Logo">
           Logo
           </div>
@@ -25,7 +25,7 @@
         <div class="Bottomlogo">
           <a href="">BottomLogo</a>
         </div>
-        <a href="">
+        <a class="Atag" href="">
 
         <div class="Mainheader">
 
@@ -35,13 +35,13 @@
             </div>
           </a>
 
-          <a href="">
+          <a class="Atag" href="">
             <div class="Menu">
               Menu2
             </div>
           </a>
 
-          <a href="">
+          <a class="Atag" href="">
             <div class="Menu">
               Menu3
             </div>
