@@ -1,0 +1,42 @@
+.Main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Space{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+
+}
+.Header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: Times;
+  padding: 10px 30px;
+
+}
+.Menu:hover{
+  background-color: orange;
+  color: white;
+  transition: color ease-in-out .15s;
+  transition: background ease-in-out .5s;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.5);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  height: inherit;
+}
