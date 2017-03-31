@@ -16,6 +16,12 @@
   display: flex;
 }
 
+.inside-container {
+  display: flex;
+  width: 100%;
+}
+
+
 ul {
   margin: 0;
   padding: 0;
@@ -48,36 +54,8 @@ p {
   display: flex;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  width: 100%;
-  display: flex;
-}
-
-.inside-container {
-  display: flex;
-  width: 100%;
-}
 
 .p-container {
   display: flex;
   width: 100%;
-}
-
-.list-item{
-  display: flex;
-  max-width: 100%;
-}
-
-.list-item:hover {
-  background-color: #FF9900;
-}
-
-.list-item:active {
-  background-color: #FF9900;
-}
-
-a:active {
-  color: white;
 }

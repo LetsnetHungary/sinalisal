@@ -7,18 +7,11 @@
       <div class="list-container">
         <div class="inside-container">
           <ul>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
+
+            <li>
+              <a href="#"><span>probalink</span></a>
+            </li>
+
           </ul>
         </div>
 
@@ -31,21 +24,13 @@
       <div class="list-container">
         <div class="inside-container">
           <ul>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
+
+            <li>
+              <a href="#"><span>probalink</span></a>
+            </li>
+
           </ul>
         </div>
-
       </div>
 
 </div>
