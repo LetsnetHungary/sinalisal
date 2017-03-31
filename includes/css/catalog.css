@@ -31,7 +31,7 @@ header{
 
 .ebook-flex{
   flex: 2;
-  background-color: grey;
+  background-color: ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,4 @@ header{
 }
 .video-text{
   text-align: top;
-}
-.catalog-text, .video-text{
-  color: red;
 }
