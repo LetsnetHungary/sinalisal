@@ -46,4 +46,5 @@ a{
 .Bottomlogo{
   display: flex;
   padding: 0px 30px;
+  max-width: 200px;
 }

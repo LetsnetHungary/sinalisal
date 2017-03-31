@@ -22,7 +22,7 @@
 
       <div class="Header">
         <div class="Bottomlogo">
-          BottomLogo
+          <a href="">BottomLogo</a>
         </div>
         <a href="">
           <div class="Menu">
