@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  color: white;
 }
 .Space{
   display: flex;
@@ -17,7 +18,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between  ;
-  padding-bottom: 10vh;
+  margin-bottom: 10vh;
+  background-color: rgba(1, 1, 1, 0.32);
+
   width: 100vw;
 }
 
@@ -38,7 +41,9 @@
   font-weight: bold;
   font-style: Times;
   padding: 10px 30px;
-  border: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  color: white!important;
 }
 
 .Menu:hover{
@@ -46,7 +51,6 @@
   color: white;
   transition: color ease-in-out .15s;
   transition: background ease-in-out .15s;
-  border-bottom: 2px solid rgba(100, 100, 100, 0.5);
   box-sizing: border-box;
 }
 
