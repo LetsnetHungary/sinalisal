@@ -23,61 +23,95 @@
       </div>
       <div class="big-container">
         <div class="container">
-          <div class="title">
-              <h2>Nyitvatartás</h2>
+          <div class="textholder">
+            <div class="title">
+                <p class="h2">Nyitvatartás</p>
+            </div>
+
+            <hr color="gray" class="line" size="1px">
+            <div class="content">
+              <span>
+                  Fogászati implantátum szaküzletünk Budapest II.
+                  kerületében (Rózsadomb) a Berkenye utca 8/b szám
+                  alatt található. Hétköznapokon 9-16 óráig (pénteken
+                  15 óráig). Amennyiben ettől eltérő időpontban szeretne
+                  fogászati implantátumot, felépítményt vagy csontpótló
+                  anyagot vásárolni, úgy azt előzetes telefonon
+                  történő egyeztetést követően szinte bármikor
+                  megteheti.
+              </span>
+            </div>
+            </div>
           </div>
-          <div class="content">
-            <span>
-                Fogászati implantátum szaküzletünk Budapest II.
-                kerületében (Rózsadomb) a Berkenye utca 8/b szám
-                alatt található. Hétköznapokon 9-16 óráig (pénteken
-                15 óráig). Amennyiben ettől eltérő időpontban szeretne
-                fogászati implantátumot, felépítményt vagy csontpótló
-                anyagot vásárolni, úgy azt előzetes telefonon
-                történő egyeztetést követően szinte bármikor
-                megteheti.
-            </span>
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/clock.jpg" alt="" class="clock image">
           </div>
         </div>
       </div>
       <div class="big-container gray-container">
-        <div class="container">
-          <div class="title">
-              <h2>Megközelítés gyalogosan</h2>
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/gyalog.jpg" alt="" class="gyalog image">
           </div>
-          <div class="content">
-            <span>
-                Nyugati pályaudvartól induló (Margit-híd pesti és budai hídfőjénél is megálló) 91, 191, 291-es buszjáratok bármelyikével a Vérhalom (Mandula) utcánál leszállva 3 perces sétával érheti el üzletünket, vagy a Batthyány térről induló 11, 111 járatokról az Eszter utcánál leszállva szintén 3 perc alatt juthat el üzletünkhöz.
-            </span>
+        </div>
+        <div class="container">
+          <div class="textholder">
+            <div class="title">
+                <p class="h2">Megközelítés gyalogosan</p>
+            </div>
+            <hr color="gray" class="line" size="1px">
+            <div class="content">
+              <span>
+                  Nyugati pályaudvartól induló (Margit-híd pesti és budai hídfőjénél is megálló) 91, 191, 291-es buszjáratok bármelyikével a Vérhalom (Mandula) utcánál leszállva 3 perces sétával érheti el üzletünket, vagy a Batthyány térről induló 11, 111 járatokról az Eszter utcánál leszállva szintén 3 perc alatt juthat el üzletünkhöz.
+              </span>
+            </div>
           </div>
         </div>
       </div>
       <div class="big-container">
         <div class="container">
-          <div class="title">
-              <h2>Hogyan döntsem el, melyik implantátumrendszert válasszam?</h2>
-          </div>
-          <div class="content">
-            <img src="includes/img/prof_pic.jpg" class="profpic" alt="">
-            <span>
+          <div class="textholder">
+            <div class="title">
+                <p class="h2">Hogyan döntsem el, melyik implantátumrendszert válasszam?</p>
+            </div>
+            <hr color="gray" class="line" size="1px">
+            <div class="content">
+              <span>
 
-              Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
-            </span>
+                Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
+              </span>
+            </div>
+            </div>
+          </div>
+
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/valassz.jpg" alt="" class="clock image">
           </div>
         </div>
       </div>
       <div class="big-container gray-container">
-        <div class="container">
-          <div class="title">
-              <h2>De tényleg az ár a legfontosabb?</h2>
-          </div>
-          <div class="content">
-            <span>
-              Sokan elsősorban ezt tartják elsődlegesen szem előtt, és kevésbé foglalkoznak azzal, hogy mit is vesznek valójában..
-              Mi úgy gondoljuk, hogy a megbízható minőség, precizitás, bizonyítottan egészségre ártalmatlan anyag összetétel, pontos és kedves kiszolgálás, valamint a több, mint 20 éves piaci jelenlét az, amely garantálja, hogy az általunk forgalmazott implantátumokkal nemcsak a fogorvosok, de a páciensek is elégedettek lesznek hosszútávon is.
-            </span>
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/penz.jpg" alt="" class="clock image">
           </div>
         </div>
+        <div class="container">
+          <div class="textholder">
+            <div class="title">
+                <p class="h2">De tényleg az ár a legfontosabb?</p>
+            </div>
+            <hr class="line" size="1px">
+            <div class="content">
+              <span>
+                Sokan elsősorban ezt tartják elsődlegesen szem előtt, és kevésbé foglalkoznak azzal, hogy mit is vesznek valójában..
+                Mi úgy gondoljuk, hogy a megbízható minőség, precizitás, bizonyítottan egészségre ártalmatlan anyag összetétel, pontos és kedves kiszolgálás, valamint a több, mint 20 éves piaci jelenlét az, amely garantálja, hogy az általunk forgalmazott implantátumokkal nemcsak a fogorvosok, de a páciensek is elégedettek lesznek hosszútávon is.
+              </span>
+            </div>
+            </div>
+          </div>
+
       </div>
     </main>
     <?php require("includes/views/footer.php");?>
