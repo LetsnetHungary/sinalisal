@@ -1,34 +1,46 @@
 .Main{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .Space{
   display: flex;
   padding: 30px;
   align-items: center;
-  justify-content: center;
+  width: 100vw;
+  justify-content: flex-end;
 
 }
 .Header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between  ;
   padding-bottom: 10vh;
+  width: 100vw;
 }
+
+.Bottomlogo{
+  display: flex;
+  margin: 0px 30px;
+  max-width: 200px;
+  margin-left: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .Menu{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   font-size: 20px;
   font-weight: bold;
   font-style: Times;
-  padding: 10px 10px;
+  padding: 10px 30px;
   border: 2px solid white;
-
 }
+
 .Menu:hover{
   background-color: orange;
   color: white;
@@ -43,8 +55,11 @@ a{
   color: black;
   height: inherit;
 }
-.Bottomlogo{
+.Mainheader{
   display: flex;
-  padding: 0px 30px;
-  max-width: 200px;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.Logo{
+  margin-left: 60px;
 }

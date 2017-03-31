@@ -14,40 +14,45 @@
 
         <a href="">
           <div class="Logo">
-          Logoka
+          Logo
           </div>
         </a>
 
       </div>
 
       <div class="Header">
+
         <div class="Bottomlogo">
           <a href="">BottomLogo</a>
         </div>
         <a href="">
-          <div class="Menu">
-            Menu1
-          </div>
-        </a>
 
-        <a href="">
-          <div class="Menu">
-            Menu2
-          </div>
-        </a>
+        <div class="Mainheader">
 
-        <a href="">
-          <div class="Menu">
-            Menu3
-          </div>
-        </a>
 
-        <a href="">
-          <div class="Menu">
-            Menu4
-          </div>
-        </a>
+            <div class="Menu">
+              Menu1
+            </div>
+          </a>
 
+          <a href="">
+            <div class="Menu">
+              Menu2
+            </div>
+          </a>
+
+          <a href="">
+            <div class="Menu">
+              Menu3
+            </div>
+          </a>
+
+          <a href="">
+            <div class="Menu">
+              Menu4
+            </div>
+          </a>
+      </div>
     </div>
 
     </div>
