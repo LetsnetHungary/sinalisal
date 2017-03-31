@@ -27,11 +27,11 @@
           </div>
 
           <div class="yt-flex">
-            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y"></iframe></div>
-            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y"></iframe></div>
-            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y"></iframe></div>
-            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y"></iframe></div>
-            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y"></iframe></div>
+            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+            <div class="yt-item"><iframe class="yutub" src="//www.youtube.com/embed/lM8aFiqjN-Y" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
 
 
           </div>
