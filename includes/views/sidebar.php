@@ -6,22 +6,11 @@
 
       <div class="list-container">
         <div class="inside-container">
-          <ul>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-          </ul>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
         </div>
-
       </div>
 
     <div class="p-container">
@@ -30,22 +19,11 @@
 
       <div class="list-container">
         <div class="inside-container">
-          <ul>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-            <div class="list-item">
-              <li><a href="#">List item no1</a></li>
-            </div>
-          </ul>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
         </div>
-
       </div>
 
 </div>
