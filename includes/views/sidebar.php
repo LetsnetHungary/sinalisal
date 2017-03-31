@@ -1,25 +1,51 @@
 <div class="big-container">
 
-    <h1>A listás elemek</h1>
+  <div class="p-container">
+    <p>A listás elemek</p>
+  </div>
 
       <div class="list-container">
-        <ul>
-          <li><a href="#">List item no1</a></li>
-          <li><a href="#">List item no2</a></li>
-          <li><a href="#">List item no3</a></li>
-          <li><a href="#">List item no4</a></li>
-        </ul>
+        <div class="inside-container">
+          <ul>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+          </ul>
+        </div>
+
       </div>
 
-    <h1>B listás elemek</h1>
+    <div class="p-container">
+      <p>B listás elemek</p>
+    </div>
 
       <div class="list-container">
-        <ul>
-          <li><a href="#">List item no1</a></li>
-          <li><a href="#">List item no2</a></li>
-          <li><a href="#">List item no3</a></li>
-          <li><a href="#">List item no4</a></li>
-        </ul>
+        <div class="inside-container">
+          <ul>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+            <div class="list-item">
+              <li><a href="#">List item no1</a></li>
+            </div>
+          </ul>
+        </div>
+
       </div>
 
 </div>

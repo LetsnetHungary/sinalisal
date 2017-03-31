@@ -11,46 +11,73 @@
 }
 
 .list-container {
-  border: 1px solid white;
   width:80%;
+  background-color: white;
+  display: flex;
 }
 
-li {
-  list-style-type: none;
-  font-size: 25px;
-  margin: 10px auto;
-  justify-content: center;
-}
-
-h1 li {
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-}
-
-h1 {
-  font-size: 35px;
-  color: 	#FF9900;
-  letter-spacing: 2px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  width: 100%;
-}
 ul {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-a:active {
+li {
+  list-style-type: none;
+  font-size: 20px;
+  margin: 15px auto;
+  justify-content: flex-start;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  margin-left: 10px;
+  display: flex;
+}
+
+p li {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 25px;
+  color: 	#FF9900;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  font-weight: bold;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  display: flex;
+}
+
+.inside-container {
+  display: flex;
+  width: 100%;
+}
+
+.p-container {
+  display: flex;
+  width: 100%;
+}
+
+.list-item{
+  display: flex;
+  max-width: 100%;
+}
+
+.list-item:hover {
   background-color: #FF9900;
 }
 
-a:hover {
-  background-color: rgb(78, 78, 78);
+.list-item:active {
+  background-color: #FF9900;
 }
 
-/*legyen e hover?*/
+a:active {
+  color: white;
+}
