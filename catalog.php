@@ -20,7 +20,7 @@
 
           <div class="catalog-title">
             <p class="catalog-text">Katalógus</p>
-            <hr>
+            <hr class="hr1">
           </div>
           <div class="ebook-flex">
 
@@ -32,7 +32,7 @@
           </div>
           <div class="video-title">
             <p class="video-text">Videók</p>
-            <hr>
+            <hr class="hr2">
           </div>
 
           <div class="yt-flex">
