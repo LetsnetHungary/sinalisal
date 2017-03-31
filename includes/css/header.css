@@ -1,0 +1,69 @@
+.Main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: white;
+}
+.Space{
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  width: 100vw;
+  justify-content: flex-end;
+
+}
+.Header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between  ;
+  margin-bottom: 10vh;
+  background-color: rgba(1, 1, 1, 0.32);
+
+  width: 100vw;
+}
+
+.Bottomlogo{
+  display: flex;
+  margin: 0px 30px;
+  max-width: 200px;
+  margin-left: 60px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.Menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: Times;
+  padding: 10px 30px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  color: white!important;
+}
+
+.Menu:hover{
+  background-color: orange;
+  color: white;
+  transition: color ease-in-out .15s;
+  transition: background ease-in-out .15s;
+  box-sizing: border-box;
+}
+
+.Atag{
+  text-decoration: none;
+  color: black;
+  height: inherit;
+}
+.Mainheader{
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.Logo{
+  margin-left: 60px;
+}
