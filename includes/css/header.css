@@ -43,3 +43,7 @@ a{
   color: black;
   height: inherit;
 }
+.Bottomlogo{
+  display: flex;
+  padding: 0px 30px;
+}

@@ -21,7 +21,9 @@
       </div>
 
       <div class="Header">
-
+        <div class="Bottomlogo">
+          BottomLogo
+        </div>
         <a href="">
           <div class="Menu">
             Menu1
