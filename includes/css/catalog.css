@@ -20,7 +20,11 @@ header{
 
 .sidebar-place{
   flex: 2;
+<<<<<<< Updated upstream
   background-color: white;
+=======
+  background: rgb(222, 224, 226);
+>>>>>>> Stashed changes
 }
 
 .main-flex{
