@@ -16,6 +16,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-bottom: 10vh;
 }
 .Menu{
   display: flex;
@@ -24,15 +25,17 @@
   font-size: 20px;
   font-weight: bold;
   font-style: Times;
-  padding: 10px 30px;
+  padding: 10px 10px;
+  border: 2px solid white;
 
 }
 .Menu:hover{
   background-color: orange;
   color: white;
   transition: color ease-in-out .15s;
-  transition: background ease-in-out .5s;
+  transition: background ease-in-out .15s;
   border-bottom: 2px solid rgba(100, 100, 100, 0.5);
+  box-sizing: border-box;
 }
 
 a{
