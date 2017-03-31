@@ -6,15 +6,11 @@
 
       <div class="list-container">
         <div class="inside-container">
-          <ul>
-
-            <li>
-              <a href="#"><span>probalink</span></a>
-            </li>
-
-          </ul>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
         </div>
-
       </div>
 
     <div class="p-container">
@@ -23,13 +19,10 @@
 
       <div class="list-container">
         <div class="inside-container">
-          <ul>
-
-            <li>
-              <a href="#"><span>probalink</span></a>
-            </li>
-
-          </ul>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
+          <a href="#"><span>probalink</span></a>
         </div>
       </div>
 
