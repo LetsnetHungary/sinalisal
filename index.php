@@ -29,28 +29,6 @@
                         Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
                     </div>
                   </div>
-
-                  <div class="layer-text">
-                    <div class="dot-holder">
-                    </div>
-                    <div class="text-holder">
-                        99.7%-os sikerességi arány
-                    </div>
-                  </div>
-                  <div class="layer-text">
-                    <div class="dot-holder">
-                    </div>
-                    <div class="text-holder">
-                        Egyedülállóan széleskörű protetikai választék
-                    </div>
-                  </div>
-                  <div class="layer-text">
-                    <div class="dot-holder">
-                    </div>
-                    <div class="text-holder">
-                        Kimagasló ár-érték arány
-                    </div>
-                  </div>
                 </div>
             </div>
           </div>
@@ -59,35 +37,47 @@
         </div>
       </div>
       <div class="big-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-                <p class="container__header margin">Nyitvatartás</p>
-            </div>
-<!--
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
-                  Fogászati implantátum szaküzletünk Budapest II.
-                  kerületében (Rózsadomb) a Berkenye utca 8/b szám
-                  alatt található. Hétköznapokon 9-16 óráig (pénteken
-                  15 óráig). Amennyiben ettől eltérő időpontban szeretne
-                  fogászati implantátumot, felépítményt vagy csontpótló
-                  anyagot vásárolni, úgy azt előzetes telefonon
-                  történő egyeztetést követően szinte bármikor
-                  megteheti.
-              </span>
-            </div>
-          -->
-            </div>
-          </div>
+
         <div class="img-container">
           <div class="img">
             <img src="includes/img/clock.jpg" alt="" class="clock image">
           </div>
         </div>
-      </div>
 
+
+      <div class="container">
+        <div class="textholder">
+          <div class="text">
+            <div class="dot-holder orange">
+            </div>
+            <div class="text-holder">
+                Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder blue">
+            </div>
+            <div class="text-holder">
+                99.7%-os sikerességi arány
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder green">
+            </div>
+            <div class="text-holder">
+                Egyedülállóan széleskörű protetikai választék
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder purple">
+            </div>
+            <div class="text-holder">
+                Kimagasló ár-érték arány
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 <div style="background-color: white; z-index: 2;">
   <div class="big-container gray-container">
     <div class="container">

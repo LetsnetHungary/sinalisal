@@ -66,13 +66,13 @@ main span{
   align-items: center;
 }
 .layer{
-  height: 100%;
+  height: 40%;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,.45);
+  background: rgba(255,255,255,.55);
   border-radius: 5px;
   width: 10vw;
-  box-shadow: inset 0 0 10px rgba(0,0,0,.25);
+  box-shadow: inset 0 0 10px rgba(255,255,255,.95);
 }
 .layer-text-container{
   flex-direction: column;
@@ -84,8 +84,8 @@ main span{
 .layer-text{
   flex: 0 0 auto;
   align-items: center;
-  font-size: 18px;
-  color: white;
+  font-size: 22px;
+  color: rgba(20,20,20,.8);
   letter-spacing: .5px;
   line-height: 24px;
   font-weight: bold;
@@ -115,7 +115,31 @@ main span{
   justify-content: center;
   align-items: center;
 }
-
+.title{
+  flex-direction: row;
+  margin: 10px;
+}
+.textholder{
+  flex: 0 0 auto;
+  width: 70%;
+  flex-direction: column;
+}
+.text{
+  font-size: 22px;
+  margin: 6px 0 6px 0;
+}
+.orange{
+  background-color: orange;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.purple{
+  background-color: purple;
+}
 .centertextholder {
   display: flex;
   justify-content: center;
@@ -136,9 +160,6 @@ main span{
   height: 1px;
 }
 
-.textholder{
-  flex : 1 0 auto;
-}
 .line-holder{
   text-align: center;
   overflow: visible;
@@ -201,8 +222,4 @@ footer {
   height: 45vh;
   width: 100vw;
 
-}
-
-.title {
-  flex-direction: column;
 }
