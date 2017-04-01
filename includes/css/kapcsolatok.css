@@ -22,7 +22,7 @@ main{
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: rgb(250,245,255);
+  background-color: rgba(94, 76, 0, 0.161);
 }
 .h2{
   color: #FF9900;
@@ -57,8 +57,8 @@ main span{
   margin-left: 40px;
 }
 iframe{
-  width: 600px;
-  height: 450px;
+  width: 800px;
+  height: 555px;
   border-radius: 10px;
 }
 

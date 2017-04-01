@@ -52,7 +52,6 @@
   color: black;
 }
 
-a:hover{
-  background-color: orange;
-  color: white;
+.sidebar-items:hover{
+  color: orange;
 }

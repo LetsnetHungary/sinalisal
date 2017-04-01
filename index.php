@@ -72,21 +72,23 @@
         </div>
       </div>
 
-
-      <div class="big-container gray-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-              <p class="container__header margin">Megközelítés gyalogosan</p>
-            </div>
-          </div>
-        </div>
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/clock.jpg" alt="" class="clock image">
-          </div>
+<div style="background-color: white; z-index: 2;">
+  <div class="big-container gray-container">
+    <div class="container">
+      <div class="textholder">
+        <div class="title">
+          <p class="container__header margin">Megközelítés gyalogosan</p>
         </div>
       </div>
+    </div>
+    <div class="img-container">
+      <div class="img">
+        <img src="includes/img/clock.jpg" alt="" class="clock image">
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
       <div class="big-container">
@@ -103,18 +105,20 @@
           </div>
         </div>
       </div>
-      <div class="big-container gray-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-              <p class="container__header margin">4. menupont</p>
-              <p class="margin">4. menupont</p>
+
+      <div style="background-color: white; z-index: 2;">
+        <div class="big-container gray-container">
+          <div class="container">
+            <div class="textholder">
+              <div class="title">
+                <p class="container__header margin">Megközelítés gyalogosan</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/clock.jpg" alt="" class="clock image">
+          <div class="img-container">
+            <div class="img">
+              <img src="includes/img/clock.jpg" alt="" class="clock image">
+            </div>
           </div>
         </div>
       </div>
