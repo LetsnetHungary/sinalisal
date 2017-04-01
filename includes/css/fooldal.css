@@ -125,7 +125,7 @@ main span{
   flex-direction: column;
 }
 .text{
-  font-size: 22px;
+  font-size: 26px;
   margin: 6px 0 6px 0;
   align-items: center;
 }
@@ -189,7 +189,7 @@ main span{
   height: inherit;
 }
 .img .image{
-  height: 10vh;
+  height: 15vh;
   border-radius: 50%;
 }
 .img{

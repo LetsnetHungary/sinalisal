@@ -40,7 +40,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="includes/img/clock.jpg" alt="" class="clock image">
+            
           </div>
         </div>
 
