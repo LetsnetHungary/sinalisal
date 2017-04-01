@@ -61,13 +61,13 @@
               <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active" >
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/500x250" alt="First slide" style = "opacity : 0;">
+                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="First slide" style = "opacity : 1;">
                 </div>
                 <div class="carousel-item ">
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/400x200" alt="Second slide" style = "opacity : 0;">
+                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="Second slide" style = "opacity : 1;">
                 </div>
                 <div class="carousel-item ">
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/400x200" alt="Third slide" style = "opacity : 0;">
+                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="Third slide" style = "opacity : 1;">
                 </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -89,10 +89,6 @@
 
         <div class="img-container">
           <div class="img">
-<<<<<<< HEAD
-            
-=======
->>>>>>> origin/fix
           </div>
         </div>
 
