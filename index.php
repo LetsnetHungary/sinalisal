@@ -8,8 +8,15 @@
     <title>Főoldal</title>
   </head>
   <body>
-  <?php require("includes/views/header.php");?>
+
+
     <main>
+      <header>
+        <?php require("includes/views/header.php");?>
+      </header>
+      <div class = "back_image_holder">
+
+      </div>
       <div class="front-pic">
         <div class="left-side">
           <div class="layer-container">
@@ -25,9 +32,9 @@
         <div class="container">
           <div class="textholder">
             <div class="title">
-                <p class="h2">Nyitvatartás</p>
+                <p class="container__header margin">Nyitvatartás</p>
             </div>
-
+<!--
             <hr color="gray" class="line" size="1px">
             <div class="content">
               <span>
@@ -41,6 +48,7 @@
                   megteheti.
               </span>
             </div>
+          -->
             </div>
           </div>
         <div class="img-container">
@@ -49,71 +57,71 @@
           </div>
         </div>
       </div>
+
+
       <div class="big-container gray-container">
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/gyalog.jpg" alt="" class="gyalog image">
-          </div>
-        </div>
         <div class="container">
           <div class="textholder">
             <div class="title">
-                <p class="h2">Megközelítés gyalogosan</p>
-            </div>
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
-                  Nyugati pályaudvartól induló (Margit-híd pesti és budai hídfőjénél is megálló) 91, 191, 291-es buszjáratok bármelyikével a Vérhalom (Mandula) utcánál leszállva 3 perces sétával érheti el üzletünket, vagy a Batthyány térről induló 11, 111 járatokról az Eszter utcánál leszállva szintén 3 perc alatt juthat el üzletünkhöz.
-              </span>
+              <p class="container__header margin">Megközelítés gyalogosan</p>
             </div>
           </div>
         </div>
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/clock.jpg" alt="" class="clock image">
+          </div>
+        </div>
       </div>
+
+
       <div class="big-container">
         <div class="container">
           <div class="textholder">
             <div class="title">
-                <p class="h2">Hogyan döntsem el, melyik implantátumrendszert válasszam?</p>
-            </div>
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
-
-                Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
-              </span>
+                <p class="container__header margin">De tényleg az ár a legfontosabb?</p>
             </div>
             </div>
           </div>
-
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/valassz.jpg" alt="" class="clock image">
-          </div>
-        </div>
-      </div>
-      <div class="big-container gray-container">
         <div class="img-container">
           <div class="img">
             <img src="includes/img/penz.jpg" alt="" class="clock image">
           </div>
         </div>
+      </div>
+      <div class="big-container gray-container">
         <div class="container">
           <div class="textholder">
             <div class="title">
-                <p class="h2">De tényleg az ár a legfontosabb?</p>
-            </div>
-            <hr class="line" size="1px">
-            <div class="content">
-              <span>
-                Sokan elsősorban ezt tartják elsődlegesen szem előtt, és kevésbé foglalkoznak azzal, hogy mit is vesznek valójában..
-                Mi úgy gondoljuk, hogy a megbízható minőség, precizitás, bizonyítottan egészségre ártalmatlan anyag összetétel, pontos és kedves kiszolgálás, valamint a több, mint 20 éves piaci jelenlét az, amely garantálja, hogy az általunk forgalmazott implantátumokkal nemcsak a fogorvosok, de a páciensek is elégedettek lesznek hosszútávon is.
-              </span>
-            </div>
+              <p class="container__header margin">4. menupont</p>
+              <p class="margin">4. menupont</p>
             </div>
           </div>
+        </div>
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/clock.jpg" alt="" class="clock image">
+          </div>
+        </div>
+      </div>
+      <div class = "image_back">
 
       </div>
+      <div class="big-container">
+        <div class="container">
+          <div class = "centertextholder">
+            <div class = "centertextholder__header">
+              <p class = "container__header">Hoszabb szöveg</p>
+              <hr class = "centertextholder__header_hr">
+            </div>
+          </div>
+          </div>
+      </div>
+
     </main>
-    <?php require("includes/views/footer.php");?>
+    <footer>
+      <?php require("includes/views/footer.php");?>
+    </footer>
+
   </body>
 </html>
