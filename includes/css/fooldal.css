@@ -127,6 +127,7 @@ main span{
 .text{
   font-size: 22px;
   margin: 6px 0 6px 0;
+  align-items: center;
 }
 .orange{
   background-color: orange;
