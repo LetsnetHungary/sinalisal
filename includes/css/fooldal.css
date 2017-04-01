@@ -31,6 +31,7 @@ main{
   text-align: left;
 }
 
+
 .margin {
     margin-left: 120px;
 }
@@ -68,12 +69,25 @@ main span{
   height: 100%;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,.15);
+  background: rgba(0,0,0,.45);
   border-radius: 5px;
+  width: 10vw;
+  box-shadow: inset 0 0 10px rgba(0,0,0,.25);
 }
-.layer span{
-  display: flex;
-  max-width: 100%;
+.layer-text-container{
+  flex-direction: column;
+  flex: 0 0 auto;
+  height: 70%;
+  width: 70%;
+  justify-content: center;
+}
+.layer-text{
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  letter-spacing: .5px;
+  line-height: 24px;
+  font-weight: bold;
 }
 .big-container{
   z-index: 2;

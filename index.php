@@ -21,7 +21,21 @@
         <div class="left-side">
           <div class="layer-container">
             <div class="layer">
-                <span>hatrya szövege</span>
+                <div class="layer-text-container">
+                  <div class="layer-text">
+                    Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+                  </div>
+
+                  <div class="layer-text">
+                    99.7%-os sikerességi arány
+                  </div>
+                  <div class="layer-text">
+                      Egyedülállóan széleskörű protetikai választék
+                  </div>
+                  <div class="layer-text">
+                      Kimagasló ár-érték arány
+                  </div>
+                </div>
             </div>
           </div>
         </div>
