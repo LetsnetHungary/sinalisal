@@ -23,17 +23,33 @@
             <div class="layer">
                 <div class="layer-text-container">
                   <div class="layer-text">
-                    Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+                    <div class="dot-holder">
+                    </div>
+                    <div class="text-holder">
+                        Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+                    </div>
                   </div>
 
                   <div class="layer-text">
-                    99.7%-os sikerességi arány
+                    <div class="dot-holder">
+                    </div>
+                    <div class="text-holder">
+                        99.7%-os sikerességi arány
+                    </div>
                   </div>
                   <div class="layer-text">
-                      Egyedülállóan széleskörű protetikai választék
+                    <div class="dot-holder">
+                    </div>
+                    <div class="text-holder">
+                        Egyedülállóan széleskörű protetikai választék
+                    </div>
                   </div>
                   <div class="layer-text">
-                      Kimagasló ár-érték arány
+                    <div class="dot-holder">
+                    </div>
+                    <div class="text-holder">
+                        Kimagasló ár-érték arány
+                    </div>
                   </div>
                 </div>
             </div>

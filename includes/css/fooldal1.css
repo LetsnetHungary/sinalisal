@@ -89,18 +89,9 @@ main span{
   letter-spacing: .5px;
   line-height: 24px;
   font-weight: bold;
-  margin: 7% 0 7% 0;
-}
-.dot-holder{
-  flex: 0 0 auto;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  background-color: orange;
-}
-.text-holder{
-  margin-left: 20px;
-  width: 100%;
+  padding-left: 20px;
+  border-left: solid 1.5px orange;
+  margin: 8% 0 8% 0;
 }
 .big-container{
   z-index: 2;
@@ -155,7 +146,7 @@ main span{
   align-items: center;
 }
 .gray-container{
-  background-color: rgba(94, 76, 0, 0.161)
+  background-color: rgba(135, 135, 135, 0.99);
 }
 .img-container{
   height: inherit;
