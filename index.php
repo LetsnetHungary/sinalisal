@@ -45,6 +45,7 @@
               justify-content: center;
               height: 200px;
               padding-top: 40px;
+              text-shadow: 0 0 0 white;
             }
             .carousel-inner{
               height: 200px;
