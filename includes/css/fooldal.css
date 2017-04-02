@@ -43,7 +43,7 @@ main span{
 }
 .front-pic{
   z-index:2;
-  background: url("../img/dent.jpg");
+  background: url("../img/stockphoto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -52,6 +52,11 @@ main span{
 }
 .right-side{
   flex: 3 1 auto;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.right-side img{
+  height: 120px;
 }
 .left-side{
   flex: 2 0 auto;
@@ -71,7 +76,7 @@ main span{
   height: 160px;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255,.3);
+  background: rgba(255,255,255,.85);
   border-radius: 5px;
   min-width: 270px;
   box-shadow: inset 0 0 10px rgba(170,170,170,.3);
@@ -243,7 +248,7 @@ footer {
   text-align: center;
 }
 .carousel-text{
-  font-size: 21px;
+  font-size: 150%;
   margin: 0px 0 6px 0;
   align-items: center;
   display: flex;
@@ -257,7 +262,8 @@ footer {
 }
 .text-holder{
   margin-left: 20px;
-  width: 100%;
+  width: inherit;
+  height: inherit;
   color: black!important;
   text-transform: uppercase;
 }

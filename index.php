@@ -16,8 +16,6 @@
     <title>Főoldal</title>
   </head>
   <body>
-
-
     <main>
       <header>
         <?php require("includes/views/header.php");?>
@@ -115,6 +113,7 @@
           </div>
         </div>
         <div class="right-side">
+          <img src="includes/img/idlogo.png" alt="">
         </div>
       </div>
       <div class="big-container">
