@@ -6,19 +6,13 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" type ="text/css" href ="includes/css/fooldal.css">
   <link rel="stylesheet" type ="text/css" href ="includes/css/header.css">
-
-
-
-
-
     <title>Főoldal</title>
   </head>
   <body>
@@ -36,48 +30,138 @@
           <div class="layer-container">
             <div class="layer">
             <style>
-
-              .layer {
-                height: 250px;
-              }
-
-              .carousel {
-                height: 100%;
-                width: 100%;
-              }
-
-              .sliderimg {
-                width: 500px;
-                height: 250px;
-                object-fit: cover;
-              }
-
-              .objfit {
-                margin: 0;
-                padding: 0;
-              }
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                margin: auto;
+                height: 200px;
+                opacity: 0;
+            }
+            .carousel-inner > .item {
+              vertical-align: middle;
+            }
+            .carousel-inner > .item > .carousel-caption{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              height: 200px;
+              padding-top: 40px;
+            }
+            .carousel-inner{
+              height: 200px;
+              text-align: center;
+            }
+            .text{
+              font-size: 21px;
+              margin: 6px 0 6px 0;
+              align-items: center;
+              display: flex;
+              width: 90%;
+            }
+            .dot-holder{
+              flex: 0 0 auto;
+              height: 12px;
+              width: 12px;
+              border-radius: 50%;
+              background-color: orange;
+            }
+            .text-holder{
+              margin-left: 20px;
+              width: 100%;
+              color: black!important;
+              text-transform: uppercase;
+            }
+            .cont{
+              width: auto;
+              height: 100%;
+              border-radius: 10px;
+            }
+            .carousel > .carousel-control{
+              background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+            }
+            .carousel-indicators > li{
+              opacity: 0;
+              cursor: default;
+            }
 
             </style>
-              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active" >
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="First slide" style = "opacity : 1;">
+              <div class="cont">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="text">
+                          <div class="dot-holder orange">
+                          </div>
+                          <div class="text-holder">
+                              Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="text">
+                          <div class="dot-holder blue">
+                          </div>
+                          <div class="text-holder">
+                              99.7%-os sikerességi arány
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="text">
+                          <div class="dot-holder green">
+                          </div>
+                          <div class="text-holder">
+                              Egyedülállóan széleskörű protetikai választék
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="text">
+                          <div class="dot-holder purple">
+                          </div>
+                          <div class="text-holder">
+                              Kimagasló ár-érték arány
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
-                <div class="carousel-item ">
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="Second slide" style = "opacity : 1;">
-                </div>
-                <div class="carousel-item ">
-                  <img class="d-block img-fluid sliderimg" src="http://placehold.it/550x500" alt="Third slide" style = "opacity : 1;">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
               </div>
             </div>
           </div>
