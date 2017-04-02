@@ -63,17 +63,19 @@ main span{
   height: 80%;
   width: 80%;
   flex: 0 1 80%;
-  margin-left: 60px;
   justify-content: center;
   align-items: center;
 }
 .layer{
-  height: 40%;
+  flex: 0 0 auto;
+  height: 160px;
   justify-content: center;
   align-items: center;
-  background: rgba(255,255,255,.45);
+  background: rgba(255,255,255,.3);
   border-radius: 5px;
-  width: 10vw;
+  min-width: 270px;
+  box-shadow: inset 0 0 10px rgba(170,170,170,.3);
+  border: 1px solid rgba(190,190,190, .5);
 }
 .layer-text-container{
   flex-direction: column;
@@ -216,8 +218,9 @@ footer {
   z-index: 0;
   height: 45vh;
   width: 100vw;
-
 }
+
+/*CAROUSEL CSS*/
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     margin: auto;
@@ -241,7 +244,7 @@ footer {
 }
 .carousel-text{
   font-size: 21px;
-  margin: 6px 0 6px 0;
+  margin: 0px 0 6px 0;
   align-items: center;
   display: flex;
   width: 90%;
@@ -258,15 +261,26 @@ footer {
   color: black!important;
   text-transform: uppercase;
 }
-.cont{
-  width: auto;
+.cont, .carousel{
+  width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-.carousel > .carousel-control{
-  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+.carousel > .right{
+  border-radius: 10px 0 0 10px;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
+}
+.carousel > .left{
+  border-radius: 0 10px 10px 0;
+  background-image: -webkit-linear-gradient(right,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
 }
 .carousel-indicators > li{
   opacity: 0;
   cursor: default;
+}
+.carousel-control:focus{
+  opacity: .5;
+}
+.carousel-control:hover{
+  opacity: .9;
 }
