@@ -38,6 +38,7 @@
   padding: 10px 30px;
   border-right: 2px solid orange;
   color: rgb(33, 33, 33);
+  transition: color ease-in-out .15s;
 }
 
 .Menu:hover{

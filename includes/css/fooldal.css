@@ -59,7 +59,6 @@ main span{
   align-items: center;
 }
 
-
 .layer-container{
   height: 80%;
   width: 80%;
@@ -93,19 +92,7 @@ main span{
   font-weight: bold;
   margin: 7% 0 7% 0;
 }
-.dot-holder{
-  flex: 0 0 auto;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  background-color: orange;
-}
-.text-holder{
-  margin-left: 20px;
-  width: 100%;
-  color: black!important;
-  text-transform: uppercase;
-}
+
 .big-container{
   z-index: 2;
   min-height: 70px;
@@ -123,16 +110,19 @@ main span{
   flex-direction: row;
   margin: 10px;
 }
+.text{
+  font-size: 23px;
+  margin: 6px 0 6px 0;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
 .textholder{
   flex: 0 0 auto;
   width: 70%;
   flex-direction: column;
 }
-.text{
-  font-size: 26px;
-  margin: 6px 0 6px 0;
-  align-items: center;
-}
+
 .orange{
   background-color: orange;
 }
@@ -227,4 +217,56 @@ footer {
   height: 45vh;
   width: 100vw;
 
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    height: 200px;
+    opacity: 0;
+}
+.carousel-inner > .item {
+  vertical-align: middle;
+}
+.carousel-inner > .item > .carousel-caption{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding-top: 40px;
+  text-shadow: 0 0 0 white;
+}
+.carousel-inner{
+  height: 200px;
+  text-align: center;
+}
+.carousel-text{
+  font-size: 21px;
+  margin: 6px 0 6px 0;
+  align-items: center;
+  display: flex;
+  width: 90%;
+}
+.dot-holder{
+  flex: 0 0 auto;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+.text-holder{
+  margin-left: 20px;
+  width: 100%;
+  color: black!important;
+  text-transform: uppercase;
+}
+.cont{
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
+}
+.carousel > .carousel-control{
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-indicators > li{
+  opacity: 0;
+  cursor: default;
 }

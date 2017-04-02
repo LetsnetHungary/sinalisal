@@ -30,59 +30,6 @@
           <div class="layer-container">
             <div class="layer">
             <style>
-            .carousel-inner > .item > img,
-            .carousel-inner > .item > a > img {
-                margin: auto;
-                height: 200px;
-                opacity: 0;
-            }
-            .carousel-inner > .item {
-              vertical-align: middle;
-            }
-            .carousel-inner > .item > .carousel-caption{
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              height: 200px;
-              padding-top: 40px;
-              text-shadow: 0 0 0 white;
-            }
-            .carousel-inner{
-              height: 200px;
-              text-align: center;
-            }
-            .text{
-              font-size: 21px;
-              margin: 6px 0 6px 0;
-              align-items: center;
-              display: flex;
-              width: 90%;
-            }
-            .dot-holder{
-              flex: 0 0 auto;
-              height: 12px;
-              width: 12px;
-              border-radius: 50%;
-              background-color: orange;
-            }
-            .text-holder{
-              margin-left: 20px;
-              width: 100%;
-              color: black!important;
-              text-transform: uppercase;
-            }
-            .cont{
-              width: auto;
-              height: 100%;
-              border-radius: 10px;
-            }
-            .carousel > .carousel-control{
-              background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-            }
-            .carousel-indicators > li{
-              opacity: 0;
-              cursor: default;
-            }
 
             </style>
               <div class="cont">
@@ -102,7 +49,7 @@
                     <div class="item active">
                       <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
                       <div class="carousel-caption">
-                        <div class="text">
+                        <div class="carousel-text">
                           <div class="dot-holder orange">
                           </div>
                           <div class="text-holder">
@@ -115,7 +62,7 @@
                     <div class="item">
                       <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
                       <div class="carousel-caption">
-                        <div class="text">
+                        <div class="carousel-text">
                           <div class="dot-holder blue">
                           </div>
                           <div class="text-holder">
@@ -128,7 +75,7 @@
                     <div class="item">
                       <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
                       <div class="carousel-caption">
-                        <div class="text">
+                        <div class="carousel-text">
                           <div class="dot-holder green">
                           </div>
                           <div class="text-holder">
@@ -141,7 +88,7 @@
                     <div class="item">
                       <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
                       <div class="carousel-caption">
-                        <div class="text">
+                        <div class="carousel-text">
                           <div class="dot-holder purple">
                           </div>
                           <div class="text-holder">
