@@ -116,16 +116,16 @@
           <img src="includes/img/idlogo.png" alt="">
         </div>
       </div>
-      <div class="big-container">
 
+
+
+      <div class="big-container">
         <div class="img-container">
           <div class="img">
           </div>
         </div>
-
-
-      <div class="container">
-        <div class="textholder">
+      <div class="container container-right">
+        <div class="textholder textholder-right">
           <div class="text">
             <div class="dot-holder orange">
             </div>
@@ -162,8 +162,10 @@
     <div class="container">
       <div class="textholder">
         <div class="title">
-          <p class="container__header margin">Megközelítés gyalogosan</p>
-        </div>
+          <p class="container__header">Rólunk</p>
+          <hr class="line">
+          <p>Cégünk 1991-ben alakult, már több mint 26 éve fogászati implantátumok,  protetikai tartozékok, és csontpótló anyagok forgalmazásával foglalkozunk,  mellyel hozzájárulhattunk több tízezer ember boldog mosolyához.  A Sinalisal Kft. az amerikai ImplantDirect implantátumrendszerek kizárólagos    magyarországi forgalmazója. Az ImplantDirect termékeket világszerte több mint  40 országban kiváló eredménnyel használják.  Az amerikai cég a világ egyik leginnovatívabb gyártójaként lépést tart az  implantológusok és a páciensek növekvő elvárásaival is, hogy a fogpótlások  mielőbb funkcióképesek és természethűen esztétikusak és maradandóak legyenek.</p>
+          </div>
       </div>
     </div>
     <div class="img-container">
@@ -177,18 +179,21 @@
 
 
       <div class="big-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-                <p class="container__header margin">De tényleg az ár a legfontosabb?</p>
-            </div>
-            </div>
-          </div>
+
         <div class="img-container">
           <div class="img">
             <img src="includes/img/penz.jpg" alt="" class="clock image">
           </div>
         </div>
+        <div class="container container-right">
+          <div class="textholder textholder-right">
+            <div class="title">
+                <p class="container__header ">ImplantDirect implantátumok</p>
+                <hr class="line">
+                <p>A rendkívül széles implantátumrendszer választék garantálja, hogy az implantológus minden beavatkozáshoz kompromisszumoktól mentes, tökéletes megoldást találjon. Az ImplantDirect implantátumok kónikus felépítése, speciális menetkiképzése és legmagasabb minőségű felületkezelése biztosítja a könnyű és biztonságos behelyezést és tartósságot.</p>
+            </div>
+            </div>
+          </div>
       </div>
 
       <div style="background-color: white; z-index: 2;">
@@ -196,7 +201,9 @@
           <div class="container">
             <div class="textholder">
               <div class="title">
-                <p class="container__header margin">Megközelítés gyalogosan</p>
+                <p class="container__header  ">Garancia és biztonság</p>
+                <hr class="line">
+                <p>Valamennyi termékünkre az Európai Unió szabályozásával megegyező mértékű, maximális időtartamú garanciát nyújtunk. Legfontosabb célkitűzésünk, hogy a beavatkozás és kezelés a páciens számára a lehető legkisebb fizikai és anyagi megterheléssel járjon.</p>
               </div>
             </div>
           </div>
@@ -207,6 +214,23 @@
           </div>
         </div>
       </div>
+      <div class="big-container">
+
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/penz.jpg" alt="" class="clock image">
+          </div>
+        </div>
+        <div class="container container-right">
+          <div class="textholder textholder-right">
+            <div class="title">
+                <p class="container__header ">Kompatibilitás</p>
+                <hr class="line">
+                <p>Tökéletes kompatibilitás – Zimmer Dental, Nobel Biocare és Straumann rendszerekkel. Részleges kompatibilitás: BioHorisons, AlphaBio rendszerekkel.</p>
+            </div>
+            </div>
+          </div>
+      </div>
       <div class = "image_back">
 
       </div>
@@ -214,8 +238,55 @@
         <div class="container">
           <div class = "centertextholder">
             <div class = "centertextholder__header">
-              <p class = "container__header">Hoszabb szöveg</p>
+              <p class = "container__header">Szolgáltatásaink</p>
               <hr class = "centertextholder__header_hr">
+              <div class="title">
+                <p>Rendszeresen szervezünk akkreditált imlantológiai alap- és továbbképzéseket, igény szerint személyre szabott szakmai tanácsadással, konzultációval.</p>
+
+                <p>Leggyakoribb témáink:</p>
+                <div class="szolgaltatasok">
+                    <div class="dot-holder orange">
+                    </div>
+                    <div class="szolg">
+                      Fogászati implantációs alapismeretek sebészeti és protetikai szempontból
+                    </div>
+               </div>
+               <div class="szolgaltatasok">
+                   <div class="dot-holder orange">
+                   </div>
+                   <div class="szolg">
+                     Csont management, a lágyrész-plasztika szájsebészeti lehetőségei
+                   </div>
+              </div>
+              <div class="szolgaltatasok">
+                  <div class="dot-holder orange">
+                  </div>
+                  <div class="szolg">
+                    Rendszerismertető tréning Implant Direct implantátumokkal
+                  </div>
+             </div>
+             <div class="szolgaltatasok">
+                 <div class="dot-holder orange">
+                 </div>
+                 <div class="szolg">
+                   Extractiót követő azonnali implantáció
+                 </div>
+            </div>
+            <div class="szolgaltatasok">
+                <div class="dot-holder orange">
+                </div>
+                <div class="szolg">
+                  Konzultációs lehetőség Implant Direct rendszerrel kapcsolatban / rendszerfüggetlenül
+                </div>
+           </div>
+           <div class="szolgaltatasok">
+               <div class="dot-holder orange">
+               </div>
+               <div class="szolg">
+                 Regeneratív fogágy műtétek
+               </div>
+          </div>
+              </div>
             </div>
           </div>
           </div>

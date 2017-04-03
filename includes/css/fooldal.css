@@ -24,14 +24,14 @@ main{
   flex-direction: column;
   background-color: rgb(250,245,255);
 }
+.title p {
+  font-size: 18px;
+}
 .container__header{
-
   color: #FF9900;
-  font-size: 35px;
+  font-size: 35px!important;
   text-align: left;
 }
-
-
 .margin {
     margin-left: 120px;
 }
@@ -109,27 +109,40 @@ main span{
   background-color: white;
 }
 .container{
-  flex: 1 0 auto;
-  justify-content: center;
+  flex: 0 0 auto;
+  width: 70vw;
+  min-width: 500px;
+  justify-content: flex-start;
   align-items: center;
+}
+.container-right{
+  justify-content: flex-end;
 }
 .title{
-  flex-direction: row;
+  flex-direction: column;
   margin: 10px;
 }
-.text{
-  font-size: 23px;
-  margin: 6px 0 6px 0;
-  align-items: center;
-  display: flex;
-  width: 100%;
-}
+
 .textholder{
   flex: 0 0 auto;
   width: 70%;
+  margin-left: 8vw;
   flex-direction: column;
 }
+.textholder-right{
+  margin-right: 10vw;
+}
+.szolgaltatasok{
+    font-size: 17px;
+    margin: 6px 0 6px 50px;
+    align-items: center;
+    display: flex;
+    width: 100%;
 
+}
+.szolg{
+  margin-left: 20px;
+}
 .orange{
   background-color: orange;
 }
@@ -146,6 +159,7 @@ main span{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .centertextholder__header {
@@ -153,6 +167,7 @@ main span{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .centertextholder__header_hr {
@@ -171,7 +186,7 @@ main span{
 .line{
   margin-top: -2px;
   width: 100%;
-  border-color: gray;
+  border-color: orange;
 }
 .content{
   justify-content: center;
@@ -190,14 +205,18 @@ main span{
   height: inherit;
 }
 .img .image{
-  height: 15vh;
+  height: 120px;
   border-radius: 50%;
 }
 .img{
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-right: 120px;
 }
+.szolgaltatasok > .dot-holder{
+  height: 8px!important;
+  width: 8px!important;
+}
+
 footer {
   z-index: 2;
   min-height: 100px;
@@ -215,13 +234,16 @@ footer {
   width: 100vw;
   position: fixed;
   background: red;
-  background: url("../img/dent.jpg");
+  background: url("../img/stockphoto.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 
 }
 
 .image_back {
   z-index: 0;
-  height: 45vh;
+  height: 60vh;
   width: 100vw;
 }
 
@@ -254,6 +276,15 @@ footer {
   display: flex;
   width: 90%;
 }
+.text{
+  font-size: 23px;
+  margin: 6px 0 6px 0px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+
+  text-transform: uppercase;
+}
 .dot-holder{
   flex: 0 0 auto;
   height: 12px;
@@ -265,7 +296,6 @@ footer {
   width: inherit;
   height: inherit;
   color: black!important;
-  text-transform: uppercase;
 }
 .cont, .carousel{
   width: 100%;
