@@ -222,10 +222,11 @@ footer {
   z-index: 2;
   min-height: 100px;
   width: 100vw;
-  background-color: rgba(143, 140, 140, 0.99);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  box-shadow: 10px 10px 5px black;
 }
 
 .back_image_holder {

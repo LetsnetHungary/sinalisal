@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" type ="text/css" href ="includes/css/fooldal.css">
   <link rel="stylesheet" type ="text/css" href ="includes/css/header.css">
+  <link rel="stylesheet" type="text/css" href="includes/css/footer.css">
     <title>Főoldal</title>
   </head>
   <body>
