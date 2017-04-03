@@ -164,7 +164,9 @@
         <div class="title">
           <p class="container__header">Rólunk</p>
           <hr class="line">
-          <p>Cégünk 1991-ben alakult, már több mint 26 éve fogászati implantátumok,  protetikai tartozékok, és csontpótló anyagok forgalmazásával foglalkozunk,  mellyel hozzájárulhattunk több tízezer ember boldog mosolyához.  A Sinalisal Kft. az amerikai ImplantDirect implantátumrendszerek kizárólagos    magyarországi forgalmazója. Az ImplantDirect termékeket világszerte több mint  40 országban kiváló eredménnyel használják.  Az amerikai cég a világ egyik leginnovatívabb gyártójaként lépést tart az  implantológusok és a páciensek növekvő elvárásaival is, hogy a fogpótlások  mielőbb funkcióképesek és természethűen esztétikusak és maradandóak legyenek.</p>
+          <p>Cégünk 1991-ben alakult, már több mint 26 éve fogászati implantátumok,  protetikai tartozékok, és csontpótló anyagok forgalmazásával foglalkozunk,  mellyel hozzájárulhattunk több tízezer ember boldog mosolyához.</p>
+          <p>  A Sinalisal Kft. az amerikai ImplantDirect implantátumrendszerek kizárólagos    magyarországi forgalmazója. Az ImplantDirect termékeket világszerte több mint  40 országban kiváló eredménnyel használják.  </p>
+          <p>Az amerikai cég a világ egyik leginnovatívabb gyártójaként lépést tart az  implantológusok és a páciensek növekvő elvárásaival is, hogy a fogpótlások  mielőbb funkcióképesek és természethűen esztétikusak és maradandóak legyenek.</p>
           </div>
       </div>
     </div>
@@ -203,7 +205,8 @@
               <div class="title">
                 <p class="container__header  ">Garancia és biztonság</p>
                 <hr class="line">
-                <p>Valamennyi termékünkre az Európai Unió szabályozásával megegyező mértékű, maximális időtartamú garanciát nyújtunk. Legfontosabb célkitűzésünk, hogy a beavatkozás és kezelés a páciens számára a lehető legkisebb fizikai és anyagi megterheléssel járjon.</p>
+                <p>Valamennyi termékünkre az Európai Unió szabályozásával megegyező mértékű, maximális időtartamú garanciát nyújtunk.</p>
+                <p> Legfontosabb célkitűzésünk, hogy a beavatkozás és kezelés a páciens számára a lehető legkisebb fizikai és anyagi megterheléssel járjon.</p>
               </div>
             </div>
           </div>
