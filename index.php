@@ -193,7 +193,11 @@
             <div class="title">
                 <p class="container__header ">ImplantDirect implantátumok</p>
                 <hr class="line">
-                <p>A rendkívül széles implantátumrendszer választék garantálja, hogy az implantológus minden beavatkozáshoz kompromisszumoktól mentes, tökéletes megoldást találjon. Az ImplantDirect implantátumok kónikus felépítése, speciális menetkiképzése és legmagasabb minőségű felületkezelése biztosítja a könnyű és biztonságos behelyezést és tartósságot.</p>
+                <p>A rendkívül széles implantátumrendszer választék garantálja, hogy az implantológus minden beavatkozáshoz kompromisszumoktól mentes, tökéletes megoldást találjon.
+                </p>
+                <p>
+                  Az ImplantDirect implantátumok kónikus felépítése, speciális menetkiképzése és legmagasabb minőségű felületkezelése biztosítja a könnyű és biztonságos behelyezést és tartósságot.
+                </p>
             </div>
             </div>
           </div>
