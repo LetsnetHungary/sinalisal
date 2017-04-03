@@ -39,6 +39,9 @@ main span{
   line-height: 25px;
   font-weight: lighter;
 }
+.right-side{
+  flex: 2 0 auto;
+}
 .left-side, .right-side{
   height: 90vh;
   align-items: center;
@@ -47,18 +50,33 @@ main span{
 .container{
   flex: 0 0 auto;
   height: 80%;
-  width: 80%;
   flex-direction: column;
 }
 
-.data{
+.data-holder{
   flex-direction: column;
   justify-content: center;
   margin-left: 40px;
 }
+.data{
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  flex: 0 0 auto;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.icon img{
+  flex: 0 0 auto;
+  max-width: 70%;
+  max-height: 70%;
+}
 iframe{
-  width: 800px;
-  height: 555px;
+  width: 90%;
+  height: 90%;
   border-radius: 10px;
 }
 

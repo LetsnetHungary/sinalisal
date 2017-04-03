@@ -14,20 +14,34 @@
       <div class="left-side">
         <div class="container">
           <div class="telefon data">
-            <p class="h2">Telefon</p>
-            <span>+36 1/316 9912</span>
+            <div class="icon">
+              <img src="includes/img/phone-icon.png" alt="">
+            </div>
+            <div class="data-holder">
+              <p class="h2">Telefon</p>
+              <span>+36 1/316 9912</span>
+              <span>+36-1/316-1032</span>
+            </div>
           </div>
           <div class="cim data">
+            <div class="icon">
+              <img src="includes/img/location-icon.png" alt="">
+            </div>
+            <div class="data-holder">
               <p class="h2">Cím</p>
               <span>1025 Budapest, Berkenye u. 8/b</span>
+            </div>
           </div>
           <div class="email data">
-              <p class="h2">Email</p>
-              <span>sinalisal@sinalisal.hu</span>
+            <div class="icon">
+              <img src="includes/img/email-icon.png" alt="">
+            </div>
+            <div class="data-holder">
+                <p class="h2">Email</p>
+                <span>sinalisal@sinalisal.hu</span>
+            </div>
           </div>
-          <div class="fax data">
-              <p class="h2">Fax</p>
-              <span>+36 1/316 1032</span>
+
           </div>
         </div>
       </div>

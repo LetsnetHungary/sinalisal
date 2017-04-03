@@ -287,6 +287,10 @@ footer {
 .carousel-control:focus{
   opacity: .5;
 }
+.carousel-control{
+  transition: opacity ease-in-out .15s;
+  -webkit-transition: opacity ease-in-out .15s;
+}
 .carousel-control:hover{
   opacity: .9;
 }
