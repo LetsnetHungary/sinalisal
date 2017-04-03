@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
-  color: white;
+  color: rgb(33, 33, 33);
 }
 .Space{
   display: flex;
@@ -17,19 +17,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between  ;
-  margin-bottom: 10vh;
-  background-color: rgba(1, 1, 1, 0.32);
-
+  justify-content: space-between;
   width: 100vw;
 }
 
 .Bottomlogo{
   display: flex;
-  margin: 0px 30px;
-  max-width: 200px;
   margin-left: 60px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
@@ -41,16 +36,16 @@
   font-weight: bold;
   font-style: Times;
   padding: 10px 30px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  color: white!important;
+  border-right: 2px solid orange;
+  color: rgb(33, 33, 33);
+  transition: color ease-in-out .15s;
 }
 
 .Menu:hover{
-  background-color: orange;
-  color: white;
-  transition: color ease-in-out .15s;
-  transition: background ease-in-out .15s;
+  /*background-color: orange;*/
+  color: orange;
+  /*transition: color ease-in-out .15s;*/
+  /*transition: background ease-in-out .15s;*/
   box-sizing: border-box;
 }
 
@@ -62,8 +57,14 @@
 .Mainheader{
   display: flex;
   flex-direction: row;
-  margin-right: 30px;
+  justify-content: flex-end;
+  margin-right: 90px;
 }
 .Logo{
   margin-left: 60px;
+}
+
+.mainlogo {
+  margin-top: 10px;
+  width: 300px;
 }

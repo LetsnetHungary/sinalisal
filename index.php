@@ -3,117 +3,299 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link rel="stylesheet" type ="text/css" href ="includes/css/fooldal.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type ="text/css" href ="includes/css/fooldal.css">
+  <link rel="stylesheet" type ="text/css" href ="includes/css/header.css">
     <title>Főoldal</title>
   </head>
   <body>
-  <?php require("includes/views/header.php");?>
     <main>
+      <header>
+        <?php require("includes/views/header.php");?>
+      </header>
+      <div class = "back_image_holder">
+
+      </div>
       <div class="front-pic">
         <div class="left-side">
           <div class="layer-container">
             <div class="layer">
-                <span>hatrya szövege</span>
+            <style>
+
+            </style>
+              <div class="cont">
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="carousel-text">
+                          <div class="dot-holder orange">
+                          </div>
+                          <div class="text-holder">
+                              Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="carousel-text">
+                          <div class="dot-holder blue">
+                          </div>
+                          <div class="text-holder">
+                              99.7%-os sikerességi arány
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="carousel-text">
+                          <div class="dot-holder green">
+                          </div>
+                          <div class="text-holder">
+                              Egyedülállóan széleskörű protetikai választék
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="carousel-text">
+                          <div class="dot-holder purple">
+                          </div>
+                          <div class="text-holder">
+                              Kimagasló ár-érték arány
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="right-side">
+          <img src="includes/img/idlogo.png" alt="">
         </div>
       </div>
+
+
+
       <div class="big-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-                <p class="h2">Nyitvatartás</p>
+        <div class="img-container">
+          <div class="img">
+          </div>
+        </div>
+      <div class="container container-right">
+        <div class="textholder textholder-right">
+          <div class="text">
+            <div class="dot-holder orange">
             </div>
+            <div class="text-holder">
+                Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder blue">
+            </div>
+            <div class="text-holder">
+                99.7%-os sikerességi arány
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder green">
+            </div>
+            <div class="text-holder">
+                Egyedülállóan széleskörű protetikai választék
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder purple">
+            </div>
+            <div class="text-holder">
+                Kimagasló ár-érték arány
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<div style="background-color: white; z-index: 2;">
+  <div class="big-container gray-container">
+    <div class="container">
+      <div class="textholder">
+        <div class="title">
+          <p class="container__header">Rólunk</p>
+          <hr class="line">
+          <p>Cégünk 1991-ben alakult, már több mint 26 éve fogászati implantátumok,  protetikai tartozékok, és csontpótló anyagok forgalmazásával foglalkozunk,  mellyel hozzájárulhattunk több tízezer ember boldog mosolyához.  A Sinalisal Kft. az amerikai ImplantDirect implantátumrendszerek kizárólagos    magyarországi forgalmazója. Az ImplantDirect termékeket világszerte több mint  40 országban kiváló eredménnyel használják.  Az amerikai cég a világ egyik leginnovatívabb gyártójaként lépést tart az  implantológusok és a páciensek növekvő elvárásaival is, hogy a fogpótlások  mielőbb funkcióképesek és természethűen esztétikusak és maradandóak legyenek.</p>
+          </div>
+      </div>
+    </div>
+    <div class="img-container">
+      <div class="img">
+        <img src="includes/img/clock.jpg" alt="" class="clock image">
+      </div>
+    </div>
+  </div>
+</div>
 
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
-                  Fogászati implantátum szaküzletünk Budapest II.
-                  kerületében (Rózsadomb) a Berkenye utca 8/b szám
-                  alatt található. Hétköznapokon 9-16 óráig (pénteken
-                  15 óráig). Amennyiben ettől eltérő időpontban szeretne
-                  fogászati implantátumot, felépítményt vagy csontpótló
-                  anyagot vásárolni, úgy azt előzetes telefonon
-                  történő egyeztetést követően szinte bármikor
-                  megteheti.
-              </span>
-            </div>
-            </div>
-          </div>
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/clock.jpg" alt="" class="clock image">
-          </div>
-        </div>
-      </div>
-      <div class="big-container gray-container">
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/gyalog.jpg" alt="" class="gyalog image">
-          </div>
-        </div>
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-                <p class="h2">Megközelítés gyalogosan</p>
-            </div>
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
-                  Nyugati pályaudvartól induló (Margit-híd pesti és budai hídfőjénél is megálló) 91, 191, 291-es buszjáratok bármelyikével a Vérhalom (Mandula) utcánál leszállva 3 perces sétával érheti el üzletünket, vagy a Batthyány térről induló 11, 111 járatokról az Eszter utcánál leszállva szintén 3 perc alatt juthat el üzletünkhöz.
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
       <div class="big-container">
-        <div class="container">
-          <div class="textholder">
-            <div class="title">
-                <p class="h2">Hogyan döntsem el, melyik implantátumrendszert válasszam?</p>
-            </div>
-            <hr color="gray" class="line" size="1px">
-            <div class="content">
-              <span>
 
-                Magyarországon minden évben újabb és újabb implantátumcsaládok jelennek meg a piacon, ami nagyon örvendetes a vásárlók szempontjából, hiszen egyre nagyobb a választék. Ugyanakkor egyre nehezebb is a döntés: vajon melyik rendszert válasszam? Hiszen mindenki tudja, hogy különbség van implantátum és implantátum között: tulajdonságaiban, felépítményeiben és persze az árban.
-              </span>
-            </div>
-            </div>
-          </div>
-
-        <div class="img-container">
-          <div class="img">
-            <img src="includes/img/valassz.jpg" alt="" class="clock image">
-          </div>
-        </div>
-      </div>
-      <div class="big-container gray-container">
         <div class="img-container">
           <div class="img">
             <img src="includes/img/penz.jpg" alt="" class="clock image">
           </div>
         </div>
-        <div class="container">
-          <div class="textholder">
+        <div class="container container-right">
+          <div class="textholder textholder-right">
             <div class="title">
-                <p class="h2">De tényleg az ár a legfontosabb?</p>
-            </div>
-            <hr class="line" size="1px">
-            <div class="content">
-              <span>
-                Sokan elsősorban ezt tartják elsődlegesen szem előtt, és kevésbé foglalkoznak azzal, hogy mit is vesznek valójában..
-                Mi úgy gondoljuk, hogy a megbízható minőség, precizitás, bizonyítottan egészségre ártalmatlan anyag összetétel, pontos és kedves kiszolgálás, valamint a több, mint 20 éves piaci jelenlét az, amely garantálja, hogy az általunk forgalmazott implantátumokkal nemcsak a fogorvosok, de a páciensek is elégedettek lesznek hosszútávon is.
-              </span>
+                <p class="container__header ">ImplantDirect implantátumok</p>
+                <hr class="line">
+                <p>A rendkívül széles implantátumrendszer választék garantálja, hogy az implantológus minden beavatkozáshoz kompromisszumoktól mentes, tökéletes megoldást találjon. Az ImplantDirect implantátumok kónikus felépítése, speciális menetkiképzése és legmagasabb minőségű felületkezelése biztosítja a könnyű és biztonságos behelyezést és tartósságot.</p>
             </div>
             </div>
           </div>
+      </div>
+
+      <div style="background-color: white; z-index: 2;">
+        <div class="big-container gray-container">
+          <div class="container">
+            <div class="textholder">
+              <div class="title">
+                <p class="container__header  ">Garancia és biztonság</p>
+                <hr class="line">
+                <p>Valamennyi termékünkre az Európai Unió szabályozásával megegyező mértékű, maximális időtartamú garanciát nyújtunk. Legfontosabb célkitűzésünk, hogy a beavatkozás és kezelés a páciens számára a lehető legkisebb fizikai és anyagi megterheléssel járjon.</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-container">
+            <div class="img">
+              <img src="includes/img/clock.jpg" alt="" class="clock image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="big-container">
+
+        <div class="img-container">
+          <div class="img">
+            <img src="includes/img/penz.jpg" alt="" class="clock image">
+          </div>
+        </div>
+        <div class="container container-right">
+          <div class="textholder textholder-right">
+            <div class="title">
+                <p class="container__header ">Kompatibilitás</p>
+                <hr class="line">
+                <p>Tökéletes kompatibilitás – Zimmer Dental, Nobel Biocare és Straumann rendszerekkel. Részleges kompatibilitás: BioHorisons, AlphaBio rendszerekkel.</p>
+            </div>
+            </div>
+          </div>
+      </div>
+      <div class = "image_back">
 
       </div>
+      <div class="big-container">
+        <div class="container">
+          <div class = "centertextholder">
+            <div class = "centertextholder__header">
+              <p class = "container__header">Szolgáltatásaink</p>
+              <hr class = "centertextholder__header_hr">
+              <div class="title">
+                <p>Rendszeresen szervezünk akkreditált imlantológiai alap- és továbbképzéseket, igény szerint személyre szabott szakmai tanácsadással, konzultációval.</p>
+
+                <p>Leggyakoribb témáink:</p>
+                <div class="szolgaltatasok">
+                    <div class="dot-holder orange">
+                    </div>
+                    <div class="szolg">
+                      Fogászati implantációs alapismeretek sebészeti és protetikai szempontból
+                    </div>
+               </div>
+               <div class="szolgaltatasok">
+                   <div class="dot-holder orange">
+                   </div>
+                   <div class="szolg">
+                     Csont management, a lágyrész-plasztika szájsebészeti lehetőségei
+                   </div>
+              </div>
+              <div class="szolgaltatasok">
+                  <div class="dot-holder orange">
+                  </div>
+                  <div class="szolg">
+                    Rendszerismertető tréning Implant Direct implantátumokkal
+                  </div>
+             </div>
+             <div class="szolgaltatasok">
+                 <div class="dot-holder orange">
+                 </div>
+                 <div class="szolg">
+                   Extractiót követő azonnali implantáció
+                 </div>
+            </div>
+            <div class="szolgaltatasok">
+                <div class="dot-holder orange">
+                </div>
+                <div class="szolg">
+                  Konzultációs lehetőség Implant Direct rendszerrel kapcsolatban / rendszerfüggetlenül
+                </div>
+           </div>
+           <div class="szolgaltatasok">
+               <div class="dot-holder orange">
+               </div>
+               <div class="szolg">
+                 Regeneratív fogágy műtétek
+               </div>
+          </div>
+              </div>
+            </div>
+          </div>
+          </div>
+      </div>
+
     </main>
-    <?php require("includes/views/footer.php");?>
+    <footer>
+      <?php require("includes/views/footer.php");?>
+    </footer>
+
   </body>
 </html>

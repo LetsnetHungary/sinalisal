@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="includes/css/header.css">
-    <title></title>
 
-  </head>
-  <body>
 
     <div class = "Main">
-
+<!--
       <div class="Space">
 
         <a class="Atag" href="">
@@ -18,39 +10,32 @@
           </div>
         </a>
 
-      </div>
+      </div>-->
 
       <div class="Header">
 
         <div class="Bottomlogo">
-          <a href="">BottomLogo</a>
+          <a href=""><img class="mainlogo" src="includes/img/logo.jpg" alt=""></a>
         </div>
 
-        <a class="Atag" href="">
+
 
         <div class="Mainheader">
-
-
+          <a class="Atag" href="/index.php">
             <div class="Menu">
-              Menu1
+              Főoldal
             </div>
           </a>
 
-          <a class="Atag" href="">
+          <a class="Atag" href="/catalog.php">
             <div class="Menu">
-              Menu2
+              Implantátumok
             </div>
           </a>
 
-          <a class="Atag" href="">
+          <a class="Atag" href="/kapcsolatok.php">
             <div class="Menu">
-              Menu3
-            </div>
-          </a>
-
-          <a class="Atag" href="">
-            <div class="Menu">
-              Menu4
+              Kapcsolat
             </div>
           </a>
       </div>

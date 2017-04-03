@@ -4,13 +4,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 header{
-  height: 100px;
+  height: 15vh;
   width: 100%;
   box-sizing: border-box;
-  border: solid 1px blue;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  z-index: 2;
 }
 main div{
   display: flex;
@@ -19,19 +20,20 @@ main div{
   box-sizing: border-box;
 }
 main{
-  height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: rgb(250,245,255);
 }
-.h2{
+.title p {
+  font-size: 18px;
+}
+.container__header{
   color: #FF9900;
-  font-size: 38px;
-  font-weight: lighter;
-  line-height: 35px;
-  margin: 0 0 0 0;
+  font-size: 35px!important;
   text-align: left;
+}
+.margin {
+    margin-left: 120px;
 }
 main span{
   color: rgba(0,0,0,.7);
@@ -40,21 +42,29 @@ main span{
   font-weight: lighter;
 }
 .front-pic{
-  background: url("../img/dent.jpg");
+  z-index:2;
+  background: url("../img/stockphoto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 100px);
+  height: 85vh;
   width: 100%;
 }
 .right-side{
   flex: 3 1 auto;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.right-side img{
+  height: 120px;
 }
 .left-side{
   flex: 2 0 auto;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .layer-container{
   height: 80%;
   width: 80%;
@@ -63,40 +73,111 @@ main span{
   align-items: center;
 }
 .layer{
-  height: 100%;
+  flex: 0 0 auto;
+  height: 160px;
   justify-content: center;
   align-items: center;
-  background: rgba(0,0,0,.15);
+  background: rgba(255,255,255,.85);
   border-radius: 5px;
+  min-width: 270px;
+  box-shadow: inset 0 0 10px rgba(170,170,170,.3);
+  border: 1px solid rgba(190,190,190, .5);
 }
-.layer span{
-  display: flex;
-  max-width: 100%;
+.layer-text-container{
+  flex-direction: column;
+  flex: 0 0 auto;
+  height: 100%;
+  width: 70%;
+  justify-content: center;
 }
+.layer-text{
+  flex: 0 0 auto;
+  align-items: center;
+  font-size: 22px;
+  color: rgba(20,20,20,.8);
+  letter-spacing: .5px;
+  line-height: 24px;
+  font-weight: bold;
+  margin: 7% 0 7% 0;
+}
+
 .big-container{
-  min-height: 400px;
+  z-index: 2;
+  min-height: 70px;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
+  background-color: white;
 }
 .container{
-  margin: 5% 0 5% 0;
-    flex: 1 0 auto;
-    justify-content: center;
-    align-items: center;
-}
-.textholder{
   flex: 0 0 auto;
-  width: 40vw;
-  flex-direction: column;
+  width: 70vw;
+  min-width: 500px;
+  justify-content: flex-start;
+  align-items: center;
 }
-.textholder div{
-  margin: 10px 0 10px 0;
+.container-right{
+  justify-content: flex-end;
 }
 .title{
-  justify-content: flex-start;
-  align-items: flex-end;
-  overflow: visible;
+  flex-direction: column;
+  margin: 10px;
 }
+
+.textholder{
+  flex: 0 0 auto;
+  width: 70%;
+  margin-left: 8vw;
+  flex-direction: column;
+}
+.textholder-right{
+  margin-right: 10vw;
+}
+.szolgaltatasok{
+    font-size: 17px;
+    margin: 6px 0 6px 50px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+
+}
+.szolg{
+  margin-left: 20px;
+}
+.orange{
+  background-color: orange;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+}
+.purple{
+  background-color: purple;
+}
+.centertextholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.centertextholder__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.centertextholder__header_hr {
+  background: orange;
+  border: none;
+  width: 40%;
+  height: 1px;
+}
+
 .line-holder{
   text-align: center;
   overflow: visible;
@@ -106,14 +187,14 @@ main span{
 .line{
   margin-top: -2px;
   width: 100%;
-  border-color: gray;
+  border-color: orange;
 }
 .content{
   justify-content: center;
   align-items: center;
 }
 .gray-container{
-  background-color: rgb(220,220,220);
+  background-color: rgba(94, 76, 0, 0.161)
 }
 .img-container{
   height: inherit;
@@ -125,17 +206,123 @@ main span{
   height: inherit;
 }
 .img .image{
-  height: 30vh;
+  height: 120px;
   border-radius: 50%;
 }
 .img{
   justify-content: center;
   align-items: center;
 }
-footer{
-  min-height: 300px;
-  background: rgba(0,0,0,.8);
+.szolgaltatasok > .dot-holder{
+  height: 8px!important;
+  width: 8px!important;
+}
+
+footer {
+  z-index: 2;
+  min-height: 100px;
+  width: 100vw;
+  background-color: rgba(143, 140, 140, 0.99);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.back_image_holder {
+  z-index: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: red;
+  background: url("../img/stockphoto.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+
+.image_back {
+  z-index: 0;
+  height: 60vh;
+  width: 100vw;
+}
+
+/*CAROUSEL CSS*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    height: 200px;
+    opacity: 0;
+}
+.carousel-inner > .item {
+  vertical-align: middle;
+}
+.carousel-inner > .item > .carousel-caption{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  padding-top: 40px;
+  text-shadow: 0 0 0 white;
+}
+.carousel-inner{
+  height: 200px;
+  text-align: center;
+}
+.carousel-text{
+  font-size: 150%;
+  margin: 0px 0 6px 0;
+  align-items: center;
+  display: flex;
+  width: 90%;
+}
+.text{
+  font-size: 23px;
+  margin: 6px 0 6px 0px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+
+  text-transform: uppercase;
+}
+.dot-holder{
+  flex: 0 0 auto;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+.text-holder{
+  margin-left: 20px;
+  width: inherit;
+  height: inherit;
+  color: black!important;
+}
+.cont, .carousel{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.carousel > .right{
+  border-radius: 10px 0 0 10px;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
+}
+.carousel > .left{
+  border-radius: 0 10px 10px 0;
+  background-image: -webkit-linear-gradient(right,rgba(0,0,0,0) 0,rgba(0,0,0,0.1) 100%);
+}
+.carousel-indicators > li{
+  opacity: 0;
+  cursor: default;
+}
+.carousel-control:focus{
+  opacity: .5;
+}
+.carousel-control{
+  transition: opacity ease-in-out .15s;
+  -webkit-transition: opacity ease-in-out .15s;
+}
+.carousel-control:hover{
+  opacity: .9;
 }
