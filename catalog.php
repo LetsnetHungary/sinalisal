@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="includes/css/header.css">
     <link rel="stylesheet" href="includes/css/catalog.css">
     <link rel="stylesheet" href="includes/css/sidebar.css">
+      <link rel="stylesheet" href="includes/css/footer.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <title></title>
   </head>

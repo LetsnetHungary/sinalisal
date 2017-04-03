@@ -218,16 +218,7 @@ main span{
   width: 8px!important;
 }
 
-footer {
-  z-index: 2;
-  min-height: 100px;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  box-shadow: 10px 10px 5px black;
-}
+
 
 .back_image_holder {
   z-index: 0;
