@@ -14,6 +14,8 @@
   width:80%;
   background-color: white;
   display: flex;
+  border-bottom: 1px solid orange;
+  border-top: 1px solid orange;
 }
 
 .inside-container {
@@ -53,5 +55,10 @@
 }
 
 .sidebar-items:hover{
-  color: orange;
+  color: white;
+  background-color: orange;
+}
+
+.sidebar-section{
+  margin-bottom: 10px;
 }
