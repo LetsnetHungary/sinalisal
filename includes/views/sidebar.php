@@ -4,6 +4,8 @@
       <p class="sidebar-p">A listás elemek</p>
     </div>
 
+      <hr class="sidebar-hr">
+
         <div class="list-container">
           <div class="inside-container">
             <a class="sidebar-items" href="#"><span>probalink</span></a>
@@ -17,6 +19,8 @@
       <div class="p-container">
         <p class="sidebar-p">B listás elemek</p>
       </div>
+
+      <hr class="sidebar-hr">
 
         <div class="list-container">
           <div class="inside-container">

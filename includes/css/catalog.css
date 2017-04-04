@@ -21,6 +21,7 @@ header{
 .sidebar-place{
   flex: 2;
   background-color: white;
+  margin: 0;
 }
 
 .main-flex{
@@ -76,10 +77,12 @@ header{
 .hr1{
   width: 90%;
   margin-left: 30px;
+  border-color: orange;
 }
 .hr2{
   width: 90%;
   margin-left: 30px;
+  border-color: orange;
 }
 .catalog-title-p{
   padding-right: 90px;

@@ -14,8 +14,8 @@
   width:80%;
   background-color: white;
   display: flex;
-  border-bottom: 1px solid orange;
-  border-top: 1px solid orange;
+/*  border-bottom: 1px solid orange;
+  border-top: 1px solid orange; */
 }
 
 .inside-container {
@@ -25,10 +25,10 @@
 }
 
 .sidebar-p {
-  font-size: 25px;
+  margin: 0;
+  font-size: 20px;
   color: 	#FF9900;
   letter-spacing: 2px;
-  margin-left: 0;
   font-weight: bold;
   display: flex;
   font-family: 'Roboto', sans-serif;
@@ -47,7 +47,7 @@
   padding: 10px 0;
   padding-left: 8px;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   letter-spacing: 0.8px;
   text-decoration: none;
@@ -60,4 +60,10 @@
 
 .sidebar-section{
   margin-bottom: 10px;
+}
+
+.sidebar-hr {
+  border-color: orange;
+  width: 75%;
+  float: left;
 }
