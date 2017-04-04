@@ -28,7 +28,7 @@
   font-size: 25px;
   color: 	#FF9900;
   letter-spacing: 2px;
-  margin-left: 30px;
+  margin-left: 0;
   font-weight: bold;
   display: flex;
   font-family: 'Roboto', sans-serif;
@@ -55,8 +55,7 @@
 }
 
 .sidebar-items:hover{
-  color: white;
-  background-color: orange;
+  color: orange;
 }
 
 .sidebar-section{
