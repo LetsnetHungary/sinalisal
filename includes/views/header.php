@@ -34,7 +34,7 @@
           </a>
 
           <a class="Atag" href="/kapcsolatok.php">
-            <div class="Menu">
+            <div class="Menu rightmenu">
               Kapcsolat
             </div>
           </a>

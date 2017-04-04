@@ -41,6 +41,9 @@
   transition: color ease-in-out .15s;
 }
 
+.rightmenu {
+  border-right: 0!important;
+}
 .Menu:hover{
   /*background-color: orange;*/
   color: orange;
