@@ -25,7 +25,7 @@ main{
   background-color: rgb(250,245,255);
 }
 .title p {
-  font-size: 18px;
+  font-size: 20px;
 }
 .container__header{
   color: #FF9900;
@@ -111,10 +111,11 @@ main span{
 }
 .container{
   flex: 0 0 auto;
-  width: 70vw;
+  width: 65vw;
   min-width: 500px;
   justify-content: flex-start;
   align-items: center;
+  padding: 0;
 }
 .container-right{
   justify-content: flex-end;
@@ -126,7 +127,7 @@ main span{
 
 .textholder{
   flex: 0 0 auto;
-  width: 70%;
+  width: calc(90% - 8vw);
   margin-left: 8vw;
   flex-direction: column;
 }
@@ -134,12 +135,16 @@ main span{
   margin-right: 10vw;
 }
 .szolgaltatasok{
-    font-size: 17px;
+    font-size: 19px;
     margin: 6px 0 6px 50px;
     align-items: center;
     display: flex;
     width: 100%;
 
+}
+/*.clock{
+  max-width: 24vw;
+  border-radius: 10px;*/
 }
 .szolg{
   margin-left: 20px;
@@ -198,6 +203,8 @@ main span{
 }
 .img-container{
   height: inherit;
+  justify-content: center;
+  align-items: center;
 }
 .profpic{
   margin-right: 50px;
@@ -210,6 +217,7 @@ main span{
   border-radius: 50%;
 }
 .img{
+  flex: 0 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -218,7 +226,15 @@ main span{
   width: 8px!important;
 }
 
-
+footer {
+  z-index: 2;
+  min-height: 100px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .back_image_holder {
   z-index: 0;
