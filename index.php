@@ -121,12 +121,9 @@
 
 
       <div class="big-container">
-        <div class="img-container">
-          <div class="img">
-          </div>
-        </div>
-      <div class="container container-right">
-        <div class="textholder textholder-right">
+
+      <div class="container ">
+        <div id="first-anim" class="textholder ">
           <div class="text">
             <div class="dot-holder orange">
             </div>
@@ -155,6 +152,27 @@
                 Kimagasló ár-érték arány
             </div>
           </div>
+        </div>
+        <script>
+          jQuery(window).scroll(function() {
+            var vscroll = jQuery(this).scrollTop();
+            var first_anim_vscroll = jQuery(this).scrollTop();
+            var window_width = window.innerWidth;
+            var div_width = document.getElementById("first-anim").offsetWidth;
+
+            console.log(vscroll);
+
+            if (vscroll > 180 && 2*(vscroll-180) < (((window_width)-(div_width))-180)) {
+              jQuery('#first-anim').css({
+                "transform" : "translate("+(vscroll-180)*2+"px, 0px)"
+              });
+            }
+          });
+        </script>
+
+      </div>
+      <div class="img-container">
+        <div class="img">
         </div>
       </div>
 </div>
