@@ -140,12 +140,8 @@ main span{
     align-items: center;
     display: flex;
     width: 100%;
+}
 
-}
-/*.clock{
-  max-width: 24vw;
-  border-radius: 10px;*/
-}
 .szolg{
   margin-left: 20px;
 }
