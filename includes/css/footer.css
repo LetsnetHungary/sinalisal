@@ -5,18 +5,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(212, 212, 212, 1);
   box-shadow: 10px 10px 5px black;
 }
+
 .footer__container{
   display: flex;
   align-items: baseline;
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
-  border-top: 1px solid black;
-
 }
+
 .footer{
   display: flex;
   padding: 50px;
@@ -24,24 +24,30 @@ footer {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .footer__header{
   font-size: 20px;
   color: #FF9900;
 }
+
 .footer__small a:hover{
     color: orange;
+    text-decoration: none;
 }
+
 .footer__small{
   color: black;
 }
+
 .footer__logo{
   margin: auto;
   max-width: 200px;
   height: auto;
 }
+
 .footer__main{
   display: flex;
-margin-left: 30px;
-width: 60%;
-justify-content: center
+  margin-left: 30px;
+  width: 60%;
+  justify-content: center
 }
