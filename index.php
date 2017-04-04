@@ -97,6 +97,19 @@
                       </div>
                     </div>
 
+                    <div class="item">
+                      <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                      <div class="carousel-caption">
+                        <div class="carousel-text">
+                          <div class="dot-holder gray">
+                          </div>
+                          <div class="text-holder">
+                              26 éve az implantátum piacon
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                   </div>
 
                   <!-- Left and right controls -->
@@ -150,6 +163,13 @@
             </div>
             <div class="text-holder">
                 Kimagasló ár-érték arány
+            </div>
+          </div>
+          <div class="text">
+            <div class="dot-holder gray">
+            </div>
+            <div class="text-holder">
+                26 éve az implantátum piacon
             </div>
           </div>
         </div>
