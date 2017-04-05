@@ -67,7 +67,7 @@
 
     </div>
         <div class="footer__logo">
-          <a href="#"><img class="footer__logo" src="includes/img/logo.jpg" alt=""></a>
+          <a href="#"><img class="footer__logo" src="includes/img/logo.png" alt=""></a>
         </div>
 
   </div>
