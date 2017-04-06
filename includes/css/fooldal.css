@@ -43,7 +43,7 @@ main span{
 }
 .front-pic{
   z-index:2;
-  background: url("../img/stockphoto.jpg");
+  background: url("../img/stockphoto2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -123,6 +123,7 @@ main span{
 .title{
   flex-direction: column;
   margin: 10px;
+  width: 100%
 }
 
 .textholder{
@@ -139,11 +140,12 @@ main span{
     margin: 6px 0 6px 50px;
     align-items: center;
     display: flex;
-    width: 100%;
+    width: calc(100% - 50px);
 }
 
 .szolg{
   margin-left: 20px;
+  width: calc(100% - 20px);
 }
 .orange{
   background-color: orange;
@@ -253,6 +255,12 @@ footer {
   z-index: 0;
   height: 60vh;
   width: 100vw;
+  justify-content: center;
+}
+
+.image_back > img{
+  max-width: 60%;
+  max-height: 60%;
 }
 
 /*CAROUSEL CSS*/
@@ -332,4 +340,15 @@ footer {
 }
 .carousel-control:hover{
   opacity: .9;
+}
+
+#anim-try{
+  animation: animation 1s;
+  -webkit-animation: animation 1s;
+  animation-play-state: paused;
+}
+
+@-webkit-keyframes animation {
+    from {margin-left: -100vw; margin-right: 100vw;}
+    to {margin-left: 0px; margin-right: 0;}
 }

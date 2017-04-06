@@ -198,7 +198,7 @@
 </div>
 <div style="background-color: white; z-index: 2;">
   <div class="big-container gray-container">
-    <div class="container">
+    <div id = "anim-try" class="container">
       <div class="textholder">
         <div class="title">
           <p class="container__header">Rólunk</p>
@@ -211,19 +211,34 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="includes/img/clock.jpg" alt="" class="clock image">
+        <img src="includes/img/icon1.png" alt="" class="clock image">
       </div>
     </div>
   </div>
 </div>
+          <script>
+            jQuery(window).scroll(function() {
+              var vscroll = jQuery(this).scrollTop();
+              var div_height = document.getElementById("first-anim").offsetHeight;
+              div_height += document.getElementById("anim-try").offsetHeight * 0.5;
 
+
+              console.log(div_height);
+              console.log(vscroll);
+              if (vscroll > div_height) {
+                jQuery('#anim-try').css({
+                  "animation-play-state" : "running"
+                });
+              }
+            });
+          </script>
 
 
       <div class="big-container">
 
         <div class="img-container">
           <div class="img">
-            <img src="includes/img/penz.jpg" alt="" class="clock image">
+            <img src="includes/img/icon2.png" alt="" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -255,7 +270,7 @@
           </div>
           <div class="img-container">
             <div class="img">
-              <img src="includes/img/clock.jpg" alt="" class="clock image">
+              <img src="includes/img/icon3.png" alt="" class="clock image">
             </div>
           </div>
         </div>
@@ -264,7 +279,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="includes/img/penz.jpg" alt="" class="clock image">
+            <img src="includes/img/icon4.png" alt="" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -278,7 +293,7 @@
           </div>
       </div>
       <div class = "image_back">
-
+        <img src="includes/img/logo.png"  alt="">
       </div>
       <div class="big-container">
         <div class="container">

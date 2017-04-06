@@ -15,7 +15,7 @@
       <div class="Header">
 
         <div class="Bottomlogo">
-          <a href=""><img class="mainlogo" src="includes/img/logo.jpg" alt=""></a>
+          <a href=""><img class="mainlogo" src="includes/img/logo.png" alt=""></a>
         </div>
 
 
