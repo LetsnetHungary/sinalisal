@@ -358,12 +358,27 @@ footer {
     display: none;
   }
 
+  .front-pic {
+    flex-direction: column-reverse;
+  }
+
+  .left-side {
+    flex: 1;
+  }
+
+  .right-side {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 615px) {
   .clock {
     display: none;
   }
 
-  .front-pic {
-  /*  display: none;*/
-  flex-direction: column;
+  .layer-container {
+    display: none;
   }
 }
