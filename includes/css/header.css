@@ -45,10 +45,7 @@
   border-right: 0!important;
 }
 .Menu:hover{
-  /*background-color: orange;*/
   color: orange;
-  /*transition: color ease-in-out .15s;*/
-  /*transition: background ease-in-out .15s;*/
   box-sizing: border-box;
 }
 
@@ -70,4 +67,39 @@
 .mainlogo {
   margin-top: 10px;
   width: 300px;
+}
+
+.mobile__header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mobile__logo{
+  height: 50px;
+}
+
+.mobile__mainmenu{
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile__menu{
+  display: flex;
+  margin: 3px 10px;
+  font-weight: bold;
+  color: orange;
+  border-radius: 2px;
+}
+@media screen and (max-width: 768px) {
+  .Main{
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .mobile__header{
+    display: none;
+  }
 }

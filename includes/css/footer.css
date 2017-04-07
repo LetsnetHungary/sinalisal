@@ -51,3 +51,36 @@ footer {
   width: 60%;
   justify-content: center
 }
+
+@media screen and (max-width: 768px) {
+  .footer__container{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile__footer{
+    display: none;
+  }
+}
+
+.mobile__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 90%;
+}
+
+.mobile__footermain{
+  margin: 3px 10px;
+}
+.mobile__footermainmenu{
+  font-size: 15px;
+}
+.mobile__footermenup{
+  font-size: 10px;
+}
+.mobile__footerlogo{
+  max-height: 100px;
+}

@@ -354,9 +354,6 @@ footer {
 }
 
 @media screen and (max-width: 862px) {
-  header {
-    display: none;
-  }
 
   .front-pic {
     flex-direction: column-reverse;

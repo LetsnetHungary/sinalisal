@@ -1,16 +1,7 @@
 
 
     <div class = "Main">
-<!--
-      <div class="Space">
 
-        <a class="Atag" href="">
-          <div class="Logo">
-          Logo
-          </div>
-        </a>
-
-      </div>-->
 
       <div class="Header">
 
@@ -40,12 +31,34 @@
           </a>
       </div>
     </div>
+  </div>
 
+  <div class="mobile__header">
+
+    <div class="mobile__logo">
+      <a href=""><img class="mobile__logo" src="includes/img/logo.png" alt=""></a>
     </div>
-    <script>
 
-    </script>
+    <nav class="mobile__mainmenu">
 
+      <a href="/index.php">
+        <div class="mobile__menu">
+          <p>Főoldal</p>
+        </div>
+      </a>
 
-  </body>
-</html>
+      <a href="/catalog.php">
+        <div class="mobile__menu">
+          <p>Implantátumok</p>
+        </div>
+      </a>
+
+      <a href="/kapcsolatok.php">
+        <div class="mobile__menu">
+          <p>Kapcsolat</p>
+        </div>
+      </a>
+
+    </nav>
+
+  </div>

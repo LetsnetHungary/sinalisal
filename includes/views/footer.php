@@ -71,4 +71,37 @@
         </div>
 
   </div>
+
+  <div class="mobile__footer">
+
+    <nav class="mobile__footermain">
+
+      <div class="mobile__footermenu">
+        <p class="mobile__footermainmenu" >Menük:</p>
+        <p class="mobile__footermenup" ><a href="#">Főoldal</a></p>
+        <p class="mobile__footermenup" ><a href="#">Implantátumok</a></p>
+        <p class="mobile__footermenup" ><a href="#">Kapcsolat</a></p>
+      </div>
+
+      <div class="mobile__footermenu">
+        <p class="mobile__footermainmenu" >Elérhetőségek:</p>
+        <p class="mobile__footermenup" ><a href="telto:06206969696">Telefon: 06 20 6969 696 </a></p>
+        <p class="mobile__footermenup" ><a href="email:info@sinalisal.hu ">Email: info@sinalisal.hu</a></p>
+        <p class="mobile__footermenup" ><a href="#">Fax: 69696969</a></p>
+      </div>
+
+      <div class="mobile__footermenu">
+        <p class="mobile__footermainmenu" >Jogi cucc:</p>
+        <p class="mobile__footermenup" ><a href="#">ÁSZF</a></p>
+        <p class="mobile__footermenup" ><a href="#">GYIK</a></p>
+      </div>
+
+    </nav>
+
+    <div class="mobile__footerlogo">
+      <a href="#"><img class="mobile__footerlogo" src="includes/img/logo.png" alt=""></a>
+
+    </div>
+
+  </div>
 </footer>
