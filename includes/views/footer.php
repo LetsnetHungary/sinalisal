@@ -13,21 +13,26 @@
 
       <div class="footer__small">
 
-        <p class=""><a href="#">Főoldal</a></p>
+        <p class=""><a href="/index.php">Főoldal</a></p>
       </div>
 
       <div class="footer__small">
 
-        <p><a href="#">Implantátumok</a></p>
+        <p><a href="/catalog.php">Implantátumok</a></p>
       </div>
 
       <div class="footer__small">
 
-        <p><a href="#">Kapcsolat</a></p>
+        <p><a href="#">Csontpótlók</a></p>
+
+      </div
+
+      <div class="footer__small">
+
+        <p><a href="/kapcsolatok.php">Kapcsolat</a></p>
 
       </div>
 
-    </div>
 
     <div class="footer">
 
@@ -65,12 +70,13 @@
 
       </div>
 
-    </div>
+
         <div class="footer__logo">
           <a href="#"><img class="footer__logo" src="includes/img/logo.png" alt=""></a>
         </div>
 
   </div>
+</div>
 
   <div class="mobile__footer">
 
@@ -78,9 +84,10 @@
 
       <div class="mobile__footermenu">
         <p class="mobile__footermainmenu" >Menük:</p>
-        <p class="mobile__footermenup" ><a href="#">Főoldal</a></p>
-        <p class="mobile__footermenup" ><a href="#">Implantátumok</a></p>
-        <p class="mobile__footermenup" ><a href="#">Kapcsolat</a></p>
+        <p class="mobile__footermenup" ><a href="/index.php">Főoldal</a></p>
+        <p class="mobile__footermenup" ><a href="/catalog.php">Implantátumok</a></p>
+        <p class="mobile__footermenup" ><a href="#">Csontpótlók</a></p>
+        <p class="mobile__footermenup" ><a href="/kapcsolatok.php">Kapcsolat</a></p>
       </div>
 
       <div class="mobile__footermenu">
