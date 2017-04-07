@@ -4,9 +4,10 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
-    <link rel="stylesheet" type ="text/css" href ="includes/css/kapcsolatok.css">
+
       <link rel="stylesheet" href="includes/css/footer.css">
       <link rel="stylesheet" href="includes/css/header.css">
+          <link rel="stylesheet" type ="text/css" href ="includes/css/kapcsolatok.css">
     <title>Főoldal</title>
   </head>
   <body>

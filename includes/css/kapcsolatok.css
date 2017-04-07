@@ -79,3 +79,39 @@ iframe{
   height: 90%;
   border-radius: 10px;
 }
+
+@media screen and (max-device-width: 862px) {
+    header{
+      display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .container{
+      height: 60%;
+    }
+    .left-side{
+      height: 30vh;
+    }
+    .right-side{
+      height: 30vh;
+    }
+}
+
+@media screen and (max-width: 862px) {
+    header{
+      display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .container{
+      height: 60%;
+    }
+    .left-side{
+      height: 30vh;
+    }
+    .right-side{
+      height: 30vh;
+    }
+}
