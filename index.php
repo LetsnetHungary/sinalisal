@@ -133,13 +133,10 @@
 
 
 
-    <div class="big-container">
-      <div class="img-container">
-        <div class="img">
-        </div>
-      </div>
-      <div class="container container-right">
-        <div id="first-anim" class="textholder textholder-right">
+      <div class="big-container">
+
+      <div class="container ">
+        <div id="first-anim" class="textholder ">
           <div class="text">
             <div class="dot-holder orange">
             </div>
@@ -179,21 +176,25 @@
         <script>
           jQuery(window).scroll(function() {
             var vscroll = jQuery(this).scrollTop();
-            var div_height = document.getElementById("first-anim").offsetHeight * 0.2;
+            var first_anim_vscroll = jQuery(this).scrollTop();
+            var window_width = window.innerWidth;
+            var div_width = document.getElementById("first-anim").offsetWidth;
 
-
-            console.log(div_height);
             console.log(vscroll);
-            if (vscroll > div_height) {
+
+            if (vscroll > 180 && 2*(vscroll-180) < (((window_width)-(div_width))-180)) {
               jQuery('#first-anim').css({
-                "animation-play-state" : "running"
+                "transform" : "translate("+(vscroll-180)*2+"px, 0px)"
               });
             }
           });
         </script>
 
       </div>
-
+      <div class="img-container">
+        <div class="img">
+        </div>
+      </div>
 </div>
 <div style="background-color: white; z-index: 2;">
   <div class="big-container gray-container">
@@ -215,6 +216,22 @@
     </div>
   </div>
 </div>
+          <script>
+            jQuery(window).scroll(function() {
+              var vscroll = jQuery(this).scrollTop();
+              var div_height = document.getElementById("first-anim").offsetHeight;
+              div_height += document.getElementById("anim-try").offsetHeight * 0.5;
+
+
+              console.log(div_height);
+              console.log(vscroll);
+              if (vscroll > div_height) {
+                jQuery('#anim-try').css({
+                  "animation-play-state" : "running"
+                });
+              }
+            });
+          </script>
 
 
       <div class="big-container">
