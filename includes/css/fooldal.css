@@ -352,3 +352,18 @@ footer {
     from {margin-left: -100vw; margin-right: 100vw;}
     to {margin-left: 0px; margin-right: 0;}
 }
+
+@media screen and (max-width: 862px) {
+  header {
+    display: none;
+  }
+
+  .clock {
+    display: none;
+  }
+
+  .front-pic {
+  /*  display: none;*/
+  flex-direction: column;
+  }
+}
