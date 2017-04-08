@@ -49,7 +49,7 @@
                       <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
                       <div class="carousel-caption">
                         <div class="carousel-text">
-                          <div class="dot-holder orange">
+                          <div class="dot-holder green">
                           </div>
                           <div class="text-holder">
                               Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
@@ -75,7 +75,7 @@
                       <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
                       <div class="carousel-caption">
                         <div class="carousel-text">
-                          <div class="dot-holder green">
+                          <div class="dot-holder orange">
                           </div>
                           <div class="text-holder">
                               Egyedülállóan széleskörű protetikai választék
@@ -133,12 +133,15 @@
 
 
 
-      <div class="big-container">
-
-      <div class="container ">
-        <div id="first-anim" class="textholder ">
+    <div class="big-container">
+      <div class="img-container">
+        <div class="img">
+        </div>
+      </div>
+      <div class="container container-right">
+        <div id = "anim-try" class="textholder textholder-right">
           <div class="text">
-            <div class="dot-holder orange">
+            <div class="dot-holder green">
             </div>
             <div class="text-holder">
                 Prémium precíziós implantátum rendszer az Egyesült Államok piacvezető gyártójától
@@ -152,7 +155,7 @@
             </div>
           </div>
           <div class="text">
-            <div class="dot-holder green">
+            <div class="dot-holder orange">
             </div>
             <div class="text-holder">
                 Egyedülállóan széleskörű protetikai választék
@@ -176,29 +179,26 @@
         <script>
           jQuery(window).scroll(function() {
             var vscroll = jQuery(this).scrollTop();
-            var first_anim_vscroll = jQuery(this).scrollTop();
-            var window_width = window.innerWidth;
-            var div_width = document.getElementById("first-anim").offsetWidth;
+            var div_height = document.getElementById("anim-try").offsetHeight * 0.5;
+            var window_height = window.innerHeight;
 
-            console.log(vscroll);
+            console.log(window_height);
 
-            if (vscroll > 180 && 2*(vscroll-180) < (((window_width)-(div_width))-180)) {
-              jQuery('#first-anim').css({
-                "transform" : "translate("+(vscroll-180)*2+"px, 0px)"
+            if (vscroll > div_height && vscroll < window_height + div_height * 2) {
+              jQuery('#anim-try').css({
+                "animation-play-state" : "running"
               });
             }
           });
         </script>
 
+
       </div>
-      <div class="img-container">
-        <div class="img">
-        </div>
-      </div>
+
 </div>
 <div style="background-color: white; z-index: 2;">
   <div class="big-container gray-container">
-    <div id = "anim-try" class="container">
+    <div class="container">
       <div class="textholder">
         <div class="title">
           <p class="container__header">Rólunk</p>
@@ -211,27 +211,11 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="includes/img/icon1.png" alt="" class="clock image">
+        <img src="includes/img/icon3.png" alt="" class="clock image">
       </div>
     </div>
   </div>
 </div>
-          <script>
-            jQuery(window).scroll(function() {
-              var vscroll = jQuery(this).scrollTop();
-              var div_height = document.getElementById("first-anim").offsetHeight;
-              div_height += document.getElementById("anim-try").offsetHeight * 0.5;
-
-
-              console.log(div_height);
-              console.log(vscroll);
-              if (vscroll > div_height) {
-                jQuery('#anim-try').css({
-                  "animation-play-state" : "running"
-                });
-              }
-            });
-          </script>
 
 
       <div class="big-container">
@@ -270,7 +254,7 @@
           </div>
           <div class="img-container">
             <div class="img">
-              <img src="includes/img/icon3.png" alt="" class="clock image">
+              <img src="includes/img/icon1.png" alt="" class="clock image">
             </div>
           </div>
         </div>

@@ -112,7 +112,6 @@ main span{
 .container{
   flex: 0 0 auto;
   width: 65vw;
-  min-width: 500px;
   justify-content: flex-start;
   align-items: center;
   padding: 0;
@@ -349,8 +348,8 @@ footer {
 }
 
 @-webkit-keyframes animation {
-    from {margin-left: -100vw; margin-right: 100vw;}
-    to {margin-left: 0px; margin-right: 0;}
+    from {margin-left: 100vw; margin-right: -100vw;}
+    to {margin-left: 8vw; margin-right: 10vw;}
 }
 
 @media screen and (max-width: 862px) {

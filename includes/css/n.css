@@ -109,6 +109,10 @@ pre {
 a {
   background-color: transparent; /* 1 */
   -webkit-text-decoration-skip: objects; /* 2 */
+  transition: color ease-in-out .15s;
+  -webkit-transition: color ease-in-out .15s;
+  -moz-transition: color ease-in-out .15s;
+  text-decoration: none!important;
 }
 
 /**
