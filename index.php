@@ -136,6 +136,7 @@
     <div class="big-container">
       <div class="img-container">
         <div class="img">
+          <img src="includes/img/implants.png" alt="" class="implants image">
         </div>
       </div>
       <div class="container container-right">
@@ -211,7 +212,7 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="includes/img/icon3.png" alt="" class="clock image">
+        <img src="includes/img/icon2.png" alt="" class="clock image">
       </div>
     </div>
   </div>
@@ -222,7 +223,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="includes/img/icon2.png" alt="" class="clock image">
+            <img src="includes/img/icon3.png" alt="" class="clock image">
           </div>
         </div>
         <div class="container container-right">

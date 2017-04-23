@@ -51,7 +51,7 @@ main span{
   width: 100%;
 }
 .right-side{
-  flex: 3 1 auto;
+  flex: 0 0 auto;
   align-items: flex-start;
   justify-content: flex-end;
 }
@@ -61,13 +61,13 @@ main span{
 .left-side{
   flex: 2 0 auto;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .layer-container{
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 90%;
   flex: 0 1 80%;
   justify-content: center;
   align-items: center;
@@ -220,6 +220,10 @@ main span{
   flex: 0 0 auto;
   justify-content: center;
   align-items: center;
+}
+.implants{
+  border-radius: 0!important;
+  height: 300px!important;
 }
 .szolgaltatasok > .dot-holder{
   height: 8px!important;
