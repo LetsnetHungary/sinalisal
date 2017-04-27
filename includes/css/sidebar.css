@@ -3,6 +3,18 @@
 * {
   box-sizing: border-box;
 }
+body{
+  padding-left: 30px;
+}
+.sidebar-place{
+  flex-grow: 1;
+  flex-shrink: 0;
+
+}
+.main-flex{
+  flex-grow: 5;
+  flex-shrink: 3;
+}
 .big-container {
   display: flex;
   flex-direction: column;
@@ -60,6 +72,7 @@
 
 .sidebar-section{
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .sidebar-hr {

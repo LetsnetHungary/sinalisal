@@ -8,7 +8,7 @@
 
         <div class="list-container">
           <div class="inside-container">
-            <a class="sidebar-items" href="#"><span>probalink</span></a>
+            <a class="sidebar-items" href="#"><span>Kompatibilis termékek</span></a>
             <a class="sidebar-items" href="#"><span>probalink</span></a>
             <a class="sidebar-items" href="#"><span>probalink</span></a>
             <a class="sidebar-items" href="#"><span>probalink</span></a>

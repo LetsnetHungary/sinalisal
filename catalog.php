@@ -26,12 +26,19 @@
 
 
           <div class="catalog-title">
-            <p  class="sidebar-p catalog-title-p">Termék név</p>
+            <p  class="sidebar-p catalog-title-p">Legacy 2</p>
             <hr class="hr1">
           </div>
 
           <div class="text_holder">
-            <p>Lorem ipsum</p>
+            <div class="termek_text">
+              <p>
+              A kompatibilitási termékvonal a saját fejlesztésű implantátum választékot egészíti ki úgy, hogy a drága gyártók (Zimmer Dental, MIS, Alpha Bio, AB Dental, BioHorizons) termékeihez kínál kedvezőbb árú alternatívát, azok megoldásainak továbbfejlesztésével. Az összes kompatibilis implantátum a saját fejlesztésű külső dizájnt kapta. Minden esetben a csavar teljes hossza felületkezelt. Az implantátumok és protetikai elemek kapcsolata az iparban egyedülállóan pontos Precision Fit összeköttetés.
+              </p>
+            </div>
+            <div class="termek_pic">
+              <img src="includes/img/legacy-2.png" alt="">
+            </div>
           </div>
           <div class="catalog-title">
             <p  class="sidebar-p catalog-title-p">Katalógus</p>
