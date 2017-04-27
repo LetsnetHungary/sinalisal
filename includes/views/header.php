@@ -23,6 +23,11 @@
               Implantátumok
             </div>
           </a>
+          <a class="Atag" href="/catalog.php">
+            <div class="Menu">
+              Csontpótlók
+            </div>
+          </a>
 
           <a class="Atag" href="/kapcsolatok.php">
             <div class="Menu rightmenu">
