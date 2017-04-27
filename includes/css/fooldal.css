@@ -335,7 +335,10 @@ footer {
   cursor: default;
 }
 .carousel-control:focus{
-  opacity: .5;
+  opacity: .5!important;
+}
+.carousel-control:hover{
+  opacity: .9!important;
 }
 .carousel-control{
   transition: opacity ease-in-out .15s;

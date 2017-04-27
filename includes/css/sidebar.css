@@ -24,7 +24,6 @@ body{
 
 .list-container {
   width:80%;
-  background-color: white;
   display: flex;
 /*  border-bottom: 1px solid orange;
   border-top: 1px solid orange; */
@@ -58,9 +57,7 @@ body{
   height: 100%;
   padding: 10px 0;
   padding-left: 8px;
-  font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  font-weight: bold;
   letter-spacing: 0.8px;
   text-decoration: none;
   color: black;
@@ -79,4 +76,6 @@ body{
   border-color: orange;
   width: 75%;
   float: left;
+
+  margin: 10px 0 20px 0!important;
 }
