@@ -1,0 +1,7 @@
+{
+  "Legacy" : ["Legacy1", "Legacy2", "Legacy3", "Legacy4"],
+  "Spectra" : ["ScrewPlant", "ScrewDirect", "ScrewIndirect", "GoDirect"],
+  "Kompatibilis" : ["RePlant"],
+  "Pitt Easy" : ["Pitt Easy"],
+  "BioCortical" : ["BioCortical"]
+}

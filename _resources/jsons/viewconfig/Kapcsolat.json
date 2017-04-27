@@ -1,0 +1,26 @@
+{
+	"css" :
+	{
+		"1" : "/_assets/css/header.css",
+		"2" : "/_assets/css/footer.css",
+		"3" : "/_assets/css/kapcsolatok.css"
+	},
+	"js" :
+	{
+	},
+	"seo" :
+	{
+		"title" : "Kapcsolat",
+		"charset" : "UTF-8",
+
+		"meta" :
+		{
+
+		},
+
+		"og" :
+		{
+
+		}
+	}
+}

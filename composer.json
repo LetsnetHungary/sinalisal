@@ -1,0 +1,15 @@
+{
+    "name": "letsnet/mvc",
+    "type": "library",
+    "authors": [
+        {
+            "name": "hegelakos",
+            "email": "hegel.akos@letsnet.hu"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+      "psr-4": {"CoreApp\\": "CoreApp/", "\\CoreApp\\Controller\\" : "CoreApp/_controllers/", "\\CoreApp\\Model\\" : "CoreApp/_models/"},
+      "files" : ["CoreApp/GF.php"]
+    }
+}
