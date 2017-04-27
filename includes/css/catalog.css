@@ -1,4 +1,5 @@
 @import "n.css";
+/*
 body{
   font-weight: lighter;
   font-family: 'Roboto', sans-serif;
@@ -88,7 +89,6 @@ header{
 .sidebar-p{
   justify-content: flex-end;
 }
-/*Carousel*/
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -205,3 +205,56 @@ header{
 .carousel-control:hover{
   opacity: .9;
 }
+*/
+
+body {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  height: auto;
+  flex: 1 0 auto;
+  background-color: blue;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar__item {
+  margin: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__item p {
+  margin: 10px;
+}
+
+.sidebar__header {
+  text-align: left;
+  font-size: 17px;
+}
+
+.sidebar__content {
+  font-size: 13px;
+  margin-left: 20px!important;
+}
+
+.content {
+  height: 100px;
+  flex: 7 0 auto;
+  background-color: red;
+}
+
+.

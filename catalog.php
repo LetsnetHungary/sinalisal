@@ -8,13 +8,16 @@
       <link rel="stylesheet" href="includes/css/footer.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
     <title></title>
   </head>
   <body>
 
+
+<!--
     <?php require("includes/views/header.php");?>
     <main>
       <div class="flex-container">
@@ -60,7 +63,7 @@
           <div class="yt-flex">
             <div class="cont">
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
+
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -68,7 +71,7 @@
                   <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
 
-                <!-- Wrapper for slides -->
+
                 <div class="carousel-inner" role="listbox">
 
                   <div class="item active">
@@ -140,6 +143,26 @@
         </div>
       </div>
     </main>
+
+  -->
+
+
+  <main>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar__item">
+          <p class = "sidebar__header">Legacy</p>
+          <p class="sidebar__content">Legacy 1</p>
+          <p class="sidebar__content">Legacy 1</p>
+          <p class="sidebar__content">Legacy 1</p>
+        </div>
+
+      </div>
+      <div class="content">
+
+      </div>
+    </div>
+  </main>
     <?php require("includes/views/footer.php");?>
   </body>
 </html>
