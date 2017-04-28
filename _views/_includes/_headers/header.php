@@ -46,19 +46,24 @@
 
     <nav class="mobile__mainmenu">
 
-      <a href="/index.php">
+      <a href="/Index">
         <div class="mobile__menu">
           <p>Főoldal</p>
         </div>
       </a>
 
-      <a href="/catalog.php">
+      <a href="/Implantatumok">
         <div class="mobile__menu">
           <p>Implantátumok</p>
         </div>
       </a>
+      <a href="/Csontpotlok">
+        <div class="mobile__menu">
+          <p>Csontpótlók</p>
+        </div>
+      </a>
 
-      <a href="/kapcsolatok.php">
+      <a href="/Kapcsolat">
         <div class="mobile__menu">
           <p>Kapcsolat</p>
         </div>

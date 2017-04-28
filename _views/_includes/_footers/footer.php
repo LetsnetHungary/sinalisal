@@ -25,7 +25,7 @@
 
         <p><a href="#">Csontpótlók</a></p>
 
-      </div
+      </div>
 
       <div class="footer__small">
 
@@ -33,7 +33,7 @@
 
       </div>
 
-
+    </div>
     <div class="footer">
 
       <p class = "footer__header">Elérhetőségek</p>
@@ -111,6 +111,5 @@
     </div>
 
   </div>
-</div>
 </div>
 </footer>

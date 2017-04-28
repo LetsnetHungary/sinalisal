@@ -5,7 +5,7 @@
         <div class="container">
           <div class="telefon data">
             <div class="icon">
-              <img src="includes/img/phone-icon.png" alt="">
+              <img src="_assets/img/phone-icon.png" alt="">
             </div>
             <div class="data-holder">
               <p class="h2">Telefon</p>
@@ -15,7 +15,7 @@
           </div>
           <div class="cim data">
             <div class="icon">
-              <img src="includes/img/location-icon.png" alt="">
+              <img src="_assets/img/location-icon.png" alt="">
             </div>
             <div class="data-holder">
               <p class="h2">Cím</p>
@@ -24,12 +24,34 @@
           </div>
           <div class="email data">
             <div class="icon">
-              <img src="includes/img/email-icon.png" alt="">
+              <img src="_assets/img/email-icon.png" alt="">
             </div>
             <div class="data-holder">
                 <p class="h2">Email</p>
                 <span>sinalisal@sinalisal.hu</span>
             </div>
+
+          </div>
+          <div class="nyitvatartas data">
+            <div class="icon">
+              <img src="_assets/img/clock-icon.png" alt="">
+            </div>
+            <div class="data-holder">
+                <p class="h2">Nyitvatartás</p>
+                <span>Hétfő - Péntek: 8:00 - 17:00</span>
+                <span>Szombat - Vasárnap: zárva</span>
+            </div>
+          </div>
+          <div class="bus data">
+            <div class="icon">
+              <img src="_assets/img/car-icon.png" alt="">
+            </div>
+            <div class="data-holder">
+                <p class="h2">Megközelíthetőség</p>
+                <span>Autóval: 47.5136313, 19.0468345 (GPS koordináták)</span>
+                <span>Tömegközlekedéssel: nyugati Pályaudvarról induló 91, 291, 191-es autóbuszok Vérhalom tér megállójuktól 2 perc séta</span>
+            </div>
+
           </div>
 
           </div>

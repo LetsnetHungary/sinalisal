@@ -17,7 +17,8 @@
 }
 
 .footer__header{
-  font-size: 20px;
+  font-size: 22px;
+  margin-bottom: 10px!important;
   color: #FF9900;
 }
 
@@ -57,16 +58,20 @@ footer a{
   margin: 3px 10px;
 }
 .mobile__footermainmenu{
-  font-size: 15px;
+  font-size: 20px;
+  color: orange;
 }
 .mobile__footermenup{
-  font-size: 10px;
+  font-size: 16px;
 }
 .mobile__footerlogo{
   max-height: 100px;
 }
-
-@media screen and (max-width: 768px) {
+.footer__small p{
+  margin: 0 0 10px 0!important;
+  font-size: 17px;
+}
+@media screen and (max-width: 833px) {
   .footer__container{
     display: none;
   }
