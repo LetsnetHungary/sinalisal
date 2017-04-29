@@ -116,7 +116,7 @@
 
 
     <div class="big-container">
-      <div class="img-container">
+      <div class="img-container implant-csavarok">
         <div class="img">
           <img src="/_assets/img/implants.png" alt="" class="implants image">
         </div>
