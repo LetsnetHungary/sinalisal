@@ -5,7 +5,8 @@
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
-  background-color: rgba(0,0,0,.1)
+  background-color: rgba(94, 76, 0, 0.161);
+box-shadow: inset 0px 6px 10px -7px rgba(0,0,0,0.3);
 }
 
 .footer{
@@ -56,7 +57,16 @@ footer a{
 
 .mobile__footermain{
   margin: 3px 10px;
+  /*innentől*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
 }
+.mobile__footermenu{
+  padding: 10px;
+}
+/*idáig*/
 .mobile__footermainmenu{
   font-size: 20px;
   color: orange;
@@ -70,8 +80,9 @@ footer a{
 .footer__small p{
   margin: 0 0 10px 0!important;
   font-size: 17px;
+  line-height: 24px;
 }
-@media screen and (max-width: 833px) {
+@media screen and (max-width: 940px) {
   .footer__container{
     display: none;
   }

@@ -5,7 +5,7 @@
         <div class="container">
           <div class="telefon data">
             <div class="icon">
-              <img src="_assets/img/phone-icon.png" alt="">
+              <img src="_assets/img/phone-icon2.png" alt="">
             </div>
             <div class="data-holder">
               <p class="h2">Telefon</p>
@@ -15,7 +15,7 @@
           </div>
           <div class="cim data">
             <div class="icon">
-              <img src="_assets/img/location-icon.png" alt="">
+              <img src="_assets/img/location-icon2.png" alt="">
             </div>
             <div class="data-holder">
               <p class="h2">Cím</p>
@@ -24,7 +24,7 @@
           </div>
           <div class="email data">
             <div class="icon">
-              <img src="_assets/img/email-icon.png" alt="">
+              <img src="_assets/img/email-icon2.png" alt="">
             </div>
             <div class="data-holder">
                 <p class="h2">Email</p>
@@ -34,7 +34,7 @@
           </div>
           <div class="nyitvatartas data">
             <div class="icon">
-              <img src="_assets/img/clock-icon.png" alt="">
+              <img src="_assets/img/clock-icon2.png" alt="">
             </div>
             <div class="data-holder">
                 <p class="h2">Nyitvatartás</p>
@@ -44,7 +44,7 @@
           </div>
           <div class="bus data">
             <div class="icon">
-              <img src="_assets/img/car-icon.png" alt="">
+              <img src="_assets/img/car-icon2.png" alt="">
             </div>
             <div class="data-holder">
                 <p class="h2">Megközelíthetőség</p>

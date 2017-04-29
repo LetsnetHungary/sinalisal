@@ -22,11 +22,13 @@ main{
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: rgba(94, 76, 0, 0.161);
+  background-color: rgba(94, 76, 0, 0.08);
+  justify-content: center;
+  align-items: center;
 }
 .h2{
   color: #FF9900;
-  font-size: 38px;
+  font-size: 32px;
   font-weight: lighter;
   line-height: 35px;
   margin: 0 0 0 0;
@@ -41,10 +43,11 @@ main span{
 }
 .right-side{
   flex: 2 0 auto;
+  height: 60vh;
 }
 .left-side, .right-side{
   width: 50vw;
-  height: 135vh;
+  min-height: calc(125vh);
   align-items: center;
   justify-content: center;
 }
@@ -53,6 +56,7 @@ main span{
   width: 100%;
   flex-direction: column;
   align-items: center;
+  padding: 5%;
 }
 
 .data-holder{
@@ -91,14 +95,35 @@ iframe{
 }
 
 @media screen and (max-device-width: 862px) {
-    header{
-      display: none;
-    }
-    main{
-        flex-direction: column;
-    }
+  main{
+      flex-direction: column;
+  }
+  header{
+    display: none;
+  }
+
+  .left-side, .right-side{
+    width: 100vw;
+    height:100%;
+  }
+  .right-side{
+    height: 60vh;
+    width: 80vw;
+  }
 }
 
+@media screen and (max-device-width: 420px) {
+
+  .h2{
+    font-size: 20px;
+  }
+  main span{
+    font-size: 14px;
+  }
+  .icon{
+    display: none;
+  }
+}
 @media screen and (max-width: 862px) {
     main{
         flex-direction: column;
@@ -108,8 +133,13 @@ iframe{
     }
     .left-side, .right-side{
       width: 100vw;
+      height: 100%;
+      margin-top: 5vh;
     }
     .right-side{
       height: 60vh;
+      width: 80vw;
+      justify-content: center;
+      align-items: center;
     }
 }

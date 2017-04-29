@@ -49,15 +49,17 @@ $c_v = count($rendszer->videos);
 
               <ol class="carousel-indicators">
                 <?
-                for ($i=0; $i <$c_v -1 ; $i++) {
+                for ($i=0; $i < $c_v ; $i++) {
                   if ($i == 0) {
                     ?>
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <?
                   }
+                  else{
                   ?>
                   <li data-target="#myCarousel" data-slide-to="<?echo $i; ?>"></li>
                   <?
+                  }
                 }
                 ?>
               </ol>
@@ -65,7 +67,7 @@ $c_v = count($rendszer->videos);
 
               <div class="carousel-inner" role="listbox">
                 <?
-                for ($i=0; $i < $c_v -1 ; $i++) {
+                for ($i=0; $i < $c_v ; $i++) {
                   if ($i == 0) {
                     ?>
                     <div class="item active">
@@ -78,6 +80,7 @@ $c_v = count($rendszer->videos);
                     </div>
                     <?
                   }
+                  else{
                   ?>
                   <div class="item">
                     <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
@@ -89,6 +92,7 @@ $c_v = count($rendszer->videos);
                     </div>
                   </div>
                   <?
+                }
                 }
                 ?>
 
