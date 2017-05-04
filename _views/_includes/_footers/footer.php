@@ -23,7 +23,7 @@
 
       <div class="footer__small">
 
-        <p><a href="#">Csontpótlók</a></p>
+        <p><a href="#">Csontpótlás</a></p>
 
       </div>
 
@@ -40,23 +40,18 @@
 
       <div class="footer__small">
 
-        <p><a href="telto:06206969696">Telefon: 06 20 6969 696 </a></p>
+        <p><a href="telto:06206969696">Telefon: +36 1 316 1032</a></p>
       </div>
 
       <div class="footer__small">
 
-        <p><a href="email:info@sinalisal.hu ">Email: info@sinalisal.hu</a></p>
+        <p><a href="email:info@sinalisal.hu ">Email: sinalisal@sinalisal.hu</a></p>
       </div>
 
-      <div class="footer__small">
-
-        <p><a href="#">Fax: 69696969</a></p>
-
-      </div>
     </div>
 
     <div class="footer">
-      <p class = "footer__header">Jogi cucc</p>
+      <p class = "footer__header">Jogi Nyilatkozatok</p>
 
         <div class="footer__small">
 

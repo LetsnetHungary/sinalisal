@@ -25,7 +25,7 @@
           </a>
           <a class="Atag" href="/Csontpotlok">
             <div class="Menu">
-              Csontpótlók
+              Csontpótlás
             </div>
           </a>
 

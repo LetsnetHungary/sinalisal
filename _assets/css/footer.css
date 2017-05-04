@@ -6,7 +6,7 @@
   flex-direction: row;
   width: 100%;
   background-color: rgba(94, 76, 0, 0.161);
-box-shadow: inset 0px 6px 10px -7px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 6px 10px -7px rgba(0,0,0,0.3);
 }
 
 .footer{

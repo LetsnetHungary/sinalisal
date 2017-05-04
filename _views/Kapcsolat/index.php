@@ -43,13 +43,24 @@
             </div>
           </div>
           <div class="bus data">
-            <div class="icon">
-              <img src="_assets/img/car-icon2.png" alt="">
-            </div>
-            <div class="data-holder">
-                <p class="h2">Megközelíthetőség</p>
-                <span>Autóval: 47.5136313, 19.0468345 (GPS koordináták)</span>
-                <span>Tömegközlekedéssel: nyugati Pályaudvarról induló 91, 291, 191-es autóbuszok Vérhalom tér megállójuktól 2 perc séta</span>
+            <div class="data-holder" style="margin-left: 0;">
+                <p class="h2" style="margin-left: 100px; padding-left: 20px;">Megközelíthetőség</p>
+                <div class="bus data">
+                  <div class="icon2">
+                    <img src="_assets/img/car-icon2.png" alt="">
+                  </div>
+                  <div class="data-holder">
+                    <span>Autóval: 47.5136313, 19.0468345 (GPS koordináták)</span>
+                  </div>
+                </div>
+                <div class="bus data">
+                  <div class="icon2">
+                    <img src="_assets/img/train-icon2.png" alt="">
+                  </div>
+                  <div class="data-holder">
+                    <span>Tömegközlekedéssel: nyugati Pályaudvarról induló 91, 291, 191-es autóbuszok Vérhalom tér megállójuktól 2 perc séta</span>
+                  </div>
+                </div>
             </div>
 
           </div>

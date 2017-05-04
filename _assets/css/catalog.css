@@ -131,12 +131,16 @@ body {
   height: auto;
   flex: 1 0 auto;
   background-color: ;
-  margin-top: 22px;
+  margin-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+.legacy__intro{
+  width: 100%;
+  font-size: 19px;
+  padding: 5px;
+}
 .content {
   flex: 6 0 auto;
   background-color: ;
