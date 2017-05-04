@@ -4,13 +4,9 @@
     <p  class="title"><? echo $rendszer->title; ?></p>
     <hr class="hr1">
   </div>
-  <?php if ($rendszer->title == "Legacy1" || $rendszer->title == "Legacy2" || $rendszer->title == "Legacy3" || $rendszer->title == "Legacy4") {
-    ?>
       <div class="legacy__intro">
-        <?php echo($rendszer->legacy) ?>
+        <?php echo($rendszer->system) ?>
       </div>
-    <?php
-  } ?>
   <div class="text_holder">
     <div class="termek_text">
       <?php foreach ($szolg as $key => $value): ?>

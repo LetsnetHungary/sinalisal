@@ -11,7 +11,7 @@
 		public function rendszerek($r) {
 			$this->v->rendszer = CoreApp\CMS::getCMSContent($r);
 			$_GET["main"] = false;
-		}
+	}
 
 		/*
 		public function modelDidLoad() {
