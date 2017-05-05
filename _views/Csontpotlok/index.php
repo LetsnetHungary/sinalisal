@@ -13,14 +13,7 @@
     </div>
     <div class="content">
       <?php
-
-        if($main) {
-          require("_views/_includes/csontpotlok_main.php");
-        }
-        else {
           require("_views/_includes/csontpotlok.php");
-        }
-
       ?>
     </div>
   </div>

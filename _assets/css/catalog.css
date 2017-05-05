@@ -129,7 +129,7 @@ body {
 
 .sidebar {
   height: auto;
-  flex: 1 0 auto;
+  flex: 2 0 auto;
   background-color: ;
   margin-top: 0px;
   display: flex;
@@ -144,7 +144,7 @@ body {
 .content {
   flex: 6 0 auto;
   background-color: ;
-  padding: 0 8% 0 8%;
+  padding: 0 5% 0 5%;
   width: 50%;
 }
 .item-container{
@@ -176,9 +176,10 @@ body {
   margin: 10px 0 20px 0!important;
 }
 .text_holder{
+  margin-top: 20px;
   display: flex;
   width: 100%;
-  align-items: center;
+  align-items: flex-start;
 }
 .termek_text{
   flex: 1 0 auto;
@@ -192,6 +193,7 @@ body {
 }
 .termek_pic{
   flex: 1 0 auto;
+  height: 100%;
   max-width: 40%;
 }
 .termek_pic img{
