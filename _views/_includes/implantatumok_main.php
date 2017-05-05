@@ -5,23 +5,32 @@
   </div>
   <div class="text_holder">
     <div class="termek_text">
-      <p>
-      <? echo $rendszer->text1; ?>
-      </p>
-      <p>
-      <? echo $rendszer->text2; ?>
-      </p>
-      <p>
-      <? echo $rendszer->text3; ?>
-      </p>
+      <div class="">
+        <p>
+        <? echo $rendszer->text1; ?>
+        </p>
+      </div>
+      <div class="" style="display: flex; align-items: center">
+        <p>
+        <? echo $rendszer->text2; ?>
+        </p>
+        <div class="termek_pic">
+          <img src="../../_assets/img/implants.png" alt="">
+        </div>
+      </div><div class="">
+        <p>
+        <? echo $rendszer->text3; ?>
+        </p>
+      </div>
     </div>
+
   </div>
 </div>
 
 
 <style media="screen">
   .termek_text {
-    max-width: 80%!important;
+    max-width: 100%!important;
     display: block;
   }
 
