@@ -9,6 +9,12 @@ body{
 footer p{
   margin-bottom: 15px!important;
 }
+a{
+  color: #333!important;
+}
+a:hover{
+  color: #FF9900!important;
+}
 /*
 body{
   font-weight: lighter;
@@ -140,6 +146,7 @@ body {
   width: 100%;
   font-size: 19px;
   padding: 5px;
+  margin: 20px 0 -20px 0;
 }
 .content {
   flex: 6 0 auto;
@@ -183,7 +190,7 @@ body {
 }
 .termek_text{
   flex: 1 0 auto;
-  max-width: 60%;
+  max-width: 90%;
   font-size: 20px;
   padding-left: 40px;
   display: flex;
@@ -194,7 +201,7 @@ body {
 .termek_pic{
   flex: 1 0 auto;
   height: 100%;
-  max-width: 40%;
+  max-width: 35%;
 }
 .termek_pic img{
   max-width: 100%;
@@ -206,6 +213,32 @@ body {
   min-height: 500px;
   border-radius: 15px;
   margin-bottom: 30px;
+}
+
+.text__container{
+  display: flex;
+  flex-direction: column;
+}
+.content__container{
+  display: flex;
+  align-items: center;
+}
+.catalog_mini{
+  color: #FF9900!important;
+  font-size: 19px;
+  padding: 20px;
+}
+.download_link{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  max-height: 50px;
+  max-width: 50px;
+}
+.icon img{
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /*CAROUSEL*/
