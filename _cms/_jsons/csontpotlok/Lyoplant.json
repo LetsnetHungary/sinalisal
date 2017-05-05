@@ -1,0 +1,15 @@
+{
+  "title" : "Lyoplant",
+  "system" : "Tiszta, felszívódó kollagén membrán, mely szarvasmarha pericardiumból készül. A speciális liofilizálási (fagyasztás-szárítás) folyamat biztosítja, hogy megőrződik a Lyoplant laza szövetstruktúrája, mely optimális fibroblast sejtosztódást biztosít. A membránt különleges eljárással tisztítják meg a nem-kollagén összetevőktől, enzimektől, zsíroktól. Az implantálást követően lassú folyamat során enzimatikus úton bontódik le, átadva helyét a saját kötőszövetnek.",
+  "meretek" : ["40x50 mm"],
+  "szolg" : [
+    "Felszívódó",
+    "Kiváló szöveti kompatibilitás",
+    "Gyors és szabályos gyógyulás az autológ kötőszövetekkel",
+    "Jó kezelhetőségi tulajdonságok, mint pl: gyors rehidratáció",
+    "Magas flexibilitás és az anatómiai struktúrákhoz való kiváló alkalmazkodás",
+    "A CFS-vesztés megakadályozása céljából a folyadékot nem ereszti át"
+  ],
+  "image" : "/_assets/img/Lyoplant.jpeg",
+  "catalog" : ""
+}

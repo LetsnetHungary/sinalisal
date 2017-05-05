@@ -1,0 +1,12 @@
+{
+  "title" : "BioVin Bone",
+  "system" : "BioVin® Bone hydroxyapatit alapú, tökéletes tisztaságú szilárd csontpótló, amely marhacsontból készül, biztonságos és minden xenograft csontpótló anyaggal szemben támasztott elvárásnak messzemenően megfelelő előállítási folyamat során.",
+  "meretek" : ["250-1000 µm szemcseméret", "1000-2000 µm szemcseméret"],
+  "szolg" : [
+    "100 %-ban BSE-mentes, természetes csontpótló anyag",
+    "Osteokonduktív",
+    "Nagyfokú mechanikai stabilitás"
+  ],
+  "image" : "/_assets/img/BioVinBone.png",
+  "catalog" : " http://www.ot-medical.de/upload/biomaterialien_broschuere_eng.pdf"
+}
