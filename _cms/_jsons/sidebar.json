@@ -2,7 +2,7 @@
   "Legacy" : ["Legacy1", "Legacy2", "Legacy3", "Legacy4"],
   "InterActive" : ["InterActive"],
   "RePlant" : ["RePlant"],
-  "Spectra" : ["GoDirect", "ScrewPlant", "ScrewDirect"],
+  "Spectra" : ["GoDirect"],
   "Pitt-EasyF1" : ["Pitt-EasyF1"],
   "Bicorticalis" : ["Bicorticalis"]
 }
