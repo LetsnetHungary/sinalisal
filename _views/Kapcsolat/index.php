@@ -38,7 +38,8 @@
             </div>
             <div class="data-holder">
                 <p class="h2">Nyitvatartás</p>
-                <span>Hétfő - Péntek: 8:00 - 17:00</span>
+                <span>Hétfő - Csütörtök: 9:00 - 16:00</span>
+                <span>Péntek: 9:00 - 15:00</span>
                 <span>Szombat - Vasárnap: zárva</span>
             </div>
           </div>
@@ -58,7 +59,7 @@
                     <img src="_assets/img/train-icon2.png" alt="">
                   </div>
                   <div class="data-holder">
-                    <span>Tömegközlekedéssel: nyugati Pályaudvarról induló 91, 291, 191-es autóbuszok Vérhalom tér megállójuktól 2 perc séta</span>
+                    <span>Tömegközlekedéssel: A Nyugati térről a 91-es és 191-es autóbusszal a Mandula utcánál, 291-es autóbusszal a Szemlőhegy utcánál kell leszállni, a Batthyány térről a 11-es vagy 111-es autóbusszal az Eszter utcai megállónál kell leszállni.</span>
                   </div>
                 </div>
             </div>
