@@ -3,6 +3,7 @@
 		public function __construct() {
 			parent::__construct(__CLASS__);
 			$this->v->sidebar = CoreApp\CMS::getCMSContent("sidebar_csp");
+			$this->v->rendszer = CoreApp\CMS::getCMSContent("csontpotlok/BioVinBone");
 			$_GET["main"] = true;
 		}
 
