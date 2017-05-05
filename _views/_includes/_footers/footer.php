@@ -41,6 +41,7 @@
       <div class="footer__small">
 
         <p><a href="telto:06206969696">Telefon: +36 1 316 1032</a></p>
+        <p><a href="telto:06206969696" style="margin-left: 65px;"> +36 1 316 9912</a></p>
       </div>
 
       <div class="footer__small">
@@ -58,10 +59,6 @@
           <p><a href="#">ÁSZF</a></p>
         </div>
 
-        <div class="footer__small">
-
-          <p><a href="#">GYIK</a></p>
-        </div>
 
       </div>
 
@@ -87,7 +84,7 @@
 
       <div class="mobile__footermenu">
         <p class="mobile__footermainmenu" >Elérhetőségek:</p>
-        <p class="mobile__footermenup" ><a href="telto:06206969696">Telefon: 06 20 6969 696 </a></p>
+        <p class="mobile__footermenup" ><a href="telto:06206969696">Telefon: 06 20 6969 696 </a><a href="telto:06206969696">Telefon: 06 20 6969 696 </a></p>
         <p class="mobile__footermenup" ><a href="email:info@sinalisal.hu ">Email: info@sinalisal.hu</a></p>
         <p class="mobile__footermenup" ><a href="#">Fax: 69696969</a></p>
       </div>

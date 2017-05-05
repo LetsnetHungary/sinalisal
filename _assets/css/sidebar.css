@@ -20,6 +20,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 85%;
 }
 
 .list-container {
@@ -76,6 +77,5 @@ body{
   border-color: orange;
   width: 75%;
   float: left;
-
-  margin: 10px 0 20px 0!important;
+  margin: 10px 0 7px 0!important;
 }

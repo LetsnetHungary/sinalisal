@@ -23,6 +23,9 @@
       <img src="<? echo $rendszer->image; ?>" alt="">
     </div>
   </div>
+  <div class="legacy__intro" style = "margin-top: 20px;">
+    <?php echo($rendszer->kompatibilis) ?>
+  </div>
 </div>
 <div class="catalog_container item-container">
   <div class="catalog-title">

@@ -1,6 +1,7 @@
 <?php
   $sidebar = json_decode($this->sidebar);
-  $main = $_GET["main"]
+  $main = $_GET["main"];
+  $rendszer = json_decode($this->rendszer);
 ?>
 <header>
   <?php require("_views/_includes/_headers/header.php");?>
@@ -8,7 +9,7 @@
 <main>
   <div class="container_fuck_bootstrap">
     <div class="sidebar">
-        <?php require("_views/_includes/_headers/sidebar.php");?>
+        <?php require("_views/_includes/_headers/cs_sidebar.php");?>
     </div>
     <div class="content">
       <?php

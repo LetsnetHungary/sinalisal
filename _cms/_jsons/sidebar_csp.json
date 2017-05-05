@@ -1,4 +1,4 @@
 {
-  "BioMedical" : ["Legacy1", "Legacy2", "Legacy3", "Legacy4"],
-  "OTMedical" : ["a"]
+  "Csontpótlók" : ["BioVin Bone", "Egyéb"],
+  "Membránok" : ["BioVin Membrane", "Lyoplant", "Reguarde"]
 }
