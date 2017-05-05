@@ -1,8 +1,8 @@
 {
   "Legacy" : ["Legacy1", "Legacy2", "Legacy3", "Legacy4"],
-  "InterActive" : ["InterActive"],
-  "RePlant" : ["RePlant"],
+  "    " : ["InterActive"],
+  "   " : ["RePlant"],
   "Spectra" : ["GoDirect", "ScrewPlant", "ScrewDirect", "ScrewIndirect"],
-  "Pitt Easy" : ["Pitt Easy"],
-  "BioCortical" : ["BioCortical"]
+  " " : ["Pitt Easy"],
+  "  " : ["BioCortical"]
 }

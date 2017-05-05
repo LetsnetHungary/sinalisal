@@ -1,4 +1,7 @@
-<?php $sidebar = json_decode($this->sidebar); ?>
+<?php
+  $sidebar = json_decode($this->sidebar);
+  $main = $_GET["main"]
+?>
 <header>
   <?php require("_views/_includes/_headers/header.php");?>
 </header>

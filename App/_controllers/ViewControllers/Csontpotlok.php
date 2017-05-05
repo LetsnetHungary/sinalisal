@@ -3,7 +3,6 @@
 		public function __construct() {
 			parent::__construct(__CLASS__);
 			$this->v->sidebar = CoreApp\CMS::getCMSContent("sidebar_csp");
-
 			$_GET["main"] = true;
 		}
 
