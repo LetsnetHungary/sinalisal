@@ -78,21 +78,20 @@
         <p class="mobile__footermainmenu" >Menük:</p>
         <p class="mobile__footermenup" ><a href="/index.php">Főoldal</a></p>
         <p class="mobile__footermenup" ><a href="/catalog.php">Implantátumok</a></p>
-        <p class="mobile__footermenup" ><a href="#">Csontpótlók</a></p>
+        <p class="mobile__footermenup" ><a href="#">Csontpótlás</a></p>
         <p class="mobile__footermenup" ><a href="/kapcsolatok.php">Kapcsolat</a></p>
       </div>
 
       <div class="mobile__footermenu">
         <p class="mobile__footermainmenu" >Elérhetőségek:</p>
-        <p class="mobile__footermenup" ><a href="telto:06206969696">Telefon: 06 20 6969 696 </a><a href="telto:06206969696">Telefon: 06 20 6969 696 </a></p>
-        <p class="mobile__footermenup" ><a href="email:info@sinalisal.hu ">Email: info@sinalisal.hu</a></p>
-        <p class="mobile__footermenup" ><a href="#">Fax: 69696969</a></p>
+        <p class="mobile__footermenup" ><a href="telto:06206969696">Telefon:  +36 1 316 9912</a></p>
+        <p class="mobile__footermenup"><a href="telto:06206969696">Telefon: +36 1 316 1032</a></p>
+        <p class="mobile__footermenup" ><a href="email:info@sinalisal.hu ">Email: sinalisal@sinalisal.hu</a></p>
       </div>
 
       <div class="mobile__footermenu">
-        <p class="mobile__footermainmenu" >Jogi cucc:</p>
+        <p class="mobile__footermainmenu" >Jogi Nyilatkozatok:</p>
         <p class="mobile__footermenup" ><a href="#">ÁSZF</a></p>
-        <p class="mobile__footermenup" ><a href="#">GYIK</a></p>
       </div>
 
     </nav>
