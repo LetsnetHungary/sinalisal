@@ -43,7 +43,7 @@ main span{
 }
 .right-side{
   flex: 2 0 auto;
-  height: 60vh;
+  height: 80vh;
 }
 .left-side, .right-side{
   width: 50vw;
