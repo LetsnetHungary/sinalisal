@@ -13,23 +13,23 @@
 
       <div class="footer__small">
 
-        <p class=""><a href="/index.php">Főoldal</a></p>
+        <p class=""><a href="Index">Főoldal</a></p>
       </div>
 
       <div class="footer__small">
 
-        <p><a href="/catalog.php">Implantátumok</a></p>
+        <p><a href="Implantatumok">Implantátumok</a></p>
       </div>
 
       <div class="footer__small">
 
-        <p><a href="#">Csontpótlás</a></p>
+        <p><a href="Csontpotlok">Csontpótlás</a></p>
 
       </div>
 
       <div class="footer__small">
 
-        <p><a href="/kapcsolatok.php">Kapcsolat</a></p>
+        <p><a href="Kapcsolat">Kapcsolat</a></p>
 
       </div>
 
