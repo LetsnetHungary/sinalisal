@@ -1,0 +1,29 @@
+{
+	"css" :
+	{
+		"0" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+		"1" : "/_assets/css/header.css",
+		"2" : "/_assets/css/footer.css",
+		"3" : "/_assets/css/index.css"
+	},
+	"js" :
+	{
+		"0" : "https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js",
+		"1" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	},
+	"seo" :
+	{
+		"title" : "Főoldal",
+		"charset" : "UTF-8",
+
+		"meta" :
+		{
+
+		},
+
+		"og" :
+		{
+
+		}
+	}
+}

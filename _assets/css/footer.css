@@ -1,0 +1,95 @@
+
+.footer__container{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgba(94, 76, 0, 0.161);
+  box-shadow: inset 0px 6px 10px -7px rgba(0,0,0,0.3);
+}
+
+.footer{
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.footer__header{
+  font-size: 22px;
+  margin-bottom: 10px!important;
+  color: #FF9900;
+}
+
+
+
+footer a{
+  color: black!important;
+}
+.footer__small a:hover{
+    color: orange!important;
+    text-decoration: none;
+}
+.footer__logo{
+  margin: auto;
+  max-width: 200px;
+  height: auto;
+  display: flex;
+}
+
+.footer__main{
+  display: flex;
+  margin-left: 30px;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.mobile__footer{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 90%;
+}
+
+.mobile__footermain{
+  margin: 3px 10px;
+  /*innentől*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+.mobile__footermenu{
+  padding: 10px;
+}
+/*idáig*/
+.mobile__footermainmenu{
+  font-size: 20px;
+  color: orange;
+}
+.mobile__footermenup{
+  font-size: 16px;
+}
+.mobile__footerlogo{
+  max-height: 100px;
+}
+.footer__small p{
+  margin: 0 0 10px 0!important;
+  font-size: 17px;
+  line-height: 24px;
+}
+@media screen and (max-width: 940px) {
+  .footer__container{
+    display: none;
+  }
+  .mobile__footer{
+    display: flex;
+  }
+  .footer__logo{
+    display: none;
+  }
+}
