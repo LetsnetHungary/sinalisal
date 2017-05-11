@@ -1,18 +1,16 @@
 {
-  "title" : "Bicorticalis",
-  "system" : "A Bicorticalis® csavarimplantátum legfontosabb tulajdonsága az egyszerűség: olyan egyfázisú, önmetsző menetekkel rendelkező csavarimplantátum, mely bicorticalis megtámasztást biztosít a csontban.",
+  "title" : "Pitt-Easy / F1",
+  "system" : "Az F1/Pitt-Easy® implantátumok felhasználási területe általában megegyezik a gyökérforma, a hengeres implantátumok felhasználási területeivel. Behelyezése extractiot követően, vagy akár sorvadt gerincű állcsontban, olyan esetekben is gyakran kivitelezhető, ahol más implantátum típus nem alkalmazható. Alkalmazható szóló foghiány, sorvégi hiány vagy teljesen foghíjas maxilla/ mandibula esetén. Az implantátum használata, - ahogy neve is sugallja - egyszerű, az osseointegráció gyors és biztonságos. A protetikai felépítmények széles választékának köszönhetően ez az implantátum rendszer minden igényt kielégít.",
   "szolg" : [
-    "kerek, valamint O-ring fejű kialakítással",
-    "háromféle átmérő: 2,5/3,5/4,5 mm",
-    "implantátum hosszúság: 13/ 16/ 19mm",
-    "kis traumával járó beavatkozás",
-    "a csontágy kialakításához mindössze két fúróra van szükség",
-    "önmetsző meneteknek köszönhetően minimális, gyorsan gyógyuló seb",
-    "az implantátum egyfázisú, így több műtéti beavatkozás nem szükséges",
-    "mind az alsó, mind a felső állcsont laterális metszőfogainak pótlására is alkalmas",
-    "közvetlenül az extractiot követően is alkalmazható"
+    "Önmetsző, fokozatosan szélesedő csavarmenet",
+    "Egyszerű behelyezési technika, praktikus behelyező készlet",
+    "Hatszögletű belső kiképzés",
+    "Implantátum átmérők: 3,3/3,8/4,1/4,9 mmD",
+    "Implantátum hosszúságok: 8/10/12/14/16 mmL",
+    "Anyagösszetétel: nagy tisztaságú, Grade 4-es keménységű orvosi titán",
+    "Felületkezelése: TPS (Titan Plasma Spray)"
   ],
-  "image" : "/_assets/img/Bicorticalis.jpg",
+  "image" : "",
   "catalog" : "",
   "videos" : [""],
     "kompatibilis" : ""

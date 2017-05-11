@@ -7,6 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link rel="stylesheet" type = "text/css" href="/_asstes/css/n.css">
+		<link rel='shortcut icon' type='image/x-icon' href='../../_assets/img/favicon.ico' />
 
 <?php
 if($this->seo != null)
