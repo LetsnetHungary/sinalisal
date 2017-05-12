@@ -109,7 +109,7 @@
           </div>
         </div>
         <div class="right-side">
-          <img src="/_assets/img/idlogo.png" alt="">
+          <a href="http://implantdirect.com"><img src="/_assets/img/idlogo.png" alt=""></a>
         </div>
       </div>
 
