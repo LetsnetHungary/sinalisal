@@ -37,6 +37,10 @@
   </iframe>
 
 </div>
+<?php
+  if($rendszer->videos != "--")
+  {
+ ?>
 <div class="youtube_container item-container">
   <div class="catalog-title">
     <p  class="title">Videók</p>
@@ -108,3 +112,4 @@
     </div>
   </div>
 </div>
+<?php } ?>
