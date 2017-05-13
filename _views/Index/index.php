@@ -198,7 +198,7 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="/_assets/img/icon2.png" alt="" class="clock image">
+        <img src="/_assets/img/icon2.png" alt="" id="kep1" class="clock image">
       </div>
     </div>
   </div>
@@ -209,7 +209,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="/_assets/img/icon3.png" alt="" class="clock image">
+            <img src="/_assets/img/icon3.png"id = "kep2" alt="" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -241,7 +241,7 @@
           </div>
           <div class="img-container">
             <div class="img">
-              <img src="/_assets/img/icon1.png" alt="" class="clock image">
+              <img src="/_assets/img/icon1.png" alt="" id="kep3" class="clock image">
             </div>
           </div>
         </div>
@@ -250,7 +250,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="/_assets/img/icon4.png" alt="" class="clock image">
+            <img src="/_assets/img/icon4.png" alt="" id="kep4" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -323,7 +323,29 @@
           </div>
           </div>
       </div>
+      <script type="text/javascript">
+            var window_height = window.innerHeight
+            jQuery(window).scroll(function() {
+              makeitfgrow("kep1")
+              makeitfgrow("kep2")
+              makeitfgrow("kep3")
+              makeitfgrow("kep4")
+            });
 
+            function makeitfgrow(idname){
+              var vscroll = jQuery(this).scrollTop();
+              var pic = document.getElementById(idname)
+              var top = pic.offsetTop
+              top -= window_height
+              top += 10
+              console.log(window_height);
+              console.log(top);
+              console.log(vscroll);
+              if (vscroll >= top ) {
+                pic.style.animationPlayState = "running"
+              }
+            }
+            </script>
     </main>
     <footer>
       <?php require("_views/_includes/_footers/footer.php");?>
