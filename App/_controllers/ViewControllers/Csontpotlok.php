@@ -10,6 +10,7 @@
 
 		public function rendszerek($r) {
 			$r = str_replace(' ', '', $r);
+			$r = str_replace('.', '', $r);
 			$this->v->rendszer = CoreApp\CMS::getCMSContent("csontpotlok/".$r);
 			$_GET["main"] = false;
 	}
