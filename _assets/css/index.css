@@ -357,30 +357,7 @@ footer {
     from {margin-left: 100vw; margin-right: -100vw;}
     to {margin-left: 8vw; margin-right: 0;}
 }
-#kep1{
-  animation: grow .5s;
-  -webkit-animation: grow .5s;
-  animation-play-state: paused;
-}
-#kep2{
-  animation: grow .5s;
-  -webkit-animation: grow .5s;
-  animation-play-state: paused;
-}
-#kep3{
-  animation: grow .5s;
-  -webkit-animation: grow .5s;
-  animation-play-state: paused;
-}
-#kep4{
-  animation: grow .5s;
-  -webkit-animation: grow .5s;
-  animation-play-state: paused;
-}
-@-webkit-keyframes grow {
-    from {width: 0; height: 0}
-    to {width: 120px; height: 120px}
-}
+
 @media screen and (max-width: 940px) {
 
   .front-pic {
