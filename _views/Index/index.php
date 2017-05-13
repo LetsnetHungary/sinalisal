@@ -276,52 +276,54 @@
                 <p>Rendszeresen szervezünk akkreditált imlantológiai alap- és továbbképzéseket, igény szerint személyre szabott szakmai tanácsadással, konzultációval.</p>
 
                 <p>Leggyakoribb témáink:</p>
-                <div class="szolgaltatasok">
+                <div id="felsorolas">
+                  <div class="szolgaltatasok">
                     <div class="dot-holder orange">
                     </div>
                     <div class="szolg">
                       Fogászati implantációs alapismeretek sebészeti és protetikai szempontból
                     </div>
-               </div>
-               <div class="szolgaltatasok">
+                 </div>
+                 <div class="szolgaltatasok">
                    <div class="dot-holder orange">
                    </div>
                    <div class="szolg">
                      Csont management, a lágyrész-plasztika szájsebészeti lehetőségei
                    </div>
-              </div>
-              <div class="szolgaltatasok">
+                </div>
+                <div class="szolgaltatasok">
                   <div class="dot-holder orange">
                   </div>
                   <div class="szolg">
                     Rendszerismertető tréning Implant Direct implantátumokkal
                   </div>
-             </div>
-             <div class="szolgaltatasok">
+               </div>
+               <div class="szolgaltatasok">
                  <div class="dot-holder orange">
                  </div>
                  <div class="szolg">
                    Extractiót követő azonnali implantáció
                  </div>
-            </div>
-            <div class="szolgaltatasok">
+              </div>
+              <div class="szolgaltatasok">
                 <div class="dot-holder orange">
                 </div>
                 <div class="szolg">
                   Konzultációs lehetőség Implant Direct rendszerrel kapcsolatban / rendszerfüggetlenül
                 </div>
-           </div>
-           <div class="szolgaltatasok">
+             </div>
+             <div class="szolgaltatasok">
                <div class="dot-holder orange">
                </div>
                <div class="szolg">
                  Regeneratív fogágy műtétek
                </div>
-          </div>
+            </div>
+                </div>
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
       <script type="text/javascript">
             var window_height = window.innerHeight
@@ -330,6 +332,7 @@
               makeitfgrow("kep2")
               makeitfgrow("kep3")
               makeitfgrow("kep4")
+              makeitfgrow("felsorolas")
             });
 
             function makeitfgrow(idname){

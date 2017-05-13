@@ -136,7 +136,7 @@ main span{
 }
 .szolgaltatasok{
     font-size: 19px;
-    margin: 6px 0 6px 50px;
+    margin: 6px 0 6px 0px;
     align-items: center;
     display: flex;
     width: calc(100% - 50px);
@@ -352,30 +352,18 @@ footer {
   -webkit-animation: animation 1s;
   animation-play-state: paused;
 }
-
+#felsorolas{
+  flex-direction: column;
+  animation: animation .7s;
+  -webkit-animation: animation .7s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
 @-webkit-keyframes animation {
     from {margin-left: 100vw; margin-right: -100vw;}
     to {margin-left: 8vw; margin-right: 0;}
 }
 
-@media screen and (max-width: 940px) {
-
-  .front-pic {
-    flex-direction: column-reverse;
-  }
-  .implant-csavarok{
-    display: none;
-  }
-  .left-side {
-    flex: 1;
-  }
-
-  .right-side {
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-  }
-}
 #kep1{
   animation: grow .5s;
   -webkit-animation: grow .5s;
@@ -399,6 +387,25 @@ footer {
 @-webkit-keyframes grow {
     from {width: 0; height: 0}
     to {width: 120px; height: 120px}
+}
+
+@media screen and (max-width: 940px) {
+
+  .front-pic {
+    flex-direction: column-reverse;
+  }
+  .implant-csavarok{
+    display: none;
+  }
+  .left-side {
+    flex: 1;
+  }
+
+  .right-side {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 615px) {
