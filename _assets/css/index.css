@@ -45,7 +45,7 @@ main span{
   z-index:2;
   background: url("../img/Stockphoto2.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 50%;
   background-size: cover;
   height: 85vh;
   width: 100%;

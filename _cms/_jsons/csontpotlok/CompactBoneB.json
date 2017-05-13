@@ -1,0 +1,14 @@
+{
+  "title" : "CompactBone B.",
+  "system" : "A Compact Bone® B. egy rendkívül megbízható, rendkívül tiszta, természetes csontpótló anyag, amely szarvasmarha csontból készül. Az ásványi összetétel, a fizikai, kémiai és biológiai tulajdonságok és a speciális hidrofil felület nagyon hasonlít az emberi csontok jellemzőire. Az egyedülállóan biztonságos magas hőmérsékletű gyártási eljárás eltávolítja az összes szerves komponenst, megakadályozva az immunválaszt. A CompactBone B. 100% BSE-mentes és nem tartalmaz fehérjét.",
+  "meretek" : ["1000-2000 µm szemcseméret", "Kiszerelés/doboz: 2ml v. 5 ml"],
+  "szolg" : [
+    "Nincs gyulladásos immunreakció",
+    "A pórusrendszer összekapcsolása a gyors revaszkularizáció érdekében",
+    "Az új csontnövekedésnek köszönhetően lassú, késleltetett reszorpció szabályozott integrációval",
+    "Hidrofil felület, optimális sejt és vérlemezke tapadás",
+    "Steril, biztonságos és könnyen kezelhető"
+  ],
+  "image" : "/_assets/img/CompactBoneB.png",
+  "catalog" : "http://www.dentegris.de/fileadmin/pdf/WEB_Katalog_BIO_straight_EN_v005.pdf"
+}

@@ -115,7 +115,7 @@
 
 
 
-    <div class="big-container">
+    <div class="big-container" style="box-shadow: 0 0 40px rgba(0,0,0,.3)">
       <div class="img-container implant-csavarok">
         <div class="img">
           <img src="/_assets/img/implants.png" alt="" class="implants image">
@@ -172,6 +172,10 @@
                 "animation-play-state" : "running"
               });
             }
+
+            var front_pic = document.getElementsByClassName("front-pic")[0]
+            var positionx = (1 - (0.9 * vscroll / window_height)) * 50
+            front_pic.style.backgroundPosition = "50% " + positionx + "%"
           });
         </script>
 
