@@ -147,19 +147,19 @@ main span{
   width: calc(100% - 20px);
 }
 .orange{
-  background-color: orange;
+  background-color: #ff8732;
 }
 .gray{
-  background-color: gray;
+  background-color: #5f695f;
 }
 .blue{
-  background-color: blue;
+  background-color: #376cc9;
 }
 .green{
-  background-color: green;
+  background-color: #32db32;
 }
 .purple{
-  background-color: purple;
+  background-color: #b9197f;
 }
 .centertextholder {
   display: flex;
