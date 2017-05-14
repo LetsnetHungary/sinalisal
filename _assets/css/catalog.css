@@ -13,7 +13,7 @@ a{
   color: #333!important;
 }
 a:hover{
-  color: #FF9900!important;
+  color: #ff8732!important;
 }
 /*
 body{
@@ -174,12 +174,12 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  color: #FF9900;
+  color: #ff8732;
   font-size: 35px!important;
 }
 .hr1{
   width: 100%;
-  border-color: orange;
+  border-color: #ff8732;
   margin: 10px 0 20px 0!important;
 }
 .text_holder{
@@ -224,7 +224,7 @@ body {
   align-items: center;
 }
 .catalog_mini{
-  color: #FF9900!important;
+  color: #ff8732!important;
   font-size: 19px;
   padding: 20px;
 }
@@ -344,7 +344,7 @@ body {
   width: calc(100% - 20px);
 }
 .orange{
-  background-color: orange;
+  background-color: #ff8732;
 }
 .dot-holder{
   flex: 0 0 auto;
