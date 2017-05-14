@@ -174,7 +174,7 @@
             }
 
             var front_pic = document.getElementsByClassName("front-pic")[0]
-            var positionx = (1 - (0.9 * vscroll / window_height)) * 50
+            var positionx = (1 - (vscroll / window_height)) * 50
             front_pic.style.backgroundPosition = "50% " + positionx + "%"
           });
         </script>
