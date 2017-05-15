@@ -1,8 +1,8 @@
-
     <main>
       <header>
         <?php require("_views/_includes/_headers/header.php");?>
       </header>
+      <?php require("_views/_includes/cookie_alert.php"); ?>
       <div class = "back_image_holder">
 
       </div>
