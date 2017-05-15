@@ -6,7 +6,7 @@
   width: 100vw;
   top: calc(100vh - 50px);
   box-shadow: inset 0 0 10px rgba(0,0,0,.5);
-  display: flex;
+  display: none;
   font-size: 14px!important
 }
 .cookie_text_holder{

@@ -14,6 +14,9 @@
   if(cookie_alert == 1){
     cookie_vanish()
   }
+  else{
+    document.getElementsByClassName("cookie_big_container")[0].style.display = "flex";
+  }
   function cookie_vanish(){
     document.getElementsByClassName("cookie_big_container")[0].style.display = "none";
     document.cookie = "cookie_alert = 1"
