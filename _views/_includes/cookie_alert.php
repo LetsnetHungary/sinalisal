@@ -31,5 +31,8 @@
         }
     }
     return "";
-}
+  }
+  function cookie_unset() {
+    document.cookie = "cookie_alert = 0"
+  }
 </script>
