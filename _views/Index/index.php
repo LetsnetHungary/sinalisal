@@ -165,8 +165,6 @@
             var div_height = document.getElementById("anim-try").offsetHeight * 0.5;
             var window_height = window.innerHeight;
 
-            console.log(window_height);
-
             if (vscroll > div_height && vscroll < window_height + div_height * 2) {
               jQuery('#anim-try').css({
                 "animation-play-state" : "running"
@@ -341,9 +339,6 @@
               var top = pic.offsetTop
               top -= window_height
               top += 10
-              console.log(window_height);
-              console.log(top);
-              console.log(vscroll);
               if (vscroll >= top ) {
                 pic.style.animationPlayState = "running"
               }
