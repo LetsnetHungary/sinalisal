@@ -10,7 +10,6 @@
 <script type="text/javascript">
   document.getElementById("cookie").onclick = cookie_vanish
   var cookie_alert = getCookie("cookie_alert");
-  console.log(cookie_alert);
   if(cookie_alert == 1){
     cookie_vanish()
   }
