@@ -5,7 +5,8 @@
 		"1" : "../../_assets/css/header.css",
 		"2" : "../../_assets/css/footer.css",
 		"3" : "../../_assets/css/sidebar.css",
-		"4" : "../../_assets/css/catalog.css"
+		"4" : "../../_assets/css/catalog.css",
+		"5" : "/_assets/css/cookie.css"
 	},
 	"js" :
 	{

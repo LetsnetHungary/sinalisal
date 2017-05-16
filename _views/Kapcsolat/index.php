@@ -1,5 +1,7 @@
 
   <?php require("_views/_includes/_headers/header.php");?>
+
+  <?php require("_views/_includes/cookie_alert.php"); ?>
     <main>
       <div class="left-side">
         <div class="container">

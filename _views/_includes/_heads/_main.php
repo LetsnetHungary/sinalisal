@@ -45,7 +45,7 @@ if($this->jsdata != null)
 foreach($this->jsdata as $jsdata)
 {
 ?>
-        <script type="text/javascript" src = "<?php echo $jsdata ?>"></script>
+      <script type="text/javascript" src = "<?php echo $jsdata ?>"></script>
 <?php
 }
 }

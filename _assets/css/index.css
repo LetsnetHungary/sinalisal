@@ -28,7 +28,7 @@ main{
   font-size: 20px;
 }
 .container__header{
-  color: #FF9900;
+  color: #ff8732;
   font-size: 35px!important;
   text-align: left;
 }
@@ -136,7 +136,7 @@ main span{
 }
 .szolgaltatasok{
     font-size: 19px;
-    margin: 6px 0 6px 50px;
+    margin: 6px 0 6px 0px;
     align-items: center;
     display: flex;
     width: calc(100% - 50px);
@@ -147,19 +147,19 @@ main span{
   width: calc(100% - 20px);
 }
 .orange{
-  background-color: orange;
+  background-color: #ff8732;
 }
 .gray{
-  background-color: gray;
+  background-color: #5f695f;
 }
 .blue{
-  background-color: blue;
+  background-color: #376cc9;
 }
 .green{
-  background-color: green;
+  background-color: #32db32;
 }
 .purple{
-  background-color: purple;
+  background-color: #b9197f;
 }
 .centertextholder {
   display: flex;
@@ -177,7 +177,7 @@ main span{
 }
 
 .centertextholder__header_hr {
-  background: orange;
+  background: #ff8732;
   border: none;
   width: 40%;
   height: 1px;
@@ -192,7 +192,7 @@ main span{
 .line{
   margin-top: -2px;
   width: 100%;
-  border-color: orange;
+  border-color: #ff8732;
 }
 .content{
   justify-content: center;
@@ -352,10 +352,41 @@ footer {
   -webkit-animation: animation 1s;
   animation-play-state: paused;
 }
-
+#felsorolas{
+  flex-direction: column;
+  animation: animation .7s;
+  -webkit-animation: animation .7s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
 @-webkit-keyframes animation {
     from {margin-left: 100vw; margin-right: -100vw;}
     to {margin-left: 8vw; margin-right: 0;}
+}
+
+#kep1{
+  animation: grow .5s;
+  -webkit-animation: grow .5s;
+  animation-play-state: paused;
+}
+#kep2{
+  animation: grow .5s;
+  -webkit-animation: grow .5s;
+  animation-play-state: paused;
+}
+#kep3{
+  animation: grow .5s;
+  -webkit-animation: grow .5s;
+  animation-play-state: paused;
+}
+#kep4{
+  animation: grow .5s;
+  -webkit-animation: grow .5s;
+  animation-play-state: paused;
+}
+@-webkit-keyframes grow {
+    from {width: 0; height: 0}
+    to {width: 120px; height: 120px}
 }
 
 @media screen and (max-width: 940px) {
