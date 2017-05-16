@@ -7,6 +7,8 @@ $c_v = count($rendszer->videos);
 <header>
   <?php require("_views/_includes/_headers/header.php");?>
 </header>
+
+<?php require("_views/_includes/cookie_alert.php"); ?>
   <main>
     <div class="container_fuck_bootstrap">
       <div class="sidebar">

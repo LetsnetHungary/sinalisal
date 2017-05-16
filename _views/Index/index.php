@@ -1,8 +1,8 @@
-
     <main>
       <header>
         <?php require("_views/_includes/_headers/header.php");?>
       </header>
+      <?php require("_views/_includes/cookie_alert.php"); ?>
       <div class = "back_image_holder">
 
       </div>
@@ -165,8 +165,6 @@
             var div_height = document.getElementById("anim-try").offsetHeight * 0.5;
             var window_height = window.innerHeight;
 
-            console.log(window_height);
-
             if (vscroll > div_height && vscroll < window_height + div_height * 2) {
               jQuery('#anim-try').css({
                 "animation-play-state" : "running"
@@ -174,7 +172,7 @@
             }
 
             var front_pic = document.getElementsByClassName("front-pic")[0]
-            var positionx = (1 - (0.9 * vscroll / window_height)) * 50
+            var positionx = (1 - (vscroll / window_height)) * 50
             front_pic.style.backgroundPosition = "50% " + positionx + "%"
           });
         </script>
@@ -198,7 +196,7 @@
     </div>
     <div class="img-container">
       <div class="img">
-        <img src="/_assets/img/icon2.png" alt="" class="clock image">
+        <img src="/_assets/img/icon2.png" alt="" id="kep1" class="clock image">
       </div>
     </div>
   </div>
@@ -209,7 +207,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="/_assets/img/icon3.png" alt="" class="clock image">
+            <img src="/_assets/img/icon3.png"id = "kep2" alt="" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -241,7 +239,7 @@
           </div>
           <div class="img-container">
             <div class="img">
-              <img src="/_assets/img/icon1.png" alt="" class="clock image">
+              <img src="/_assets/img/icon1.png" alt="" id="kep3" class="clock image">
             </div>
           </div>
         </div>
@@ -250,7 +248,7 @@
 
         <div class="img-container">
           <div class="img">
-            <img src="/_assets/img/icon4.png" alt="" class="clock image">
+            <img src="/_assets/img/icon4.png" alt="" id="kep4" class="clock image">
           </div>
         </div>
         <div class="container container-right">
@@ -276,54 +274,76 @@
                 <p>Rendszeresen szervezünk akkreditált imlantológiai alap- és továbbképzéseket, igény szerint személyre szabott szakmai tanácsadással, konzultációval.</p>
 
                 <p>Leggyakoribb témáink:</p>
-                <div class="szolgaltatasok">
+                <div id="felsorolas">
+                  <div class="szolgaltatasok">
                     <div class="dot-holder orange">
                     </div>
                     <div class="szolg">
                       Fogászati implantációs alapismeretek sebészeti és protetikai szempontból
                     </div>
-               </div>
-               <div class="szolgaltatasok">
+                 </div>
+                 <div class="szolgaltatasok">
                    <div class="dot-holder orange">
                    </div>
                    <div class="szolg">
                      Csont management, a lágyrész-plasztika szájsebészeti lehetőségei
                    </div>
-              </div>
-              <div class="szolgaltatasok">
+                </div>
+                <div class="szolgaltatasok">
                   <div class="dot-holder orange">
                   </div>
                   <div class="szolg">
                     Rendszerismertető tréning Implant Direct implantátumokkal
                   </div>
-             </div>
-             <div class="szolgaltatasok">
+               </div>
+               <div class="szolgaltatasok">
                  <div class="dot-holder orange">
                  </div>
                  <div class="szolg">
                    Extractiót követő azonnali implantáció
                  </div>
-            </div>
-            <div class="szolgaltatasok">
+              </div>
+              <div class="szolgaltatasok">
                 <div class="dot-holder orange">
                 </div>
                 <div class="szolg">
                   Konzultációs lehetőség Implant Direct rendszerrel kapcsolatban / rendszerfüggetlenül
                 </div>
-           </div>
-           <div class="szolgaltatasok">
+             </div>
+             <div class="szolgaltatasok">
                <div class="dot-holder orange">
                </div>
                <div class="szolg">
                  Regeneratív fogágy műtétek
                </div>
-          </div>
+            </div>
+                </div>
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </div>
+      <script type="text/javascript">
+            var window_height = window.innerHeight
+            jQuery(window).scroll(function() {
+              makeitfgrow("kep1")
+              makeitfgrow("kep2")
+              makeitfgrow("kep3")
+              makeitfgrow("kep4")
+              makeitfgrow("felsorolas")
+            });
 
+            function makeitfgrow(idname){
+              var vscroll = jQuery(this).scrollTop();
+              var pic = document.getElementById(idname)
+              var top = pic.offsetTop
+              top -= window_height
+              top += 10
+              if (vscroll >= top ) {
+                pic.style.animationPlayState = "running"
+              }
+            }
+            </script>
     </main>
     <footer>
       <?php require("_views/_includes/_footers/footer.php");?>
