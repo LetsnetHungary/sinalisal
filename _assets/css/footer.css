@@ -20,7 +20,7 @@
 .footer__header{
   font-size: 22px;
   margin-bottom: 10px!important;
-  color: #FF9900;
+  color: #ff8732;
 }
 
 
@@ -29,7 +29,7 @@ footer a{
   color: black!important;
 }
 .footer__small a:hover{
-    color: orange!important;
+    color: #ff8732!important;
     text-decoration: none;
 }
 .footer__logo{
@@ -69,7 +69,7 @@ footer a{
 /*idáig*/
 .mobile__footermainmenu{
   font-size: 20px;
-  color: orange;
+  color: #ff8732;
 }
 .mobile__footermenup{
   font-size: 16px;

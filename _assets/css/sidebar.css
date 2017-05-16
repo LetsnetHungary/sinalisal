@@ -39,7 +39,7 @@ body{
 .sidebar-p {
   margin: 0;
   font-size: 20px;
-  color: 	#FF9900;
+  color: 	#ff8732;
   letter-spacing: 2px;
   font-weight: bold;
   display: flex;
@@ -65,7 +65,7 @@ body{
 }
 
 .sidebar-items:hover{
-  color: orange;
+  color: #ff8732;
 }
 
 .sidebar-section{
@@ -74,7 +74,7 @@ body{
 }
 
 .sidebar-hr {
-  border-color: orange;
+  border-color: #ff8732;
   width: 75%;
   float: left;
   margin: 10px 0 7px 0!important;

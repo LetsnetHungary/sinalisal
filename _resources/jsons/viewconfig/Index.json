@@ -4,7 +4,8 @@
 		"0" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
 		"1" : "/_assets/css/header.css",
 		"2" : "/_assets/css/footer.css",
-		"3" : "/_assets/css/index.css"
+		"3" : "/_assets/css/index.css",
+		"4" : "/_assets/css/cookie.css"
 	},
 	"js" :
 	{
