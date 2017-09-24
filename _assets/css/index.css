@@ -74,7 +74,6 @@ main span{
 }
 .layer{
   flex: 0 0 auto;
-  height: 160px;
   justify-content: center;
   align-items: center;
   background: rgba(255,255,255,.85);
@@ -269,7 +268,6 @@ footer {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     margin: auto;
-    height: 200px;
     opacity: 0;
 }
 .carousel-inner > .item {
@@ -279,12 +277,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
   padding-top: 40px;
   text-shadow: 0 0 0 white;
+  bottom: 0;
 }
 .carousel-inner{
-  height: 200px;
   text-align: center;
 }
 .carousel-text{
@@ -315,9 +312,21 @@ footer {
   height: inherit;
   color: black!important;
 }
+.event_holder{
+  flex-direction: column;
+  align-items: flex-start;
+  color: black!important;
+  text-transform: none!important;
+  font-size: 17px;
+  max-width: 100%;
+}
+.event_holder > span{
+  font-size: 20px;
+  text-shadow: 1px 1px 1px gray;
+  margin-bottom: 5px;
+}
 .cont, .carousel{
   width: 100%;
-  height: 100%;
   border-radius: 10px;
   text-transform: uppercase;
 }

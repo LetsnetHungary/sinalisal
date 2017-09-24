@@ -1,8 +1,8 @@
-    <main>
+  <main>
       <header>
         <?php require("_views/_includes/_headers/header.php");?>
       </header>
-      <?php require("_views/_includes/cookie_alert.php"); ?>
+      <?php require("_views/_includes/cookie_alert.php");?>
       <div class = "back_image_holder">
 
       </div>
@@ -10,9 +10,6 @@
         <div class="left-side">
           <div class="layer-container">
             <div class="layer">
-            <style>
-
-            </style>
               <div class="cont">
                 <br>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -26,7 +23,17 @@
 
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
-
+                    <?php
+                    if(empty($this->contents)){
+                    ?>
+                    <style>
+                    .carousel-caption{
+                      height: 160px;
+                    }
+                    .carousel-inner > .item{
+                      height: 160px;
+                    }
+                    </style>
                     <div class="item active">
                       <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
                       <div class="carousel-caption">
@@ -91,7 +98,47 @@
                         </div>
                       </div>
                     </div>
+                    <?php
+                  }
+                  else {
+                    $k = false;
+                    ?>
+                      <style>
+                      .carousel-caption{
+                        height: 300px;
+                      }
+                      .carousel-inner > .item{
+                        height: 300px;
+                      }
+                      </style>
 
+                    <?php
+                    foreach ($this->contents as $key => $value) {
+                      ?>
+                      <div class='item <?php echo $k ? "" : "active" ?>'>
+                        <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
+                        <div class="carousel-caption">
+                          <div class="carousel-text">
+                            <div class="event_holder">
+                              <span><?php
+                                echo $value["title"];
+                              ?></span>
+                              <div style="display: block; text-align: auto">
+                                <?php
+                                  echo $value["editor"];
+                                ?>
+                              </div>
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <?php
+                      $k = true;
+                    }
+                  }
+                    ?>
                   </div>
 
                   <!-- Left and right controls -->

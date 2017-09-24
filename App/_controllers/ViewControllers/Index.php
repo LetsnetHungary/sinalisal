@@ -2,6 +2,8 @@
 	class Index extends CoreApp\ViewController {
 		public function __construct() {
 			parent::__construct(__CLASS__);
+      $model = $this->loadModel("Admin");
+			$this->v->contents = $model->getData();
 		}
 
 		/*

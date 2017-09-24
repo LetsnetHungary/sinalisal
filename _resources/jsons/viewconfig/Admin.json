@@ -1,0 +1,30 @@
+{
+	"css" :
+	{
+		"0" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+		"1" : "../../_assets/css/header.css",
+		"2" : "../../_assets/css/footer.css",
+		"3" : "../../_assets/css/admin.css"
+	},
+	"js" :
+	{
+		"0" :  "https://cdn.ckeditor.com/4.7.1/standard/ckeditor.js",
+		"1" : "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js",
+		"2" : " https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+	},
+	"seo" :
+	{
+		"title" : "Admin",
+		"charset" : "UTF-8",
+
+		"meta" :
+		{
+
+		},
+
+		"og" :
+		{
+
+		}
+	}
+}

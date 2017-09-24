@@ -17,6 +17,9 @@ html {
   -webkit-text-size-adjust: 100%; /* 3 */
   overflow-x: hidden;
 }
+p{
+  text-align: left;
+}
 
 /* Sections
    ========================================================================== */
