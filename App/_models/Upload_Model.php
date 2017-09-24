@@ -6,7 +6,7 @@
       }
 
       public function uploadData($array){
-        $db = CoreApp\DB::init("sinalisal");
+        $db = CoreApp\DB::init("graphedh_sinalisal");
         $mykey = md5(microtime().rand());
         unset($array["save"]);
         foreach ($array as $key => $value) {
@@ -20,7 +20,7 @@
       }
 
       public function updateData($array){
-        $db = CoreApp\DB::init("sinalisal");
+        $db = CoreApp\DB::init("graphedh_sinalisal");
         $id = $array["id"];
         unset($array["id"]);
         unset($array["save_changes"]);
@@ -37,7 +37,7 @@
         }
       }
       public function deleteData($array){
-        $db = CoreApp\DB::init("sinalisal");
+        $db = CoreApp\DB::init("graphedh_sinalisal");
         $stmt = $db->prepare("DELETE FROM projects WHERE project_id = :id");
         $stmt->execute(array(
           ":id" => $array["id"]
