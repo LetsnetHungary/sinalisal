@@ -5,8 +5,8 @@
           parent::__construct();
       }
       public function getData(){
-        $this->db = CoreApp\DB::init("sinalisal");
-        $stmt = $this->db->prepare("SELECT `project_id`, `type`, `content` FROM `projects` WHERE 1 = 1 ");
+        $db = CoreApp\DB::init(CoreApp\AppConfig::dbNAME());
+        $stmt = $db->prepare("SELECT `project_id`, `type`, `content` FROM `projects` WHERE 1 = 1 ");
         $stmt->execute();
         $array = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $return_array = [];

@@ -22,6 +22,11 @@ namespace CoreApp;
             return($config->database->basic);
         }
 
+        public static function dbNAME() {
+            $config = self::getConfigFile();
+            return($config->database->basic->DB_NAME);
+        }
+
         public static function getVisitorsDB() {
             $config = self::getConfigFile();
             return($config->database->visitorsDB);
