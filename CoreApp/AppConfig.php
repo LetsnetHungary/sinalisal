@@ -4,15 +4,7 @@ namespace CoreApp;
 
 	class AppConfig {
 
-        private static $appconfigfile = "App/_config/_appconfig.json";
-
-				public $AppConfig = array(
-
-					"appname" => "Letset",
-					"author" => "Hegel Ákos",
-					"version" => 2.0
-
-				);
+        private static $appconfigfile = "App/_config/_appconfig_real.json";
 
 				private static function getConfigFile() {
             $config = file_get_contents(self::$appconfigfile);
