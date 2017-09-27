@@ -11,6 +11,10 @@ namespace CoreApp;
             $config = json_decode($config);
             return($config);
         }
+				public static function getAuthData(){
+					$config = self::getConfigFile();
+					return($config->authenticate);
+				}
 
 				public static function getDB($db) {
 					$config = self::getConfigFile();
