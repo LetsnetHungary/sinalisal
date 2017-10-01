@@ -104,6 +104,14 @@
                     $k = false;
                     ?>
                       <style>
+                      <?php if(count($this->contents) === 1){
+                        ?>
+                      .carousel-control{
+                        display: none;
+                      }
+                        <?php
+                      }
+                      ?>
                       .carousel-caption{
                         height: 300px;
                       }
@@ -388,6 +396,7 @@
               top += 10
               if (vscroll >= top ) {
                 pic.style.animationPlayState = "running"
+                pic.style.webkitAnimationPlayState = "running"
               }
             }
             </script>
