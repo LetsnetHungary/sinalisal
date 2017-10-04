@@ -26,7 +26,6 @@
         unset($array["save_changes"]);
         foreach ($array as $key => $value) {
           if(!empty($value)){
-            echo($key);
             $stmt = $db->prepare("UPDATE `projects` SET `content`= :content WHERE `project_id` = :id AND `type` = :type");
             $stmt->execute(array(
               ":id" => $id,
