@@ -18,7 +18,7 @@
   }
   function cookie_vanish(){
     document.getElementsByClassName("cookie_big_container")[0].style.display = "none";
-    document.cookie = "cookie_alert = 1"
+    document.cookie = "cookie_alert = 1 ; expires=Thu, 18 Dec 2030 12:00:00 UTC; path=/"
   }
   function getCookie(cname) {
     var name = cname + "=";
@@ -33,8 +33,5 @@
         }
     }
     return "";
-  }
-  function cookie_unset() {
-    document.cookie = "cookie_alert = 0"
   }
 </script>

@@ -16,7 +16,7 @@ use \CoreApp\Model;
 			$coreAppModelFileName = "CoreApp/_models/$modelName.php";
 
 			if(file_exists($modelFileName)) {
-				require $modelFileName;
+				include_once($modelFileName);
 				$this->modelDidLoad();
 				return new $modelName();;
 			}

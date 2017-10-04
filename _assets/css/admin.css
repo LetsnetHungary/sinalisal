@@ -1,0 +1,67 @@
+@import "n.css";
+.container{
+  display: flex;
+  justify-content: center;
+}
+.buttons{
+  padding: 10px;
+}
+.new_container{
+  max-width: 70vw;
+}
+label{
+  font-weight: bold;
+}
+.column{
+  display: flex;
+}
+.prev{
+  width: 40vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+}
+.mod{
+  width: 40vw;
+}
+.form-group{
+  padding: 5px;
+}
+.submit_holder{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.submit_holder input{
+  margin: 10px;
+}
+.btn-primary{
+  background-color: #ff8732!important;
+      border-color: rgb(240, 120, 37)!important;
+      outline: 0!important;
+}
+.btn-primary:hover{
+  background-color: rgb(240, 120, 37)!important;
+  border-color: rgb(230, 100, 30)!important
+}
+.btn-primary:active{
+  background-color:rgb(240, 120, 37)!important;
+  border-color: rgb(230, 100, 30)!important
+}
+.btn-primary:focus{
+  background-color: rgb(240, 120, 37)!important;
+  border-color: rgb(230, 100, 30)!important;
+  box-shadow: 0 0 0 3px rgba(230, 100, 30, .5)v
+}
+.page-item.active .page-link{
+    background-color: #ff8732!important;
+    border-color: rgb(230, 100, 30)!important;
+    color: white!important;
+}
+.page-link{
+  color: rgb(240, 120, 37)!important;
+}
+.page-link:hover{
+  color: rgb(230, 100, 30)!important
+}

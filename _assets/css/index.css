@@ -74,7 +74,6 @@ main span{
 }
 .layer{
   flex: 0 0 auto;
-  height: 160px;
   justify-content: center;
   align-items: center;
   background: rgba(255,255,255,.85);
@@ -115,9 +114,6 @@ main span{
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-}
-.container-right{
-  justify-content: ;
 }
 .title{
   flex-direction: column;
@@ -269,7 +265,6 @@ footer {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
     margin: auto;
-    height: 200px;
     opacity: 0;
 }
 .carousel-inner > .item {
@@ -279,12 +274,11 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
   padding-top: 40px;
   text-shadow: 0 0 0 white;
+  bottom: 0;
 }
 .carousel-inner{
-  height: 200px;
   text-align: center;
 }
 .carousel-text{
@@ -315,9 +309,21 @@ footer {
   height: inherit;
   color: black!important;
 }
+.event_holder{
+  flex-direction: column;
+  align-items: flex-start;
+  color: black!important;
+  text-transform: none!important;
+  font-size: 17px;
+  max-width: 100%;
+}
+.event_holder > span{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
 .cont, .carousel{
   width: 100%;
-  height: 100%;
   border-radius: 10px;
   text-transform: uppercase;
 }
@@ -351,6 +357,8 @@ footer {
   animation: animation 1s;
   -webkit-animation: animation 1s;
   animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+
 }
 #felsorolas{
   flex-direction: column;
@@ -358,6 +366,8 @@ footer {
   -webkit-animation: animation .7s;
   animation-play-state: paused;
   animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-fill-mode: forwards;
 }
 @-webkit-keyframes animation {
     from {margin-left: 100vw; margin-right: -100vw;}
@@ -368,21 +378,25 @@ footer {
   animation: grow .5s;
   -webkit-animation: grow .5s;
   animation-play-state: paused;
+  -webkit-animation-play-state: paused;
 }
 #kep2{
   animation: grow .5s;
   -webkit-animation: grow .5s;
   animation-play-state: paused;
+  -webkit-animation-play-state: paused;
 }
 #kep3{
   animation: grow .5s;
   -webkit-animation: grow .5s;
   animation-play-state: paused;
+  -webkit-animation-play-state: paused;
 }
 #kep4{
   animation: grow .5s;
   -webkit-animation: grow .5s;
   animation-play-state: paused;
+  -webkit-animation-play-state: paused;
 }
 @-webkit-keyframes grow {
     from {width: 0; height: 0}

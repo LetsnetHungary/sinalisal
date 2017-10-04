@@ -4,21 +4,17 @@ namespace CoreApp;
 
 	class AppConfig {
 
-        private static $appconfigfile = "App/_config/_appconfig.json";
-
-				public $AppConfig = array(
-
-					"appname" => "Letset",
-					"author" => "Hegel Ákos",
-					"version" => 2.0
-
-				);
+        private static $appconfigfile = "App/_config/_appconfig_real.json";
 
 				private static function getConfigFile() {
             $config = file_get_contents(self::$appconfigfile);
             $config = json_decode($config);
             return($config);
         }
+				public static function getAuthData(){
+					$config = self::getConfigFile();
+					return($config->authenticate);
+				}
 
 				public static function getDB($db) {
 					$config = self::getConfigFile();
@@ -28,6 +24,11 @@ namespace CoreApp;
         public static function dbConfig() {
             $config = self::getConfigFile();
             return($config->database->basic);
+        }
+
+        public static function dbNAME() {
+            $config = self::getConfigFile();
+            return($config->database->basic->DB_NAME);
         }
 
         public static function getVisitorsDB() {

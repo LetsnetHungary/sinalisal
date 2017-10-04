@@ -9,13 +9,18 @@
 
 /* Document
    ========================================================================== */
-
+ .form-control:focus{
+   border-color: #ff8732!important;
+ }
 html {
   font-family: sans-serif; /* 1 */
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
   overflow-x: hidden;
+}
+p{
+  text-align: left;
 }
 
 /* Sections
@@ -30,7 +35,7 @@ body {
 }
 
 /**
- * Add the correct display in IE 9-.
+ * Add the correct dislay in IE 9-.
  */
 
 article,
@@ -139,20 +144,6 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-
-b,
-strong {
-  font-weight: inherit;
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-  font-weight: bolder;
-}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.

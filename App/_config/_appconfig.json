@@ -4,17 +4,12 @@
       "DB_TYPE" : "mysql",
       "DB_HOST" : "localhost",
       "DB_PORT" : "3306",
-      "DB_NAME" : "mvc",
-      "DB_USER" : "root",
-      "DB_PASS" : "mysql"
+      "DB_NAME" : "****",
+      "DB_USER" : "****",
+      "DB_PASS" : "****"
     }
-    ,
-    "visitorsDB" : "mvc",
-    "autchenticationDB" : "mvc",
-    "modulesDB" : "mvc",
-    "userDB" : "mvc"
   },
   "timezone" : "Europe/Budapest",
   "firstpage" : "Index",
-  "authentication" : "false"
+  "authentication" : "****"
 }
