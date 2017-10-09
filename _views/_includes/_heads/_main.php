@@ -8,6 +8,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 		<link rel="stylesheet" type = "text/css" href="/_asstes/css/n.css">
 		<link rel='shortcut icon' type='image/x-icon' href='../../_assets/img/favicon.ico' />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 
 <?php
 if($this->seo != null)

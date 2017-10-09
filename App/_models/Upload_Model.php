@@ -42,4 +42,31 @@
           ":id" => $array["id"]
         ));
       }
+      public function uploadImage($image){
+        $target_dir = "images/";
+        $target_file = $target_dir . basename($image["image"]["name"]);
+        $uploadOk = 1;
+        $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
+
+        $check = getimagesize($image["image"]["tmp_name"]);
+        if($check !== false) {
+            $uploadOk = 1;
+        } else {
+            die("File is not an image.");
+            $uploadOk = 0;
+        }
+        if (file_exists($target_file)) {
+            die("Sorry, file already exists.");
+            $uploadOk = 0;
+        }
+        if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
+        && $imageFileType != "gif" ) {
+            die("Sorry, only JPG, JPEG, PNG & GIF files are allowed.");
+            $uploadOk = 0;
+        }
+          if (!move_uploaded_file($image["image"]["tmp_name"], $target_file)) {
+              die("Sorry, there was an error uploading your file.");
+          }
+        header("Location: /Admin");
+      }
   }
