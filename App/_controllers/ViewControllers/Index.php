@@ -3,9 +3,10 @@
 		public function __construct() {
 			parent::__construct(__CLASS__);
       $model = $this->loadModel("Admin");
-			$this->v->contents = $model->getData();
-		}
 
+			$contents = $model->getData();
+			$this->v->projects = isset($contents["project"]) ? $contents["project"] : [];
+		}
 		/*
 		public function modelDidLoad() {
 			echo "<br> model loaded<br> ";

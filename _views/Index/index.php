@@ -24,7 +24,7 @@
                   <!-- Wrapper for slides -->
                   <div class="carousel-inner" role="listbox">
                     <?php
-                    if(empty($this->contents)){
+                    if(empty($this->projects)){
                     ?>
                     <style>
                     .carousel-caption{
@@ -104,7 +104,7 @@
                     $k = false;
                     ?>
                       <style>
-                      <?php if(count($this->contents) === 1){
+                      <?php if(count($this->projects) === 1){
                         ?>
                       .carousel-control{
                         display: none;
@@ -121,7 +121,7 @@
                       </style>
 
                     <?php
-                    foreach ($this->contents as $key => $value) {
+                    foreach ($this->projects as $key => $value) {
                       ?>
                       <div class='item <?php echo $k ? "" : "active" ?>'>
                         <img src="http://placehold.it/550x500" alt="Flower" width="460" height="345">
