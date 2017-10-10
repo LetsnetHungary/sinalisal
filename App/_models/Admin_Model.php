@@ -6,12 +6,12 @@
       }
       public function getData(){
         $db = CoreApp\DB::init(CoreApp\AppConfig::dbNAME());
-        $stmt = $db->prepare("SELECT `project_id`, `type`, `content` FROM `projects` WHERE 1 = 1 ");
+        $stmt = $db->prepare("SELECT `content_id`, cast, `type`, `content` FROM `projects` WHERE 1 = 1 ");
         $stmt->execute();
         $array = $stmt->fetchAll(PDO::FETCH_ASSOC);
         $return_array = [];
         foreach($array as $data){
-          $return_array[$data["project_id"]][$data["type"]] = $data["content"];
+          $return_array[$data["cast"]][$data["content_id"]][$data["type"]] = $data["content"];
         }
         return $return_array;
       }

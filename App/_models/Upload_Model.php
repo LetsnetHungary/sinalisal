@@ -9,10 +9,14 @@
         $db = CoreApp\DB::init(CoreApp\AppConfig::dbNAME());
         $mykey = md5(microtime().rand());
         unset($array["save"]);
+        $cast = $array["cast"];
+        unset($array["cast"]);
+        
         foreach ($array as $key => $value) {
-          $stmt = $db->prepare("INSERT INTO `projects`(`project_id`, `type`, `content`) VALUES (:id, :type, :content)");
+          $stmt = $db->prepare("INSERT INTO `projects`(`content_id`, cast, `type`, `content`) VALUES (:id, :cast, :type, :content)");
           $stmt->execute(array(
             ":id" => $mykey,
+            ":cast" => $cast,
             ":type" => $key,
             ":content" => $value
           ));
@@ -26,7 +30,7 @@
         unset($array["save_changes"]);
         foreach ($array as $key => $value) {
           if(!empty($value)){
-            $stmt = $db->prepare("UPDATE `projects` SET `content`= :content WHERE `project_id` = :id AND `type` = :type");
+            $stmt = $db->prepare("UPDATE `projects` SET `content`= :content WHERE `content_id` = :id AND `type` = :type");
             $stmt->execute(array(
               ":id" => $id,
               ":type" => $key,
@@ -37,7 +41,7 @@
       }
       public function deleteData($array){
         $db = CoreApp\DB::init(CoreApp\AppConfig::dbNAME());
-        $stmt = $db->prepare("DELETE FROM projects WHERE project_id = :id");
+        $stmt = $db->prepare("DELETE FROM projects WHERE content_id = :id");
         $stmt->execute(array(
           ":id" => $array["id"]
         ));
