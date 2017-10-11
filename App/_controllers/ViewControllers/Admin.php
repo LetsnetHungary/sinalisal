@@ -6,8 +6,8 @@
 			$_GET["main"] = true;
 			include_once("App/_controllers/RequestControllers/Auth.php");
 			$auth_obj = new Auth();
-			// if(!isset($_SESSION["logged"]) || !$auth_obj->cULI())
-			// 	header("Location: /Login");
+			if(!isset($_SESSION["logged"]) || !$auth_obj->cULI())
+			 	header("Location: /Login");
       $model = $this->loadModel(__CLASS__);
 			$contents = $model->getData();
 			$this->v->projects = isset($contents["project"]) ? $contents["project"] : [];
