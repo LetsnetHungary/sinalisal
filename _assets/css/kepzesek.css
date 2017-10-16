@@ -1,0 +1,32 @@
+@import "n.css";
+body{
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+main{
+  min-height: calc(100vh - 277px - 15vh);
+  display: flex;
+  flex-direction: column;
+}
+.container__header{
+  color: #ff8732;
+  font-size: 35px!important;
+  text-align: left;
+}
+.line{
+  margin-top: -2px;
+  width: 100%;
+  border-color: #ff8732;
+  border-width: 1px;
+}
+.course{
+  width: 100vw;
+  padding: 5vh 8vw;
+  flex: 1 0 auto;
+}
+.content{
+  font-size: 20px!important;
+}
+.gray{
+  background-color: rgba(94, 76, 0, 0.161);
+}

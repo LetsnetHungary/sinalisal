@@ -28,7 +28,13 @@
               Csontpótlás
             </div>
           </a>
-
+          <?php if($this->courses){ ?>
+          <a class="Atag" href="/Kepzesek">
+            <div class="Menu">
+              Képzések
+            </div>
+          </a>
+        <?php } ?>
           <a class="Atag" href="/Kapcsolat">
             <div class="Menu rightmenu">
               Kapcsolat
@@ -62,7 +68,13 @@
           <p>Csontpótlók</p>
         </div>
       </a>
-
+<?php if($this->courses){ ?>
+      <a href="/Kepzesek">
+        <div class="mobile__menu">
+          <p>Képzések</p>
+        </div>
+      </a>
+<?php } ?>
       <a href="/Kapcsolat">
         <div class="mobile__menu">
           <p>Kapcsolat</p>

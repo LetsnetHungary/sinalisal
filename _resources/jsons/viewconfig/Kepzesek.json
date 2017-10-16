@@ -1,0 +1,29 @@
+{
+	"css" :
+	{
+		"0" : "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+		"1" : "/_assets/css/header.css",
+		"2" : "/_assets/css/footer.css",
+		"4" : "/_assets/css/cookie.css",
+		"3" : "/_assets/css/kepzesek.css"
+
+	},
+	"js" :
+	{
+	},
+	"seo" :
+	{
+		"title" : "Képzések",
+		"charset" : "UTF-8",
+
+		"meta" :
+		{
+
+		},
+
+		"og" :
+		{
+
+		}
+	}
+}

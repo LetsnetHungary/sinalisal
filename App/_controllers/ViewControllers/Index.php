@@ -6,6 +6,7 @@
 
 			$contents = $model->getData();
 			$this->v->projects = isset($contents["project"]) ? $contents["project"] : [];
+			$this->v->courses = isset($contents["course"]) ? true : false;
 		}
 		/*
 		public function modelDidLoad() {

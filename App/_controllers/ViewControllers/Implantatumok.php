@@ -5,6 +5,11 @@
 			$this->v->sidebar = CoreApp\CMS::getCMSContent("sidebar");
 			$this->v->rendszer = CoreApp\CMS::getCMSContent("implantatumok/Implantatumok");
 			$_GET["main"] = true;
+
+      $model = $this->loadModel("Admin");
+
+			$contents = $model->getData();
+			$this->v->courses = isset($contents["course"]) ? true : false;
 		}
 
 		public function rendszerek($r) {
