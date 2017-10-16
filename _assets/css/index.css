@@ -352,7 +352,9 @@ footer {
 .carousel-control:hover{
   opacity: .9;
 }
-
+.hartya_title{
+  color: #ff8732;
+}
 #anim-try{
   animation: animation 1s;
   -webkit-animation: animation 1s;

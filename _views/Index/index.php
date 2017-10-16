@@ -128,7 +128,7 @@
                         <div class="carousel-caption">
                           <div class="carousel-text">
                             <div class="event_holder">
-                              <span><?php
+                              <span class="hartya_title"><?php
                                 echo $value["title"];
                               ?></span>
                               <div style="display: block; text-align: auto">
