@@ -25,6 +25,7 @@ main{
   flex: 1 0 auto;
 }
 .content{
+  margin-left: 15px;
   font-size: 17px!important;
 }
 .gray{
