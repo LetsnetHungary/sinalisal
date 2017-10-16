@@ -22,7 +22,10 @@ html {
 p{
   text-align: left;
 }
-
+.marker{
+  background-color: rgba(0,0,0,0)!important;
+  color: #ff8732!important;
+}
 /* Sections
    ========================================================================== */
 
