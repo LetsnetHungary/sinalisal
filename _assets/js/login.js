@@ -29,7 +29,7 @@ $(document).ready(() => {
                             $("#notification-top").slideToggle("fast")
                             $("#notification-top").slideToggle("fast")
                             if(result.message == "Unrecognized device"){
-                              window.location = "http://www.graphed.hu/Registration/fingerprint/?email=" + $('#email_form').val() + "&appid=" + result.app + "&redirect=http://www.graphed.hu/Login"
+                              window.location = "http://www.graphed.hu/Registration/fingerprint/?email=" + $('#email_form').val() + "&appid=" + result.app + "&redirect=http://www.sinalisal.hu/Login"
                             }
                         }, 3500)
                     }

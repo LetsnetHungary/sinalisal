@@ -31,7 +31,8 @@
         if($res["error"]){
           return array(
             "success" => false,
-            "message" => $res["message"]
+            "message" => $res["message"],
+            "app" => CoreApp\AppConfig::getAuthData()->appid
           );
         }
         $this->login($res["logged_user"], $fingerprint);
