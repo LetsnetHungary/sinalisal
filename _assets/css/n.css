@@ -36,7 +36,10 @@ p{
 body {
   margin: 0;
 }
-
+pre{
+  font-size: 15px;
+  color: rgba(0,0,0,.6);
+}
 /**
  * Add the correct dislay in IE 9-.
  */
