@@ -13,6 +13,7 @@
           </ul>
         </nav>
         <nav aria-label="Page navigation example" class="buttons">
+          <span>Projektek</span>
           <ul class="pagination">
             <?php
               $counter = 1;
@@ -26,6 +27,8 @@
           </ul>
         </nav>
         <nav aria-label="Page navigation example" class="buttons">
+
+          <span>Képzések</span>
           <ul class="pagination">
             <?php
               if(isset($this->courses))
