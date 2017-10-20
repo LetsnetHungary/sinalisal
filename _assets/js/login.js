@@ -16,8 +16,6 @@ $(document).ready(() => {
                 },
                 success: function (result) {
 
-                    console.log(result)
-
                     result = JSON.parse(result)
 
                     $("#notification-message").html(result.message)
@@ -28,7 +26,7 @@ $(document).ready(() => {
                         setTimeout(() => {
                             $("#notification-top").slideToggle("fast")
                             $("#notification-top").slideToggle("fast")
-                            if(result.message == "Unrecognized device"){
+                            if(result.message == "m2"){
                               window.location = "http://www.graphed.hu/Registration/fingerprint/?email=" + $('#email_form').val() + "&appid=" + result.app + "&redirect=http://www.sinalisal.hu/Login"
                             }
                         }, 3500)

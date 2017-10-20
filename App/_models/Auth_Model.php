@@ -31,7 +31,8 @@
         if($res["error"]){
           return array(
             "success" => false,
-            "message" => $res["message"],
+            "msg" => $res["msg"],
+            "message" => $this->getErrorMessage($res["errorCode"].".".$res["msg"]),
             "app" => CoreApp\AppConfig::getAuthData()->appid
           );
         }
@@ -43,7 +44,7 @@
         }
         return array(
           "success" => true,
-          "message" => $res["message"]
+          "message" => "Sikeres bejelentkezés"
         );
       }
       private function login($uniq, $fingerprint){
@@ -106,5 +107,8 @@
             setcookie("keepmeloggedin", "", time() - 3600, "/Login");
             setcookie("fingerprint", "", time() - 3600, "/Login");
           return false;
+      }
+      private function getErrorMessage($code){
+        return $this->CURLWPOST("http://46.101.13.41/Request/errorCodes/".$code, []);
       }
     }
