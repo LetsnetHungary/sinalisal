@@ -56,7 +56,8 @@ main span{
   justify-content: flex-end;
 }
 .right-side img{
-  height: 120px;
+  max-width: 200px;
+  margin: 20px 10px;
 }
 .left-side{
   flex: 2 0 auto;
