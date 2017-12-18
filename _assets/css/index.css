@@ -270,31 +270,14 @@ footer {
 }
 .carousel-inner > .item {
   vertical-align: middle;
-  background-position: center!important;
-  background-size: cover!important;
-  background-repeat: no-repeat!important;
-}
-.item:nth-child(2) {
-  background: url('/_assets/img/3.jpg');
-}
-.item:nth-child(3) {
-  background: url('/_assets/img/4.jpg');
-}
-.item:nth-child(4) {
-  background: url('/_assets/img/5.jpg');
-}
-.item:nth-child(5) {
-  background: url('/_assets/img/6.jpeg');
 }
 .carousel-inner > .item > .carousel-caption{
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 40px;
+  text-shadow: 0 0 0 white;
   bottom: 0;
-  background: rgba(255, 255, 255, .5);
-  box-shadow: 0 0 51px 1px white;
-  border-radius: 40%;
 }
 .carousel-inner{
   text-align: center;
@@ -329,6 +312,7 @@ footer {
 }
 .event_holder{
   flex-direction: column;
+  align-items: flex-start;
   color: black!important;
   text-transform: none!important;
   font-size: 17px;
