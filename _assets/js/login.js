@@ -2,7 +2,32 @@ $(document).ready(() => {
 
     $("#loginButton").click(() => {
 
-        var options = {excludeAvailableScreenResolution: true, excludeScreenResolution: true}
+      var options = {
+          excludeLanguage: true,
+          excludeColorDepth: true,
+          excludeTimezoneOffset: true,
+          excludeSessionStorage : true,
+          excludeIndexedDB : true,
+          excludeAddBehavior : true,
+          excludeOpenDatabase : true,
+          excludeCpuClass : true,
+          excludePlatform : true,
+          excludeDoNotTrack : true,
+          excludeAdBlock : true,
+          excludeHasLiedLanguages : true,
+          excludeHasLiedResolution : true,
+          excludeHasLiedOs : true,
+          excludeHasLiedBrowser : true,
+          excludeJsFonts : true,
+          excludeFlashFonts : true,
+          excludePlugins : true,
+          excludeIEPlugins : true,
+          excludeTouchSupport : true,
+          excludePixelRatio : true,
+          excludeHardwareConcurrency : true,
+          excludeAvailableScreenResolution: true,
+          excludeScreenResolution: true
+      }
         new Fingerprint2(options).get(function(fingerprint){
             $.ajax({
                 type: 'POST',
