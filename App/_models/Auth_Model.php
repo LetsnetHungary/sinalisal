@@ -109,6 +109,6 @@
           return false;
       }
       private function getErrorMessage($code){
-        return $this->CURLWPOST("http://46.101.13.41/Request/errorCodes/".$code, []);
+        return $this->CURLWPOST("http://letsnet.hu/Request/errorCodes/".$code, []);
       }
     }
