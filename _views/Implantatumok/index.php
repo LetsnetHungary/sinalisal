@@ -1,4 +1,4 @@
-<?
+<?php
 $main = $_GET["main"];
 $sidebar = json_decode($this->sidebar);
 $rendszer = json_decode($this->rendszer);

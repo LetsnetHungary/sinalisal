@@ -365,16 +365,16 @@ footer {
 }
 #felsorolas{
   flex-direction: column;
-  animation: animation .7s;
-  -webkit-animation: animation .7s;
+  animation: animation 1s;
+  -webkit-animation: animation 1s;
   animation-play-state: paused;
   animation-fill-mode: forwards;
   -webkit-animation-play-state: paused;
   -webkit-animation-fill-mode: forwards;
 }
-@-webkit-keyframes animation {
-    from {margin-left: 100vw; margin-right: -100vw;}
-    to {margin-left: 8vw; margin-right: 0;}
+@keyframes animation {
+    from {transform: translateX(300px); opacity: 0;}
+    to {transform: translateX(0); opacity: 1;}
 }
 
 #kep1{

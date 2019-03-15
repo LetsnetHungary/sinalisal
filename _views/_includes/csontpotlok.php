@@ -1,7 +1,7 @@
 <?php  $szolg = $rendszer->szolg; $meretek = $rendszer->meretek?>
 <div class="termek_container item-container">
   <div class="catalog-title">
-    <p  class="title"><? echo $rendszer->title; ?></p>
+    <p  class="title"><?php echo $rendszer->title; ?></p>
     <hr class="hr1">
   </div>
       <div class="legacy__intro">
@@ -43,7 +43,7 @@
         </div>
       </div>
       <div class="termek_pic">
-        <img src="<? echo $rendszer->image; ?>" alt="">
+        <img src="<?php  echo $rendszer->image; ?>" alt="">
       </div>
     </div>
   </div>

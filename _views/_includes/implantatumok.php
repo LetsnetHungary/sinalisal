@@ -1,7 +1,7 @@
 <?php  $szolg = $rendszer->szolg?>
 <div class="termek_container item-container">
   <div class="catalog-title">
-    <p  class="title"><? echo $rendszer->title; ?></p>
+    <p  class="title"><?php  echo $rendszer->title; ?></p>
     <hr class="hr1">
   </div>
       <div class="legacy__intro">
@@ -20,7 +20,7 @@
       <?php endforeach; ?>
     </div>
     <div class="termek_pic">
-      <img src="<? echo $rendszer->image; ?>" alt="">
+      <img src="<?php  echo $rendszer->image; ?>" alt="">
     </div>
   </div>
   <div class="legacy__intro" style = "margin-top: 20px;">
@@ -33,7 +33,7 @@
     <hr class="hr1">
   </div>
 
-    <iframe class="buk" frameborder="0" src="<? echo $rendszer->catalog; ?>">
+    <iframe class="buk" frameborder="0" src="<?php  echo $rendszer->catalog; ?>">
   </iframe>
 
 </div>
@@ -76,7 +76,7 @@
               <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
               <div class="carousel-caption">
                 <div class="carousel-text">
-                  <div class="yt-item"><iframe frameborder="0" class="yutub" src="<? echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+                  <div class="yt-item"><iframe frameborder="0" class="yutub" src="<?php  echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@
             <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
             <div class="carousel-caption">
               <div class="carousel-text">
-               <div class="yt-item"><iframe frameborder="0" class="yutub" src="<? echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+               <div class="yt-item"><iframe frameborder="0" class="yutub" src="<?php  echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
 
               </div>
             </div>

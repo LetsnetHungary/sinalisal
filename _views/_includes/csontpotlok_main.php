@@ -1,18 +1,18 @@
 <div class="termek_container item-container">
   <div class="catalog-title">
-    <p  class="title"><? echo $rendszer->title; ?></p>
+    <p  class="title"><?php  echo $rendszer->title; ?></p>
     <hr class="hr1">
   </div>
   <div class="text_holder">
     <div class="termek_text">
       <p>
-      <? echo $rendszer->text1; ?>
+      <?php  echo $rendszer->text1; ?>
       </p>
       <p>
-      <? echo $rendszer->text2; ?>
+      <?php  echo $rendszer->text2; ?>
       </p>
       <p>
-      <? echo $rendszer->text3; ?>
+      <?php  echo $rendszer->text3; ?>
       </p>
     </div>
   </div>

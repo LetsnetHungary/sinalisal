@@ -16,8 +16,8 @@
                 $c_value = count($value);
                 for ($i=0; $i < $c_value ; $i++) {
                   ?>
-                      <a class="sidebar-items" href="/Implantatumok/Rendszerek/<? echo $value[$i]; ?>"><span><? echo $value[$i]; ?></span></a>
-                  <?
+                      <a class="sidebar-items" href="/Implantatumok/Rendszerek/<?php  echo $value[$i]; ?>"><span><?php  echo $value[$i]; ?></span></a>
+                  <?php
                 }
                 ?>
                </div>

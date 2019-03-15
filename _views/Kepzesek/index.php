@@ -9,9 +9,9 @@
           foreach ($this->courses as $course) {
             ?>
             <div class="course <?php echo $counter % 2 == $c_a ? "gray" : "" ?>">
-              <p class="container__header"><? echo $course["title"]; ?></p>
+              <p class="container__header"><?php  echo $course["title"]; ?></p>
               <hr class="line">
-              <div class="content"><? echo $course["editor"]; ?></div>
+              <div class="content"><?php  echo $course["editor"]; ?></div>
             </div>
 
             <?php

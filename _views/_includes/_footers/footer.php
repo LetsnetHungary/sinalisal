@@ -52,11 +52,13 @@
     </div>
 
     <div class="footer">
-      <p class = "footer__header">Jogi Nyilatkozatok</p>
+      <p class = "footer__header">Dokumentumok</p>
 
         <div class="footer__small">
 
           <p><a href="#">ÁSZF</a></p>
+          <p><a href="/_assets/files/certificate.pdf">ImplantDirect Certifactes</a></p>
+          <p><a href="http://store.implantdirect.eu/default/digital-library.html">Digitális könyvtárak</a></p>
         </div>
 
 
@@ -90,8 +92,10 @@
       </div>
 
       <div class="mobile__footermenu">
-        <p class="mobile__footermainmenu" >Jogi Nyilatkozatok:</p>
+        <p class="mobile__footermainmenu" >Dokumentumok</p>
         <p class="mobile__footermenup" ><a href="#">ÁSZF</a></p>
+        <p class="mobile__footermenup" ><a href="/_assets/files/certificate.pdf">ImplantDirect Certifactes</a></p>
+        <p class="mobile__footermenup" ><a href="http://store.implantdirect.eu/default/digital-library.html">Digitális könyvtárak</a></p>
       </div>
 
     </nav>
