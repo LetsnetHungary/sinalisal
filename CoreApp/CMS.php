@@ -25,7 +25,7 @@
        return(file_get_contents("_cms/_jsons/$sectionName.json"));
      }
      else {
-       return(file_get_contents("_cms/_jsons/Legacy1.json"));
+       return(file_get_contents("_cms/_jsons/Legacy2.json"));
      }
    }
  }

@@ -32,10 +32,26 @@
     <p  class="title">Katalógus</p>
     <hr class="hr1">
   </div>
-
+  <?php
+    if(!isset($rendszer->catalog_pdf)) {
+  ?>
     <iframe class="buk" frameborder="0" src="<?php  echo $rendszer->catalog; ?>">
   </iframe>
-
+  <?php } 
+  else {
+    ?>
+    <embed class="catalog-pdf" width="100%" height="100%" name="plugin" id="plugin" src="/_assets/files/<?php echo $rendszer->catalog_pdf; ?>" type="application/pdf" internalinstanceid="67">
+    <a class="download_link" target = "_blank" href="/_assets/files/<?php echo $rendszer->catalog_pdf; ?>">
+      <div class="download_link">
+        <div class="icon">
+          <img src="../../_assets/img/download-icon2.png" alt="">
+        </div>
+        <p class = "catalog_mini">
+          Letölthető katalógus
+        </p>
+      </div>
+    </a>
+    <?php } ?>
 </div>
 <?php
   if($rendszer->videos != "--")
@@ -50,17 +66,18 @@
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
       <ol class="carousel-indicators">
-        <?
+        <?php
+        $c_v = count($rendszer->videos);
         for ($i=0; $i < $c_v ; $i++) {
           if ($i == 0) {
             ?>
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <?
+            <?php
           }
           else{
           ?>
-          <li data-target="#myCarousel" data-slide-to="<?echo $i; ?>"></li>
-          <?
+          <li data-target="#myCarousel" data-slide-to="<?php echo $i; ?>"></li>
+          <?php
           }
         }
         ?>
@@ -68,7 +85,7 @@
 
 
       <div class="carousel-inner" role="listbox">
-        <?
+        <?php
         for ($i=0; $i < $c_v ; $i++) {
           if ($i == 0) {
             ?>
@@ -76,11 +93,13 @@
               <img src="http://placehold.it/550x500" alt="Chania" width="460" height="345">
               <div class="carousel-caption">
                 <div class="carousel-text">
-                  <div class="yt-item"><iframe frameborder="0" class="yutub" src="<?php  echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe></div>
+                  <div class="yt-item">
+                    <iframe frameborder="0" class="yutub" src="<?php  echo $rendszer->videos[$i];?>" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+                  </div>
                 </div>
               </div>
             </div>
-            <?
+            <?php
           }
           else{
           ?>
@@ -93,7 +112,7 @@
               </div>
             </div>
           </div>
-          <?
+          <?php
         }
         }
         ?>

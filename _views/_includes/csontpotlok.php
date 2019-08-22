@@ -47,16 +47,25 @@
       </div>
     </div>
   </div>
-  <a target = "_blank" href="<?php echo $rendszer->catalog; ?>">
-  <div class="download_link">
-    <div class="icon">
-      <img src="../../_assets/img/download-icon2.png" alt="">
-    </div>
-    <p class = "catalog_mini">
-      Letölthető katalógus
-    </p>
+  <?php 
+  if(isset($rendszer->catalog) && $rendszer->catalog != "") {
+  ?>
+  <div class="catalog-title">
+    <p  class="title">Katalógus</p>
+    <hr class="hr1">
   </div>
-</a>
+  <embed class="catalog-pdf" width="100%" height="100%" name="plugin" id="plugin" src="<?php echo $rendszer->catalog; ?>" type="application/pdf" internalinstanceid="67">
+    <a class="download_link" target = "_blank" href="<?php echo $rendszer->catalog; ?>">
+      <div class="download_link">
+        <div class="icon">
+          <img src="../../_assets/img/download-icon2.png" alt="">
+        </div>
+        <p class = "catalog_mini">
+          Letölthető katalógus
+        </p>
+      </div>
+    </a>
+  <?php } ?>
 <div class="" style = "margin-bottom: 15%;">
 
 </div>
