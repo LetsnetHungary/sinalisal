@@ -12,6 +12,7 @@
     "Behelyezhető a RePlant/Nobel Biocare sebészeti szettel"],
   "image" : "/_assets/img/RePlant.png",
   "catalog" : "http://e.issuu.com/embed.html#29612887/55044916",
-  "videos" : ["https://youtube.com/embed/EYjGPI-U9pM"],
-    "kompatibilis" : "Sebészetileg és protetikailag kompatibilis: Nobel Biocare."
+  "catalog_pdf" : "LIT-0044-Tri-Lobe-Catalog.pdf",
+  "videos" : ["https://www.youtube.com/embed/GAYHyZAgw-0"],
+  "kompatibilis" : "Sebészetileg és protetikailag kompatibilis: Nobel Biocare."
 }

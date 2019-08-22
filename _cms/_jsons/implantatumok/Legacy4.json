@@ -18,6 +18,7 @@
   ],
   "image" : "/_assets/img/legacy4.png",
   "catalog" : "http://e.issuu.com/embed.html#29612887/55044663",
-  "videos" : ["http://www.implantdirect.com/resource/video/show/597?width=850&height=500&iframe=true", "https://youtube.com/embed/HbCW7vgrM1Q", "https://youtube.com/embed/-F7ufnlzU5k"],
+  "catalog_pdf": "Legacy_Product_Catalog.pdf",
+  "videos" : ["https://youtube.com/embed/HbCW7vgrM1Q"],
     "kompatibilis" : "Protetikailag kompatibilis: Zimmer Dental, MIS, AlphaBio, BioHorisons"
 }

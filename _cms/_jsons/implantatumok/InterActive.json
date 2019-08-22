@@ -17,6 +17,7 @@
   ],
   "image" : "/_assets/img/InterActive.png",
   "catalog" : "http://e.issuu.com/embed.html#29612887/55044814",
-  "videos" : ["http://www.implantdirect.com/resource/video/show/732?width=850&height=500&iframe=true", "https://youtube.com/embed/Yp_bUuAF4bo"],
+  "catalog_pdf": "LIT-0070_InterActive_Catalog_2019Rev-9_LOWRES.pdf",
+  "videos" : ["https://youtube.com/embed/Yp_bUuAF4bo"],
     "kompatibilis" : "A rendszer protetikájában kompatibilis a Nobel Active /Replace CC rendszerrel."
 }

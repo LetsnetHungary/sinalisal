@@ -15,6 +15,7 @@
   ],
   "image" : "/_assets/img/legacy3.png",
   "catalog" : "http://e.issuu.com/embed.html#29612887/55044663",
-  "videos" : ["https://youtube.com/embed/fHGjbptJoyM", "https://youtube.com/embed/_-Qo8KBkApQ"],
+  "catalog_pdf": "Legacy_Product_Catalog.pdf",
+  "videos" : ["https://youtube.com/embed/fHGjbptJoyM"],
   "kompatibilis" : "Protetikailag kompatibilis: Zimmer Dental, MIS, AlphaBio, BioHorisons"
 }
